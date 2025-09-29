@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "conclass",
+  "name": "conclass",
+  "side": "universal",
+  "authors": [ "Gumbyohson", "Exonis" ],
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": { "game": "" }
+}
