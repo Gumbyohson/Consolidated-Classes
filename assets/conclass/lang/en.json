@@ -1,5 +1,20 @@
 {
-  "item-sampleitem": "Sample Item",
-  "block-sampleblock": "Sample Block",
-  "entity-sampleentity": "Sample Entity"
+    "trait-positive": "<font color=\"#84ff84\">• class </font>",
+    "traitname-positive": "trait",
+    "traitdesc-positive": "summary",
+
+    "trait-negative": "<font color=\"#ff8484\">• class </font>",
+    "traitname-negative": "trait",
+    "traitdesc-negative": "summary",
+
+
+    "characterclass-1": "Halfling",
+    "characterclass-2": "Goblin",
+   
+    "characterdesc-1": "<font color=\"#99c9f9\"><br>",
+    "characterdesc-2": "<font color=\"#99c9f9\"><br>",
+
+    "charattribute-attribute-0.0": "positivedescription",
+    "charattribute-attribute--0.0": "negativedescription"
+
 }
