@@ -1,0 +1,226 @@
+[
+  {
+    "code": "hunger1-abstemious",
+    "type": "positive",
+    "attributes": {"hungerrate": -0.30}
+  },
+  {
+    "code": "hunger2-replete",
+    "type": "positive",
+    "attributes": {"hungerrate": -0.25}
+  },
+  {
+    "code": "hunger3-ascetic",
+    "type": "positive",
+    "attributes": {"hungerrate": -0.20}
+  },
+  {
+    "code": "hunger4-satiable",
+    "type": "positive",
+    "attributes":  {"hungerrate": -0.15}
+  },
+  {
+    "code": "hunger5-frugal",
+    "type": "positive",
+    "attributes":  {"hungerrate": -0.10}
+  },
+  {
+    "code": "hunger6-meager",
+    "type": "positive",
+    "attributes":  {"hungerrate": -0.05}
+  },
+  {
+    "code": "hunger7-hungering",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.05}
+  },
+  {
+    "code": "hunger8-famished",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.10}
+  },
+  {
+    "code": "hunger9-insatiable",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.15}
+  },
+  {
+    "code": "hunger10-gluttonous",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.20}
+  },
+  {
+    "code": "hunger11-voracious",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.25}
+  },
+  {
+    "code": "hunger12-ravenous",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.30}
+  },
+
+  {
+    "code": "health1-indominitable",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 15}
+  },
+  {
+    "code": "health2-vigorous",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 12.5}
+  },
+  {
+    "code": "health3-tenacious",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 10}
+  },
+  {
+    "code": "health4-resilient",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 7.5}
+  },
+  {
+    "code": "health5-tough",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 5}
+  },
+  {
+    "code": "health6-hearty",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 2.5}
+  },
+  {
+    "code": "health7-faint",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -2.5}
+  },
+  {
+    "code": "health8-feeble",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -5}
+  },
+  {
+    "code": "health9-palid",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -7.5}
+  },
+  {
+    "code": "health10-frail?",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -10}
+  },
+  {
+    "code": "health11-delicate",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -12.5}
+  },
+  {
+    "code": "health12-fragile",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -15}
+  },
+
+  {
+    "code": "walk1-swift",
+    "type": "positive",
+    "attributes":  {"walkspeed": 0.15}
+  },
+  {
+    "code": "walk2-nimble",
+    "type": "positive",
+    "attributes":  {"walkspeed": 0.10}
+  },
+  {
+    "code": "walk3-brisk",
+    "type": "positive",
+    "attributes":  {"walkspeed": 0.05}
+  },
+  {
+    "code": "walk4-slow",
+    "type": "negative",
+    "attributes":  {"walkspeed": -0.05}
+  },
+  {
+    "code": "walk5-sluggish",
+    "type": "negative",
+    "attributes":  {"walkspeed": -0.10}
+  },
+  {
+    "code": "walk6-languid",
+    "type": "negative",
+    "attributes":  {"walkspeed": -0.15}
+  },
+
+  {
+    "code": "stealth1-silent",
+    "type": "positive",
+    "attributes":  {"animalSeekingRange": -0.75}
+  },
+  {
+    "code": "stealth2-stealthy",
+    "type": "positive",
+    "attributes":  {"animalSeekingRange": -0.50}
+  },
+  {
+    "code": "stealth3-furtive",
+    "type": "positive",
+    "attributes":  {"animalSeekingRange": -0.25}
+  },
+  {
+    "code": "stealth4-leadfooted",
+    "type": "negative",
+    "attributes":  {"animalSeekingRange": 0.25}
+  },
+  {
+    "code": "stealth5-noisy",
+    "type": "negative",
+    "attributes":  {"animalSeekingRange": 0.50}
+  },
+  {
+    "code": "stealth6-clamorous",
+    "type": "negative",
+    "attributes":  {"animalSeekingRange": 0.75}
+  },
+
+  {
+    "code": "armorwalk1-athletic",
+    "type": "positive",
+    "attributes":  {"armorWalkSpeedAffectedness": -0.50}
+  },
+  {
+    "code": "armorwalk2-unhindered",
+    "type": "positive",
+    "attributes":  {"armorWalkSpeedAffectedness": -0.25}
+  },
+  {
+    "code": "armorwalk3-brawny",
+    "type": "positive",
+    "attributes":  {"armorWalkSpeedAffectedness": -0.10}
+  },
+  {
+    "code": "armorwalk4-diminutive",
+    "type": "negative",
+    "attributes":  {"armorWalkSpeedAffectedness": 0.1}
+  },
+  {
+    "code": "armorwalk5-impeded",
+    "type": "negative",
+    "attributes":  {"armorWalkSpeedAffectedness": 0.25}
+  },
+  {
+    "code": "armorwalk6-encumbered",
+    "type": "negative",
+    "attributes":  {"armorWalkSpeedAffectedness": 0.50}
+  },
+  {
+    "code": "",
+    "type": "positve",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "negative",
+    "attributes":  {}
+  },
+]
