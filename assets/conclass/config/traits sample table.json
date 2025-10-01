@@ -101,24 +101,45 @@
     "attributes":  {"maxhealthExtraPoints": -5}
   },
   {
-    "code": "health9-palid",
+    "code": "health9-frail",
     "type": "negative",
     "attributes":  {"maxhealthExtraPoints": -7.5}
   },
   {
-    "code": "health10-frail?",
+    "code": "health10-palid",
     "type": "negative",
     "attributes":  {"maxhealthExtraPoints": -10}
   },
+
   {
-    "code": "health11-delicate",
-    "type": "negative",
-    "attributes":  {"maxhealthExtraPoints": -12.5}
+    "code": "healing1-rejuvenating",
+    "type": "positive",
+    "attributes": {"healingeffectivness": 0.30}
   },
   {
-    "code": "health12-fragile",
+    "code": "healing2-lively",
+    "type": "positive",
+    "attributes": {"healingeffectivness": 0.20}
+  },},
+  {
+    "code": "healing2-healthy",
+    "type": "positive",
+    "attributes": {"healingeffectivness": 0.10}
+  },
+  {
+    "code": "healing5-ailing",
     "type": "negative",
-    "attributes":  {"maxhealthExtraPoints": -15}
+    "attributes": {"healingeffectivness": -0.10}
+  },
+  {
+    "code": "healing5-sickly",
+    "type": "negative",
+    "attributes": {"healingeffectivness": -0.20}
+  },
+  {
+    "code": "healing6-anemic",
+    "type": "negative",
+    "attributes": {"healingeffectivness": -0.30}
   },
 
   {
@@ -137,12 +158,12 @@
     "attributes":  {"walkspeed": 0.05}
   },
   {
-    "code": "walk4-slow",
+    "code": "walk4-leisurely",
     "type": "negative",
     "attributes":  {"walkspeed": -0.05}
   },
   {
-    "code": "walk5-sluggish",
+    "code": "walk5-slow",
     "type": "negative",
     "attributes":  {"walkspeed": -0.10}
   },
@@ -155,67 +176,211 @@
   {
     "code": "stealth1-silent",
     "type": "positive",
-    "attributes":  {"animalSeekingRange": -0.75}
+    "attributes":  {"animalSeekingRange": -0.60}
   },
   {
     "code": "stealth2-stealthy",
     "type": "positive",
-    "attributes":  {"animalSeekingRange": -0.50}
+    "attributes":  {"animalSeekingRange": -0.30}
   },
   {
     "code": "stealth3-furtive",
     "type": "positive",
-    "attributes":  {"animalSeekingRange": -0.25}
+    "attributes":  {"animalSeekingRange": -0.15}
   },
   {
-    "code": "stealth4-leadfooted",
+    "code": "stealth4-noisy",
+    "type": "negative",
+    "attributes":  {"animalSeekingRange": 0.15}
+  },
+  {
+    "code": "stealth5-leadfooted",
     "type": "negative",
     "attributes":  {"animalSeekingRange": 0.25}
   },
   {
-    "code": "stealth5-noisy",
+    "code": "stealth6-clamorous",
     "type": "negative",
     "attributes":  {"animalSeekingRange": 0.50}
   },
-  {
-    "code": "stealth6-clamorous",
-    "type": "negative",
-    "attributes":  {"animalSeekingRange": 0.75}
-  },
 
   {
-    "code": "armorwalk1-athletic",
+    "code": "armorWalk1-athletic",
     "type": "positive",
     "attributes":  {"armorWalkSpeedAffectedness": -0.50}
   },
   {
-    "code": "armorwalk2-unhindered",
+    "code": "armorWalk2-unhindered",
     "type": "positive",
     "attributes":  {"armorWalkSpeedAffectedness": -0.25}
   },
   {
-    "code": "armorwalk3-brawny",
+    "code": "armorWalk3-brawny",
     "type": "positive",
     "attributes":  {"armorWalkSpeedAffectedness": -0.10}
   },
   {
-    "code": "armorwalk4-diminutive",
+    "code": "armorWalk4-diminutive",
     "type": "negative",
-    "attributes":  {"armorWalkSpeedAffectedness": 0.1}
+    "attributes":  {"armorWalkSpeedAffectedness": 0.10}
   },
   {
-    "code": "armorwalk5-impeded",
+    "code": "armorWalk5-impeded",
     "type": "negative",
-    "attributes":  {"armorWalkSpeedAffectedness": 0.25}
+    "attributes":  {"armorWalkSpeedAffectedness": 0.15}
   },
   {
-    "code": "armorwalk6-encumbered",
+    "code": "armorWalk6-encumbered",
     "type": "negative",
-    "attributes":  {"armorWalkSpeedAffectedness": 0.50}
+    "attributes":  {"armorWalkSpeedAffectedness": 0.30}
+  },
+
+  {
+    "code": "armorDurability1-adamantine",
+    "type": "positive",
+    "attributes":  {"armorDurabilityLoss": -0.50}
+  },
+  {
+    "code": "armorDurability2-ironclad",
+    "type": "positive",
+    "attributes":  {"armorDurabilityLoss": -0.25}
+  },
+  {
+    "code": "armorDurability3-fragile",
+    "type": "negative",
+    "attributes":  {"armorDurabilityLoss": 0.15}
+  },
+  {
+    "code": "armorDurability4-brittle",
+    "type": "negative",
+    "attributes":  {"armorDurabilityLoss": 0.25}
+  },
+
+  {
+    "code": "miningYield1-meticulous",
+    "type": "positive",
+    "attributes":  {"oreDropRate": 0.50}
+  },
+  {
+    "code": "miningYield2-thorough",
+    "type": "positive",
+    "attributes":  {"oreDropRate": 0.25}
+  },
+  {
+    "code": "miningYield3-careful",
+    "type": "positive",
+    "attributes":  {"oreDropRate": 0.10}
+  },
+  {
+    "code": "miningYield4-careless",
+    "type": "negative",
+    "attributes":  {"oreDropRate": -0.10}
+  },
+  {
+    "code": "miningYield5-negligent",
+    "type": "negative",
+    "attributes":  {"oreDropRate":-0.20}
+  },
+  {
+    "code": "miningYield6-haphazard",
+    "type": "negative",
+    "attributes":  {"oreDropRate":-0.30}
+  },
+
+  {
+    "code": "miningSpeed1-excavator",
+    "type": "positive",
+    "attributes":  {"miningSpeedMul": 1.00}
+  },
+  {
+    "code": "miningSpeed2-burrower",
+    "type": "positive",
+    "attributes":  {"miningSpeedMul": 0.50}
+  },
+  {
+    "code": "miningSpeed3-delver",
+    "type": "positive",
+    "attributes":  {"miningSpeedMul": 0.25}
+  },
+  {
+    "code": "miningSpeed4-lax",
+    "type": "negative",
+    "attributes":  {"miningSpeedMul": -0.15}
+  },
+  {
+    "code": "miningSpeed5-sluggish",
+    "type": "negative",
+    "attributes":  {"miningSpeedMul": -0.30}
+  },
+  {
+    "code": "miningSpeed6-lethargic",
+    "type": "negative",
+    "attributes":  {"miningSpeedMul": -0.50}
+  },
+
+  {
+    "code": "vesselLoot1-prosperous",
+    "type": "positive",
+    "attributes":  {"vesselContentsDropRate": 0.30, "rustyGearDropRate": 0.30}
+  },
+  {
+    "code": "vesselLoot2-fortunate",
+    "type": "positive",
+    "attributes":  {"vesselContentsDropRate": 0.20, "rustyGearDropRate": 0.20}
+  },
+  {
+    "code": "vesselLoot3-lucky",
+    "type": "positive",
+    "attributes":  {"vesselContentsDropRate": 0.10, "rustyGearDropRate": 0.10}
+  },
+  {
+    "code": "vesselLoot4-unlucky",
+    "type": "negative",
+    "attributes":  {"vesselContentsDropRate": -0.10, "rustyGearDropRate": -0.10}
+  },
+  {
+    "code": "vesselLoot5-unfortunate",
+    "type": "negative",
+    "attributes":  {"vesselContentsDropRate": -0.20, "rustyGearDropRate": -0.20}
+  },
+  {
+    "code": "vesselLoot6-destitute",
+    "type": "negative",
+    "attributes":  {"vesselContentsDropRate": -0.30, "rustyGearDropRate": -0.30}
   },
   {
     "code": "",
-    "type": "positve",
+    "type": "positive",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "positive",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "positive",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "negative",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "negative",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "negative",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "positive",
     "attributes":  {}
   },
   {
@@ -224,3 +389,97 @@
     "attributes":  {}
   },
 ]
+
+{
+
+Notes Section (delete later)
+
+
+    WordList
+
+        passive
+        docile
+        timid
+        anxious
+        nervous
+        civil
+        butcher
+        squeamish
+        queasy
+        reckless
+        resourceful
+        
+        scrounger
+        scavenger
+        pilferer
+        plunderer
+
+TODO
+    animalHarvesting
+    foraging
+    weaponCombat
+    classTraits
+    farming?
+    woodcutting?
+    cooking?
+
+Stats marked with ? unknown if vanilla
+"healingeffectivness"
+"maxhealthExtraPoints"
+"walkspeed"
+"hungerrate"
+
+"armorWalkSpeedAffectedness"
+"armorDurabilityLoss"
+
+"rangedWeaponsDamage"
+"rangedWeaponsSpeed"
+"rangedWeaponsAcc"
+"bowDrawingStrength"
+
+"meleeWeaponsDamage"
+"mechanicalsDamage"
+
+"oreDropRate"
+"miningSpeedMul"
+
+"forageDropRate"
+"wildCropDropRate"
+
+"animalSeekingRange"
+"animalHarvestingTime"
+"animalLootDropRate"
+
+"vesselContentsDropRate"
+"rustyGearDropRate"
+"("wholeVesselLootChance", EnumStatBlendType.FlatSum)"
+"("TemporalGearTLRepairCost", EnumStatBlendType.FlatSum)"
+
+"gliderLiftMax"
+"gliderSpeedMax"
+"jumpHeightMul"
+
+
+
+"stickDropRate" ?
+"woodDropRate" ?
+"tree-seedDropRate" ?
+"fruittreeDropRate" ?
+"produceDropRate" ?
+"charcoalDropRate" ?
+"charcoalPileDropRate" ?
+
+"animalHarvestingSpeed" ?
+"mechanicalsDamageMul" ?
+"temporalGearDropRate" ?
+
+"flaxFiberChance" ?
+"flaxDropRate" ?
+"fireDamage" ?
+
+"caveStabilityLoss"?
+"surfaceStabilityLoss" ?
+"rustedDamage" ?
+"clayformingPoints" ?
+
+}
