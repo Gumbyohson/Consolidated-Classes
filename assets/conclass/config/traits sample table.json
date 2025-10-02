@@ -319,35 +319,181 @@
   },
 
   {
-    "code": "vesselLoot1-prosperous",
+    "code": "vesselLoot1-plunderer",
     "type": "positive",
-    "attributes":  {"vesselContentsDropRate": 0.30, "rustyGearDropRate": 0.30}
+    "attributes":  {"vesselContentsDropRate": 0.30}
   },
   {
-    "code": "vesselLoot2-fortunate",
+    "code": "vesselLoot2-pilferer",
     "type": "positive",
-    "attributes":  {"vesselContentsDropRate": 0.20, "rustyGearDropRate": 0.20}
+    "attributes":  {"vesselContentsDropRate": 0.20}
   },
   {
-    "code": "vesselLoot3-lucky",
+    "code": "vesselLoot3-scavenger",
     "type": "positive",
-    "attributes":  {"vesselContentsDropRate": 0.10, "rustyGearDropRate": 0.10}
+    "attributes":  {"vesselContentsDropRate": 0.10}
   },
   {
-    "code": "vesselLoot4-unlucky",
+    "code": "vesselLoot4-civil",
     "type": "negative",
-    "attributes":  {"vesselContentsDropRate": -0.10, "rustyGearDropRate": -0.10}
+    "attributes":  {"vesselContentsDropRate": -0.10}
   },
   {
-    "code": "vesselLoot5-unfortunate",
+    "code": "vesselLoot5-respectful",
     "type": "negative",
-    "attributes":  {"vesselContentsDropRate": -0.20, "rustyGearDropRate": -0.20}
+    "attributes":  {"vesselContentsDropRate": -0.20}
   },
   {
-    "code": "vesselLoot6-destitute",
+    "code": "vesselLoot6-sanctimonious",
     "type": "negative",
-    "attributes":  {"vesselContentsDropRate": -0.30, "rustyGearDropRate": -0.30}
+    "attributes":  {"vesselContentsDropRate": -0.30}
   },
+  
+  {
+    "code": "gearLoot1-prosperous",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.30}
+  },
+  {
+    "code": "gearLoot2-fortunate",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.20}
+  },
+  {
+    "code": "gearLoot3-lucky",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.10}
+  },
+  {
+    "code": "gearLoot4-unlucky",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.10}
+  },
+  {
+    "code": "gearLoot5-unfortunate",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.20}
+  },
+  {
+    "code": "gearLoot6-destitute",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.30}
+  },
+
+  {
+    "code": "animalLoot1-slaughterman",
+    "type": "positive",
+    "attributes":  {"animalLootDropRate": 0.50}
+  },
+  {
+    "code": "animalLoot2-butcher",
+    "type": "positive",
+    "attributes":  {"animalLootDropRate": 0.30}
+  },
+  {
+    "code": "animalLoot3-hunter",
+    "type": "positive",
+    "attributes":  {"animalLootDropRate": 0.15}
+  },
+  {
+    "code": "animalLoot4-kind",
+    "type": "negative",
+    "attributes":  {"animalLootDropRate": -0.15}
+  },
+  {
+    "code": "animalLoot5-queasy",
+    "type": "negative",
+    "attributes":  {"animalLootDropRate": -0.25}
+  },
+  {
+    "code": "animalLoot6-squeamish",
+    "type": "negative",
+    "attributes":  {"animalLootDropRate": -0.50}
+  },
+
+  {
+    "code": "animalSpeed1-chopper",
+    "type": "positive",
+    "attributes":  {"animalHarvestingTime": -0.75}
+  },
+  {
+    "code": "animalSpeed2-carver",
+    "type": "positive",
+    "attributes":  {"animalHarvestingTime": -0.50}
+  },
+  {
+    "code": "animalSpeed3-cutter",
+    "type": "positive",
+    "attributes":  {"animalHarvestingTime": -0.25}
+  },
+  {
+    "code": "animalSpeed4-dull",
+    "type": "negative",
+    "attributes":  {"animalHarvestingTime": 0.10}
+  },
+  {
+    "code": "animalSpeed5-blunt",
+    "type": "negative",
+    "attributes":  {"animalHarvestingTime": 0.20}
+  },
+  {
+    "code": "animalSpeed6-edgeless",
+    "type": "negative",
+    "attributes":  {"animalHarvestingTime": 0.30}
+  },
+
+  {
+    "code": "Forage1-forager",
+    "type": "positive",
+    "attributes":  {"forageDropRate": 0.75, "wildCropDropRate": 0.60}
+  },
+  {
+    "code": "Forage2-gatherer",
+    "type": "positive",
+    "attributes":  {"forageDropRate": 0.50, "wildCropDropRate": 0.30}
+  },
+  {
+    "code": "Forage3-collector",
+    "type": "positive",
+    "attributes":  {"forageDropRate": 0.25, "wildCropDropRate": 0.15}
+  },
+  {
+    "code": "Forage4-unaware",
+    "type": "negative",
+    "attributes":  {"forageDropRate": -0.10, "wildCropDropRate": -0.10}
+  },
+  {
+    "code": "Forage5-inattentive",
+    "type": "negative",
+    "attributes":  {"forageDropRate": -0.25, "wildCropDropRate": -0.20}
+  },
+  {
+    "code": "Forage6-oblivious",
+    "type": "negative",
+    "attributes":  {"forageDropRate": -0.50, "wildCropDropRate": -0.30}
+  },
+
+  {
+    "code": "farm1-farmer",
+    "type": "positive",
+    "attributes":  {"domesticCropDropRate": 0.30}
+  },
+  {
+    "code": "farm2-planter",
+    "type": "positive",
+    "attributes":  {"domesticCropDropRate": 0.15}
+  },
+  {
+    "code": "farm3-unfruitful",
+    "type": "negative",
+    "attributes":  {"domesticCropDropRate": -0.15}
+  },
+  {
+    "code": "farm4-unbearing",
+    "type": "negative",
+    "attributes":  {"domesticCropDropRate": -0.30}
+  },
+
   {
     "code": "",
     "type": "positive",
@@ -378,6 +524,7 @@
     "type": "negative",
     "attributes":  {}
   },
+
   {
     "code": "",
     "type": "positive",
@@ -402,28 +549,19 @@ Notes Section (delete later)
         timid
         anxious
         nervous
-        civil
-        butcher
-        squeamish
-        queasy
         reckless
-        resourceful
-        
-        scrounger
-        scavenger
-        pilferer
-        plunderer
+       
 
 TODO
-    animalHarvesting
-    foraging
+    
+    
     weaponCombat
     classTraits
     farming?
     woodcutting?
     cooking?
 
-Stats marked with ? unknown if vanilla
+
 "healingeffectivness"
 "maxhealthExtraPoints"
 "walkspeed"
@@ -459,27 +597,24 @@ Stats marked with ? unknown if vanilla
 "gliderSpeedMax"
 "jumpHeightMul"
 
+Patches
+"stickDropRate"
+"woodDropRate"
+"treeSeedDropRate"
+"treeCuttingDropRate"
+"domesticCropDropRate"
+"charcoalDropRate"
+"temporalGearDropRate"
 
+"DryGrassDropRate"
+"TuleDropRate"
+"CattailDropRate"
+"FlaxDropRate"
+"clayFormingPoints"
 
-"stickDropRate" ?
-"woodDropRate" ?
-"tree-seedDropRate" ?
-"fruittreeDropRate" ?
-"produceDropRate" ?
-"charcoalDropRate" ?
-"charcoalPileDropRate" ?
-
-"animalHarvestingSpeed" ?
-"mechanicalsDamageMul" ?
-"temporalGearDropRate" ?
-
-"flaxFiberChance" ?
-"flaxDropRate" ?
-"fireDamage" ?
-
-"caveStabilityLoss"?
-"surfaceStabilityLoss" ?
-"rustedDamage" ?
-"clayformingPoints" ?
+"flaxDropRate"
+"flaxFiberChance"
+"caveStabilityLoss"
+"surfaceStabilityLoss" 
 
 }
