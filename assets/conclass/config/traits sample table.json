@@ -205,32 +205,32 @@
   },
 
   {
-    "code": "armorWalk1-athletic",
+    "code": "armorWalk1-hulking",
+    "type": "positive",
+    "attributes":  {"armorWalkSpeedAffectedness": -0.75}
+  },
+  {
+    "code": "armorWalk2-stout",
     "type": "positive",
     "attributes":  {"armorWalkSpeedAffectedness": -0.50}
   },
   {
-    "code": "armorWalk2-unhindered",
+    "code": "armorWalk3-unhindered",
     "type": "positive",
     "attributes":  {"armorWalkSpeedAffectedness": -0.25}
   },
   {
-    "code": "armorWalk3-brawny",
-    "type": "positive",
-    "attributes":  {"armorWalkSpeedAffectedness": -0.10}
-  },
-  {
-    "code": "armorWalk4-diminutive",
+    "code": "armorWalk4-hindered",
     "type": "negative",
     "attributes":  {"armorWalkSpeedAffectedness": 0.10}
   },
   {
-    "code": "armorWalk5-impeded",
+    "code": "armorWalk5-scrawny",
     "type": "negative",
-    "attributes":  {"armorWalkSpeedAffectedness": 0.15}
+    "attributes":  {"armorWalkSpeedAffectedness": 0.20}
   },
   {
-    "code": "armorWalk6-encumbered",
+    "code": "armorWalk6-diminutive",
     "type": "negative",
     "attributes":  {"armorWalkSpeedAffectedness": 0.30}
   },
@@ -319,65 +319,29 @@
   },
 
   {
-    "code": "vesselLoot1-plunderer",
+    "code": "wood1-forester",
     "type": "positive",
-    "attributes":  {"vesselContentsDropRate": 0.30}
+    "attributes":  {
+        "logDropRate": 0.25,
+        "stickDropRate": 0.50,
+        "treeSeedDropRate": 2,
+        "treeCuttingDropRate": 2
+    }
   },
   {
-    "code": "vesselLoot2-pilferer",
+    "code": "wood2-logger",
     "type": "positive",
-    "attributes":  {"vesselContentsDropRate": 0.20}
+    "attributes":  {"loggingSpeedMul": 0.50}
   },
   {
-    "code": "vesselLoot3-scavenger",
+    "code": "wood2-woodsman",
     "type": "positive",
-    "attributes":  {"vesselContentsDropRate": 0.10}
+    "attributes":  {"loggingSpeedMul": 0.25}
   },
   {
-    "code": "vesselLoot4-civil",
+    "code": "wood3-scrawny2",
     "type": "negative",
-    "attributes":  {"vesselContentsDropRate": -0.10}
-  },
-  {
-    "code": "vesselLoot5-respectful",
-    "type": "negative",
-    "attributes":  {"vesselContentsDropRate": -0.20}
-  },
-  {
-    "code": "vesselLoot6-sanctimonious",
-    "type": "negative",
-    "attributes":  {"vesselContentsDropRate": -0.30}
-  },
-  
-  {
-    "code": "gearLoot1-prosperous",
-    "type": "positive",
-    "attributes":  {"rustyGearDropRate": 0.30}
-  },
-  {
-    "code": "gearLoot2-fortunate",
-    "type": "positive",
-    "attributes":  {"rustyGearDropRate": 0.20}
-  },
-  {
-    "code": "gearLoot3-lucky",
-    "type": "positive",
-    "attributes":  {"rustyGearDropRate": 0.10}
-  },
-  {
-    "code": "gearLoot4-unlucky",
-    "type": "negative",
-    "attributes":  {"rustyGearDropRate": -0.10}
-  },
-  {
-    "code": "gearLoot5-unfortunate",
-    "type": "negative",
-    "attributes":  {"rustyGearDropRate": -0.20}
-  },
-  {
-    "code": "gearLoot6-destitute",
-    "type": "negative",
-    "attributes":  {"rustyGearDropRate": -0.30}
+    "attributes":  {"loggingSpeedMul": -0.30}
   },
 
   {
@@ -443,32 +407,32 @@
   },
 
   {
-    "code": "Forage1-forager",
+    "code": "forage1-forager",
     "type": "positive",
     "attributes":  {"forageDropRate": 0.75, "wildCropDropRate": 0.60}
   },
   {
-    "code": "Forage2-gatherer",
+    "code": "forage2-gatherer",
     "type": "positive",
     "attributes":  {"forageDropRate": 0.50, "wildCropDropRate": 0.30}
   },
   {
-    "code": "Forage3-collector",
+    "code": "forage3-collector",
     "type": "positive",
     "attributes":  {"forageDropRate": 0.25, "wildCropDropRate": 0.15}
   },
   {
-    "code": "Forage4-unaware",
+    "code": "forage4-unaware",
     "type": "negative",
     "attributes":  {"forageDropRate": -0.10, "wildCropDropRate": -0.10}
   },
   {
-    "code": "Forage5-inattentive",
+    "code": "forage5-inattentive",
     "type": "negative",
     "attributes":  {"forageDropRate": -0.25, "wildCropDropRate": -0.20}
   },
   {
-    "code": "Forage6-oblivious",
+    "code": "forage6-oblivious",
     "type": "negative",
     "attributes":  {"forageDropRate": -0.50, "wildCropDropRate": -0.30}
   },
@@ -495,34 +459,98 @@
   },
 
   {
-    "code": "",
+    "code": "vesselLoot1-plunderer",
     "type": "positive",
-    "attributes":  {}
+    "attributes":  {"vesselContentsDropRate": 0.30}
   },
   {
-    "code": "",
+    "code": "vesselLoot2-pilferer",
     "type": "positive",
-    "attributes":  {}
+    "attributes":  {"vesselContentsDropRate": 0.20}
   },
   {
-    "code": "",
+    "code": "vesselLoot3-scavenger",
     "type": "positive",
-    "attributes":  {}
+    "attributes":  {"vesselContentsDropRate": 0.10}
   },
   {
-    "code": "",
+    "code": "vesselLoot4-civil",
     "type": "negative",
-    "attributes":  {}
+    "attributes":  {"vesselContentsDropRate": -0.10}
   },
   {
-    "code": "",
+    "code": "vesselLoot5-respectful",
     "type": "negative",
-    "attributes":  {}
+    "attributes":  {"vesselContentsDropRate": -0.20}
   },
   {
-    "code": "",
+    "code": "vesselLoot6-sanctimonious",
     "type": "negative",
-    "attributes":  {}
+    "attributes":  {"vesselContentsDropRate": -0.30}
+  },
+  
+  {
+    "code": "gearLoot1-prosperous",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.30}
+  },
+  {
+    "code": "gearLoot2-fortunate",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.20}
+  },
+  {
+    "code": "gearLoot3-lucky",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.10}
+  },
+  {
+    "code": "gearLoot4-unlucky",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.10}
+  },
+  {
+    "code": "gearLoot5-unfortunate",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.20}
+  },
+  {
+    "code": "gearLoot6-destitute",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.30}
+  },
+
+  {
+    "code": "melee1-warrior",
+    "type": "positive",
+    "attributes":  {"meleeWeaponsDamage": 0.25}
+  },
+  {
+    "code": "melee2-fighter",
+    "type": "positive",
+    "attributes":  {"meleeWeaponsDamage": 0.10}
+  },
+  {
+    "code": "melee3-timid",
+    "type": "negative",
+    "attributes":  {"meleeWeaponsDamage": -0.10}
+  },
+  {
+    "code": "melee4-anxious",
+    "type": "negative",
+    "attributes":  {"meleeWeaponsDamage": -0.20}
+  },
+
+  {
+    "code": "coalmaker",
+    "type": "positive",
+    "attributes":  {"charcoalDropRate": 0.33, "charcoalSpeedMul": 0.25}
+  },
+
+  {
+    "code": "chef",
+    "type": "positive",
+    "attributes":  {"charcoalDropRate": 0.33, "charcoalSpeedMul": 0.25}
   },
 
   {
@@ -549,17 +577,24 @@ Notes Section (delete later)
         timid
         anxious
         nervous
-        reckless
-       
 
-TODO
+        reckless
+        honed
+        dexterous
+        savvy
+        agile
+        sharp
+        keen
+        accurate
+
+
+TO DO
+    need to do patches
+        woodcutting patches
+        weapon combat >vanilla and CO patches?
+        classTraits
+        cooking?
     
-    
-    weaponCombat
-    classTraits
-    farming?
-    woodcutting?
-    cooking?
 
 
 "healingeffectivness"
@@ -598,8 +633,9 @@ TODO
 "jumpHeightMul"
 
 Patches
+"logDropRate"
+"loggingSpeedMul"
 "stickDropRate"
-"woodDropRate"
 "treeSeedDropRate"
 "treeCuttingDropRate"
 "domesticCropDropRate"
