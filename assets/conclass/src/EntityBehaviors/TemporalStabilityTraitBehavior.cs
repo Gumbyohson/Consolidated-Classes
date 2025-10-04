@@ -20,15 +20,18 @@ namespace GloomeClasses.src.EntityBehaviors {
         public bool hasClaustrophobia = false;
         public bool hasAgoraphobia = false;
         public bool hasShelteredStone = false;
+        public bool hasDelver = false;
         public bool hasNone = true;
         public bool enabled;
 
         protected const double ShelteredByStoneGainVelocity = 0.002;
+        protected const double DelverGainVelocity = -0.001;
         protected const int SunLightLevelForInCave = 5;
 
-        public const string ClaustrophobicCode = "claustrophobicgloo";
+        public const string ClaustrophobiaCode = "claustrophobia";
         public const string AgoraphobiaCode = "agoraphobia";
         public const string ShelteredByStoneCode = "shelteredstone";
+        public const string DelverCode = "delver";
 
         protected EntityBehaviorTemporalStabilityAffected TemporalAffected => entity.GetBehavior<EntityBehaviorTemporalStabilityAffected>();
 
@@ -70,7 +73,7 @@ namespace GloomeClasses.src.EntityBehaviors {
                     string classcode = entity.WatchedAttributes.GetString("characterClass");
                     CharacterClass charclass = entity.Api.ModLoader.GetModSystem<CharacterSystem>().characterClasses.FirstOrDefault(c => c.Code == classcode);
                     if (charclass != null) {
-                        if (charclass.Traits.Contains(ClaustrophobicCode)) {
+                        if (charclass.Traits.Contains(ClaustrophobiaCode)) {
                             hasClaustrophobia = true;
                         }
                         if (charclass.Traits.Contains(AgoraphobiaCode)) {
@@ -79,8 +82,12 @@ namespace GloomeClasses.src.EntityBehaviors {
                         if (charclass.Traits.Contains(ShelteredByStoneCode)) {
                             hasShelteredStone = true;
                         }
+                        if (charclass.Traits.Contains(DelverCode))
+                        {
+                            hasDelver = true;
+                        }
 
-                        if (hasClaustrophobia || hasAgoraphobia || hasShelteredStone) {
+                        if (hasClaustrophobia || hasAgoraphobia || hasDelver || hasShelteredStone) {
                             hasNone = false; //This just might make the check a TINY bit quicker if it's only comparing a single bool for every 1s tick after this.
                         }
                         hasLocatedClass = true;
@@ -125,6 +132,14 @@ namespace GloomeClasses.src.EntityBehaviors {
                     return;
                 }
             }
+
+            if (hasDelver)
+            {
+                if (entity.World.BlockAccessor.GetLightLevel(pos, EnumLightLevelType.OnlySunLight) < SunLightLevelForInCave && tempStabVelocity < 0)
+                {
+                    var caveLoss = entity.Stats.GetBlended("delvercaveStabilityLoss"); 
+                    TemporalAffected.TempStabChangeVelocity = tempStabVelocity * caveLoss;
+                    return;
+                }
+            }
         }
-    }
-}

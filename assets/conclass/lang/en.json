@@ -10,19 +10,23 @@
  "trait-shelteredstone": "<font color=\"#84ff84\">• Sheltered By Stone </font>",
  "traitname-shelteredstone": "Sheltered By Stone",
  "traitdesc-shelteredstone": "No temporal stability loss whilst underground, no matter how deep.",
+ 
+ "trait-delver": "<font color=\"#84ff84\">• Delver </font>",
+ "traitname-delver": "Delver",
+ "traitdesc-delver": "Slower stability loss while deep underground.",
 
  "trait-agoraphobia": "<font color=\"#ff8484\">• Agoraphobia </font>",
  "traitname-agoraphobia": "Agoraphobia",
  "traitdesc-agoraphobia": "Being outdoors or above ground slowly decreases your temporal stability.",
 
- "trait-claustrophobicgloo": "<font color=\"#ff8484\">• Claustrophobic </font>",
- "traitname-claustrophobicgloo": "Claustrophobic",
- "traitdesc-claustrophobicgloo": "Being underground causes stability loss.",
+ "trait-claustrophobia": "<font color=\"#ff8484\">• Claustrophobia </font>",
+ "traitname-claustrophobia": "Claustrophobia",
+ "traitdesc-claustrophobia": "Being underground causes stability loss.",
 
  "characterclass-adamani": "Adamani",
  "characterdesc-adamani": "<font color=\"#99c9f9\"><br>",
  "characterclass-dwarrow": "Dwarrow",
- "characterdesc-dwarrow": "<font color=\"#99c9f9\">Dwarrow is the backbone of the team for equipment and ore. If the other classes are for food or clothes, the Dwarrow is for metal. The Dwarrow has an affinity for stone and metal. They are shorter and slower than most other races, but built of corded muscle and can take and give a beating.<br>",
+ "characterdesc-dwarrow": "<font color=\"#99c9f9\">Dwarrow is the backbone of the team for smithing and ore. If the other classes are for food or clothes, the Dwarrow is for metal. The Dwarrow has an affinity for stone and metal. They are shorter and slower than most other races, but built of corded muscle and can take and give a beating.<br>",
  "characterclass-ieldlis": "Ieldlis",
  "characterdesc-ieldlis": "<font color=\"#99c9f9\"><br>",
  "characterclass-krohak": "Krohak",
@@ -34,5 +38,6 @@
  "charattribute-attribute-0.0": "positivedescription",
  "charattribute-attribute--0.0": "negativedescription",
  "charattribute-surfaceStabilityLoss--0.008": "Gradual temporal stability loss when outside or when not in a room",
- "charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves"
+ "charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves",
+ "charattribute-delvercaveStabilityLoss--0.4": "-40% slower temporal stability loss when deep underground"
 }

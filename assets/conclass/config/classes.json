@@ -22,7 +22,7 @@
  },
  {
   "code": "dwarrow",
-  "traits": ["Trait1","Trait2","Trait3"],
+  "traits": ["agoraphobia","shelteredstone"],
   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
           { "type": "item", "code": "game:clothes-nadiya-upperbody-innkeeper", "comment": "NEED_MODDED" },
@@ -36,7 +36,7 @@
  },
  {
   "code": "ieldlis",
-  "traits": ["Trait1","Trait2","Trait3"],
+  "traits": ["claustrophobia"],
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },

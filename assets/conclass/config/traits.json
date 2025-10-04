@@ -17,15 +17,16 @@
   {
     "code": "agoraphobia",
     "type": "negative",
-    "attributes": {
-      "surfaceStabilityLoss": -0.008
-    }
+    "attributes": {"surfaceStabilityLoss": -0.008 }
   },
   {
-    "code": "claustrophobicgloo",
+    "code": "claustrophobia",
     "type": "negative",
-    "attributes": {
-      "caveStabilityLoss": 0.1
-    }
+   "attributes": { "caveStabilityLoss": 0.1 }
+  },
+  {
+    "code": "delver",
+    "type": "positive",
+    "attributes": { "delvercaveStabilityLoss": -0.4 }
   }
 ]
