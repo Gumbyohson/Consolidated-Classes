@@ -15,7 +15,9 @@
  "traitname-agoraphobia": "Agoraphobia",
  "traitdesc-agoraphobia": "Being outdoors or above ground slowly decreases your temporal stability.",
 
-
+ "trait-claustrophobicgloo": "<font color=\"#ff8484\">• Claustrophobic </font>",
+ "traitname-claustrophobicgloo": "Claustrophobic",
+ "traitdesc-claustrophobicgloo": "Being underground causes stability loss.",
 
  "characterclass-adamani": "Adamani",
  "characterdesc-adamani": "<font color=\"#99c9f9\"><br>",

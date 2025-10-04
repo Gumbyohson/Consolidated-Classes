@@ -1,22 +1,31 @@
 [
- {
-  "code": "",
-  "type": "positve",
-  "attributes":  {}
- },
- {
-  "code": "",
-  "type": "negative",
-  "attributes":  {}
- },
- {
-  "code": "agoraphobia",
-  "type": "negative",
-  "attributes": {"surfaceStabilityLoss": -0.008 }
- },
- {
-  "code": "claustrophobicgloo",
-  "type": "negative",
-  "attributes": { "caveStabilityLoss": 0.1 }
- }
+  {
+    "code": "",
+    "type": "positve",
+    "attributes": {}
+  },
+  {
+    "code": "",
+    "type": "negative",
+    "attributes": {}
+  },
+  {
+    "code": "shelteredstone",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "agoraphobia",
+    "type": "negative",
+    "attributes": {
+      "surfaceStabilityLoss": -0.008
+    }
+  },
+  {
+    "code": "claustrophobicgloo",
+    "type": "negative",
+    "attributes": {
+      "caveStabilityLoss": 0.1
+    }
+  }
 ]
