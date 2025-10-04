@@ -27,6 +27,6 @@
   {
     "code": "delver",
     "type": "positive",
-    "attributes": { "delvercaveStabilityLoss": -0.4 }
+    "attributes": { "delverdeepStabilityLoss": -0.4 }
   }
 ]

@@ -137,7 +137,7 @@ namespace GloomeClasses.src.EntityBehaviors {
             {
                 if (entity.World.BlockAccessor.GetLightLevel(pos, EnumLightLevelType.OnlySunLight) < SunLightLevelForInCave && tempStabVelocity < 0)
                 {
-                    var caveLoss = entity.Stats.GetBlended("delvercaveStabilityLoss"); 
+                    var caveLoss = entity.Stats.GetBlended("delverdeepStabilityLoss"); 
                     TemporalAffected.TempStabChangeVelocity = tempStabVelocity * caveLoss;
                     return;
                 }

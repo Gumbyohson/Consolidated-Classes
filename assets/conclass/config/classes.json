@@ -69,7 +69,7 @@
  },
  {
   "code": "urroka",
-  "traits": ["Trait1","Trait2","Trait3"],
+  "traits": ["delver"],
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },
