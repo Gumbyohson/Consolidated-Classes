@@ -1,20 +1,36 @@
 {
-    "trait-positive": "<font color=\"#84ff84\">• class </font>",
-    "traitname-positive": "trait",
-    "traitdesc-positive": "summary",
+ "trait-positive": "<font color=\"#84ff84\">• Trait </font>",
+ "traitname-positive": "trait",
+ "traitdesc-positive": "summary",
 
-    "trait-negative": "<font color=\"#ff8484\">• class </font>",
-    "traitname-negative": "trait",
-    "traitdesc-negative": "summary",
+ "trait-negative": "<font color=\"#ff8484\">• Trait </font>",
+ "traitname-negative": "trait",
+ "traitdesc-negative": "summary",
+
+ "trait-shelteredstone": "<font color=\"#84ff84\">• Sheltered By Stone </font>",
+ "traitname-shelteredstone": "Sheltered By Stone",
+ "traitdesc-shelteredstone": "No temporal stability loss whilst underground, no matter how deep.",
+
+ "trait-agoraphobia": "<font color=\"#ff8484\">• Agoraphobia </font>",
+ "traitname-agoraphobia": "Agoraphobia",
+ "traitdesc-agoraphobia": "Being outdoors or above ground slowly decreases your temporal stability.",
 
 
-    "characterclass-1": "Halfling",
-    "characterclass-2": "Goblin",
-   
-    "characterdesc-1": "<font color=\"#99c9f9\"><br>",
-    "characterdesc-2": "<font color=\"#99c9f9\"><br>",
 
-    "charattribute-attribute-0.0": "positivedescription",
-    "charattribute-attribute--0.0": "negativedescription"
+ "characterclass-adamani": "Adamani",
+ "characterdesc-adamani": "<font color=\"#99c9f9\"><br>",
+ "characterclass-dwarrow": "Dwarrow",
+ "characterdesc-dwarrow": "<font color=\"#99c9f9\">Dwarrow is the backbone of the team for equipment and ore. If the other classes are for food or clothes, the Dwarrow is for metal. The Dwarrow has an affinity for stone and metal. They are shorter and slower than most other races, but built of corded muscle and can take and give a beating.<br>",
+ "characterclass-ieldlis": "Ieldlis",
+ "characterdesc-ieldlis": "<font color=\"#99c9f9\"><br>",
+ "characterclass-krohak": "Krohak",
+ "characterdesc-krohak": "<font color=\"#99c9f9\"><br>",
+ "characterclass-urroka": "Urroka",
+ "characterdesc-urroka": "<font color=\"#99c9f9\"><br>",
 
+
+ "charattribute-attribute-0.0": "positivedescription",
+ "charattribute-attribute--0.0": "negativedescription",
+ "charattribute-surfaceStabilityLoss--0.008": "Gradual temporal stability loss when outside or when not in a room",
+ "charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves"
 }
