@@ -28,5 +28,50 @@
     "code": "delver",
     "type": "positive",
     "attributes": { "delverdeepStabilityLoss": -0.4 }
+  },
+  {
+    "code": "addhealth1",
+    "type": "positive",
+    "attributes": { "maxhealthExtraPoints": 5 }
+  },
+  {
+    "code": "amorspeed1",
+    "type": "positive",
+    "attributes": {"armorWalkSpeedAffectedness": -0.8 }
+  },
+  {
+    "code": "mining1",
+    "type": "positive",
+    "attributes": {"oreDropRate": 0.5, "miningSpeedMul": 1 }
+  },
+  {
+    "code": "butcher",
+    "type": "positive",
+    "attributes": {"animalLootDropRate": 0.25,"animalHarvestingTime": -0.5}
+  },
+  {
+    "code": "evasive",
+    "type": "positive",
+    "attributes": {"walkspeed": 0.15 }
+  },
+  {
+    "code": "fasting",
+    "type": "positive",
+    "attributes": {"hungerrate": -0.25 }
+  },
+  {
+    "code": "harvester",
+    "type": "positive",
+    "attributes": {"wildCropDropRate": 0.25 }
+    },
+  {
+    "code": "healer",
+    "type": "positive",
+    "attributes": {"healingeffectivness": 0.25}
+  },
+  {
+    "code": "noisy",
+    "type": "negative",
+    "attributes": {"animalSeekingRange": 0.2}
   }
 ]

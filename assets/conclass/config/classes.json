@@ -20,9 +20,9 @@
           { "type": "item", "code": "game:armor-legs-ITEM-EXAMPLE?" }
           ]
  },
- {
+  {
   "code": "dwarrow",
-  "traits": ["agoraphobia","shelteredstone"],
+  "traits": ["agoraphobia","shelteredstone", "mining1","amorspeed1"],
   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
           { "type": "item", "code": "game:clothes-nadiya-upperbody-innkeeper", "comment": "NEED_MODDED" },
@@ -31,10 +31,10 @@
           { "type": "item", "code": "game:clothes-face-glasses-clockmaker" },
           { "type": "item", "code": "game:clothes-arm-leather-bracers" },
           { "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
-          { "type": "item", "code": "game:clothes-waist-heavy-leather-belt" } 
+          { "type": "item", "code": "game:clothes-waist-heavy-leather-belt" }
           ]
  },
- {
+  {
   "code": "ieldlis",
   "traits": ["claustrophobia"],
   "gear": [
