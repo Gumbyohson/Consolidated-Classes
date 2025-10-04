@@ -73,5 +73,11 @@
     "code": "noisy",
     "type": "negative",
     "attributes": {"animalSeekingRange": 0.2}
+  },
+  {
+    "code": "mushroomfarmer",
+    "type": "positive",
+    "attributes": {},
+    "dependsOn": [ { "modid": "substrate" } ]
   }
 ]
