@@ -120,7 +120,7 @@
     "code": "healing2-lively",
     "type": "positive",
     "attributes": {"healingeffectivness": 0.20}
-  },},
+  },
   {
     "code": "healing2-healthy",
     "type": "positive",
