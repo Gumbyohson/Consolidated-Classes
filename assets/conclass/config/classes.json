@@ -38,6 +38,7 @@
   {
   "code": "ieldlis",
   "traits": ["claustrophobia","bowyer","invisible","treekin","light"],
+  "_comment:" "underground sanity loss, access to crude bow and awwors and quiver, High animal invisibility, wildcrop/foraging bonus, debuff armor walkspeed",
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },

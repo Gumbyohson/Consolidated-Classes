@@ -114,7 +114,6 @@
   "code": "treekin",
   "type": "positive",
   "attributes": {
-   "animalLootDropRate": -0.1,
    "wildCropDropRate": 0.4,
    "forageDropRate": 0.4
   }
@@ -128,7 +127,6 @@
   "code": "gardener",
   "type": "positive",
   "attributes": { "farmDropRate": 0.3 }
- },
  },
  {
   "code": "hungry",
@@ -146,6 +144,6 @@
  {
   "code": "ancientknowledge",
   "type": "positive",
-  "attributes": { "":  }
+  "attributes": {}
  }
 ]
