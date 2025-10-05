@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": ["Trait1","Trait2","Trait3"],
+  "traits": ["gardener"],
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },
@@ -21,9 +21,10 @@
           ]
  },
   {
-  "code": "dwarrow",
-  "traits": ["agoraphobia","shelteredstone", "mining1","amorspeed1"],
-  "gear": [      
+   "code": "dwarrow",
+   "traits": [ "agoraphobia", "shelteredstone", "stoneadept", "powerfulframe", "noisy" ],
+   "_comment": "sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
+   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
           { "type": "item", "code": "game:clothes-nadiya-upperbody-innkeeper", "comment": "NEED_MODDED" },
           { "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
@@ -36,7 +37,7 @@
  },
   {
   "code": "ieldlis",
-  "traits": ["claustrophobia"],
+  "traits": ["claustrophobia","harvester"],
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },
@@ -57,7 +58,7 @@
  },
  {
   "code": "krohak",
-  "traits": ["Trait1","Trait2","Trait3"],
+  "traits": ["butcher","rockcrusher"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
@@ -69,7 +70,8 @@
  },
  {
   "code": "urroka",
-  "traits": ["delver"],
+  "traits": [ "delver", "lightweight", "rapidhealing", "scavenger","short" ],
+  "_comment": "slower underground sanity loss, less hungry, faster speed, negative armorspeed,healing effectiveness,animal/wildcrop/foraging bonus",
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },

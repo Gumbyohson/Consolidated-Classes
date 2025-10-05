@@ -1,83 +1,111 @@
 [
-  {
-    "code": "",
-    "type": "positve",
-    "attributes": {}
-  },
-  {
-    "code": "",
-    "type": "negative",
-    "attributes": {}
-  },
-  {
-    "code": "shelteredstone",
-    "type": "positive",
-    "attributes": {}
-  },
-  {
-    "code": "agoraphobia",
-    "type": "negative",
-    "attributes": {"surfaceStabilityLoss": -0.008 }
-  },
-  {
-    "code": "claustrophobia",
-    "type": "negative",
-   "attributes": { "caveStabilityLoss": 0.1 }
-  },
-  {
-    "code": "delver",
-    "type": "positive",
-    "attributes": { "delverdeepStabilityLoss": -0.4 }
-  },
-  {
-    "code": "addhealth1",
-    "type": "positive",
-    "attributes": { "maxhealthExtraPoints": 5 }
-  },
-  {
-    "code": "amorspeed1",
-    "type": "positive",
-    "attributes": {"armorWalkSpeedAffectedness": -0.8 }
-  },
-  {
-    "code": "mining1",
-    "type": "positive",
-    "attributes": {"oreDropRate": 0.5, "miningSpeedMul": 1 }
-  },
-  {
-    "code": "butcher",
-    "type": "positive",
-    "attributes": {"animalLootDropRate": 0.25,"animalHarvestingTime": -0.5}
-  },
-  {
-    "code": "evasive",
-    "type": "positive",
-    "attributes": {"walkspeed": 0.15 }
-  },
-  {
-    "code": "fasting",
-    "type": "positive",
-    "attributes": {"hungerrate": -0.25 }
-  },
-  {
-    "code": "harvester",
-    "type": "positive",
-    "attributes": {"wildCropDropRate": 0.25 }
-    },
-  {
-    "code": "healer",
-    "type": "positive",
-    "attributes": {"healingeffectivness": 0.25}
-  },
-  {
-    "code": "noisy",
-    "type": "negative",
-    "attributes": {"animalSeekingRange": 0.2}
-  },
-  {
-    "code": "mushroomfarmer",
-    "type": "positive",
-    "attributes": {},
-    "dependsOn": [ { "modid": "substrate" } ]
+ {
+  "code": "shelteredstone",
+  "type": "positive",
+  "attributes": {}
+ },
+ {
+  "code": "agoraphobia",
+  "type": "negative",
+  "attributes": { "surfaceStabilityLoss": -0.008 }
+ },
+ {
+  "code": "claustrophobia",
+  "type": "negative",
+  "attributes": { "caveStabilityLoss": 0.1 }
+ },
+ {
+  "code": "delver",
+  "type": "positive",
+  "attributes": { "delverdeepStabilityLoss": -0.4 }
+ },
+ {
+  "code": "addhealth1",
+  "type": "positive",
+  "attributes": { "maxhealthExtraPoints": 5 }
+ },
+ {
+  "code": "powerfulframe",
+  "type": "positive",
+  "attributes": { "armorWalkSpeedAffectedness": -0.8 }
+ },
+ {
+  "code": "stoneadept",
+  "type": "positive",
+  "attributes": {
+   "oreDropRate": 0.5,
+   "miningSpeedMul": 1
   }
+ },
+ {
+  "code": "rockcrusher",
+  "type": "positive",
+  "attributes": {
+   "oreDropRate": -0.1,
+   "miningSpeedMul": 0.75
+  }
+ },
+ {
+  "code": "butcher",
+  "type": "positive",
+  "attributes": {
+   "animalLootDropRate": 0.25,
+   "animalHarvestingTime": -0.5
+  }
+ },
+ {
+  "code": "lightweight",
+  "type": "positive",
+  "attributes": {
+   "walkspeed": 0.30,
+   "animalSeekingRange": -0.70,
+   "hungerrate": -0.50
+  }
+ },
+ {
+  "code": "ascetic",
+  "type": "positive",
+  "attributes": { "hungerrate": -0.50 }
+ },
+ {
+  "code": "harvester",
+  "type": "positive",
+  "attributes": { "wildCropDropRate": 0.25 }
+ },
+ {
+  "code": "rapidhealing",
+  "type": "positive",
+  "attributes": { "healingeffectivness": 0.25 }
+ },
+ {
+  "code": "noisy",
+  "type": "negative",
+  "attributes": { "animalSeekingRange": 0.2 }
+ },
+ {
+  "code": "mushroomfarmer",
+  "type": "positive",
+  "attributes": {},
+  "dependsOn": [ { "modid": "substrate" } ]
+ },
+ {
+  "code": "scavenger",
+  "type": "positive",
+  "attributes": {
+   "animalLootDropRate": 0.25,
+   "wildCropDropRate": 0.2,
+   "forageDropRate": 0.3
+  }
+ },
+ {
+  "code": "short",
+  "type": "negative",
+  "attributes": { "armorWalkSpeedAffectedness": 0.5 }
+ },
+ {
+  "code": "gardener",
+  "type": "positive",
+  "attributes": { "cropDropRate": 0.3 }
+ },
+ }
 ]
