@@ -22,8 +22,8 @@
  },
   {
    "code": "dwarrow",
-   "traits": [ "agoraphobia", "shelteredstone","powerfulframe", "noisy", "mender","hungry"],
-   "_comment": "sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
+   "traits": [ "mushroomfarmer","agoraphobia", "shelteredstone","powerfulframe", "noisy", "mender","hungry"],
+   "_comment": "IMPORTANT; leave mushroomfarmer as the first for the substrate patch. sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
    "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
           { "type": "item", "code": "game:clothes-nadiya-upperbody-innkeeper", "comment": "NEED_MODDED" },

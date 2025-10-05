@@ -1,0 +1,36 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/0",
+    "file": "substrate:recipies/grid/fruitingbag.json",
+    "value": { "requirestrait": "mushroomfarmer" },
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0",
+    "file": "substrate:recipies/grid/growbed.json",
+    "value": { "requirestrait": "mushroomfarmer" },
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0",
+    "file": "substrate:recipies/grid/sporeprint.json",
+    "value": { "requirestrait": "mushroomfarmer" },
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0",
+    "file": "substrate:recipies/grid/woodchip.json",
+    "value": { "requirestrait": "mushroomfarmer" },
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+  "op": "remove",
+  "path": "/1/traits/0",
+  "file": "config/characterclasses.json",
+  "dependsOn": [{"modid": "substrate", "invert": true}]
+  }
+]

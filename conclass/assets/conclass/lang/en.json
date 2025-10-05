@@ -1,5 +1,4 @@
 {
- //traits
  "trait-positive": "<font color=\"#84ff84\">• Trait </font>",
  "traitname-positive": "trait",
  "traitdesc-positive": "summary",
@@ -24,7 +23,6 @@
  "traitname-claustrophobia": "Claustrophobia",
  "traitdesc-claustrophobia": "Being underground causes stability loss.",
  
- //Classes
  "characterclass-adamani": "Adamani",
  "characterdesc-adamani": "<font color=\"#99c9f9\"><br>",
  "characterclass-dwarrow": "Dwarrow",
@@ -36,7 +34,6 @@
  "characterclass-urroka": "Urroka",
  "characterdesc-urroka": "<font color=\"#99c9f9\"><br>",
 
- //trait attributes
  "charattribute-attribute-0.0": "positivedescription",
  "charattribute-attribute--0.0": "negativedescription",
  "charattribute-surfaceStabilityLoss--0.008": "Gradual temporal stability loss when outside or when not in a room",

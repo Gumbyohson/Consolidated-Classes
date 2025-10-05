@@ -1,0 +1,165 @@
+[
+  {
+    "code": "shelteredstone",
+    "type": "positive",
+    "attributes": {
+      "oreDropRate": 0.5,
+      "miningSpeedMul": 1
+    }
+  },
+  {
+    "code": "agoraphobia",
+    "type": "negative",
+    "attributes": {
+      "surfaceStabilityLoss": -0.008
+    }
+  },
+  {
+    "code": "claustrophobia",
+    "type": "negative",
+    "attributes": {
+      "caveStabilityLoss": 0.1
+    }
+  },
+  {
+    "code": "delver",
+    "type": "positive",
+    "attributes": {
+      "delverdeepStabilityLoss": -0.4,
+      "oreDropRate": 0.2,
+      "miningSpeedMul": 0.2
+    }
+  },
+  {
+    "code": "titan",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 10,
+      "armorWalkSpeedAffectedness": -0.9
+    }
+  },
+  {
+    "code": "powerfulframe",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 5,
+      "armorWalkSpeedAffectedness": -0.7
+    }
+  },
+  {
+    "code": "rockcrusher",
+    "type": "positive",
+    "attributes": {
+      "oreDropRate": -0.1,
+      "miningSpeedMul": 0.75
+    }
+  },
+  {
+    "code": "butcher",
+    "type": "positive",
+    "attributes": {
+      "animalLootDropRate": 0.25,
+      "animalHarvestingTime": -0.5
+    }
+  },
+  {
+    "code": "lightweight",
+    "type": "positive",
+    "attributes": {
+      "walkspeed": 0.3,
+      "animalSeekingRange": -0.7,
+      "hungerrate": -0.5
+    }
+  },
+  {
+    "code": "ascetic",
+    "type": "positive",
+    "attributes": {
+      "hungerrate": -0.5
+    }
+  },
+  {
+    "code": "wildharvester",
+    "type": "positive",
+    "attributes": {
+      "wildCropDropRate": 0.5,
+      "forageDropRate": 0.3
+    }
+  },
+  {
+    "code": "rapidhealing",
+    "type": "positive",
+    "attributes": {
+      "healingeffectivness": 0.25
+    }
+  },
+  {
+    "code": "noisy",
+    "type": "negative",
+    "attributes": {
+      "animalSeekingRange": 0.2
+    }
+  },
+  {
+    "code": "invisible",
+    "type": "negative",
+    "attributes": {
+      "animalSeekingRange": -0.9
+    }
+  },
+  {
+    "code": "mushroomfarmer",
+    "type": "positive",
+    "attributes": {}
+  },
+  {
+    "code": "scavenger",
+    "type": "positive",
+    "attributes": {
+      "animalLootDropRate": 0.25,
+      "wildCropDropRate": 0.15,
+      "forageDropRate": 0.15
+    }
+  },
+  {
+    "code": "treekin",
+    "type": "positive",
+    "attributes": {
+      "wildCropDropRate": 0.4,
+      "forageDropRate": 0.4
+    }
+  },
+  {
+    "code": "light",
+    "type": "negative",
+    "attributes": {
+      "armorWalkSpeedAffectedness": 0.5
+    }
+  },
+  {
+    "code": "gardener",
+    "type": "positive",
+    "attributes": {
+      "farmDropRate": 0.3
+    }
+  },
+  {
+    "code": "hungry",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": 0.1
+    }
+  },
+  {
+    "code": "treeburner",
+    "type": "positive",
+    "attributes": {
+      "charcoalPileDroprate": 0.4
+    }
+  },
+  {
+    "code": "ancientknowledge",
+    "type": "positive",
+    "attributes": {}
+  }
+]
