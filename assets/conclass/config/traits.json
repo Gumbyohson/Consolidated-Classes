@@ -73,7 +73,7 @@
   "attributes": { "hungerrate": -0.50 }
  },
  {
-  "code": "harvester",
+  "code": "wildharvester",
   "type": "positive",
   "attributes": { "wildCropDropRate": 0.25 }
  },
@@ -86,6 +86,11 @@
   "code": "noisy",
   "type": "negative",
   "attributes": { "animalSeekingRange": 0.2 }
+ },
+ {
+  "code": "invisible",
+  "type": "negative",
+  "attributes": { "animalSeekingRange": -0.9 }
  },
  {
   "code": "mushroomfarmer",
@@ -103,6 +108,15 @@
   }
  },
  {
+  "code": "treekin",
+  "type": "positive",
+  "attributes": {
+   "animalLootDropRate": -0.1,
+   "wildCropDropRate": 0.4,
+   "forageDropRate": 0.4
+  }
+ },
+ {
   "code": "short",
   "type": "negative",
   "attributes": { "armorWalkSpeedAffectedness": 0.5 }
@@ -112,5 +126,12 @@
   "type": "positive",
   "attributes": { "farmDropRate": 0.3 }
  },
+ },
+ {
+  "code": "hungry",
+  "type": "negative",
+  "attributes": {
+   "hungerrate": 0.1
+  }
  }
 ]

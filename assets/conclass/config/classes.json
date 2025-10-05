@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": ["gardener"],
+  "traits": ["gardener", "clothier", "civil", "kind"],
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },
@@ -22,7 +22,7 @@
  },
   {
    "code": "dwarrow",
-   "traits": [ "agoraphobia", "shelteredstone","powerfulframe", "noisy" ],
+   "traits": [ "agoraphobia", "shelteredstone","powerfulframe", "noisy", "mender","technical" ,"hungry"],
    "_comment": "sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
    "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
@@ -37,7 +37,7 @@
  },
   {
   "code": "ieldlis",
-  "traits": ["claustrophobia","harvester"],
+  "traits": ["claustrophobia","wildharvester","bowyer","invisible","treekin"],
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },
@@ -58,7 +58,7 @@
  },
  {
   "code": "krohak",
-  "traits": ["butcher","rockcrusher","titan"],
+  "traits": ["butcher","rockcrusher","titan","ravenous"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
