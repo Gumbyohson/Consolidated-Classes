@@ -22,7 +22,7 @@
  },
   {
    "code": "dwarrow",
-   "traits": [ "agoraphobia", "shelteredstone", "stoneadept", "powerfulframe", "noisy" ],
+   "traits": [ "agoraphobia", "shelteredstone","powerfulframe", "noisy" ],
    "_comment": "sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
    "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
@@ -58,7 +58,7 @@
  },
  {
   "code": "krohak",
-  "traits": ["butcher","rockcrusher"],
+  "traits": ["butcher","rockcrusher","titan"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },

@@ -2,13 +2,13 @@
   {
     "op": "addmerge",
     "path": "/dropsByType/*-8/1/dropModbyStat",
-    "value": "cropDropRate",
+    "value": "farmdroprate",
     "file": "game:blocktypes/plant/crop/cassava.json"
   },
   {
     "op": "addmerge",
     "path": "/dropsByType/*-9/1/dropModbyStat",
-    "value": "cropDropRate",
+    "value": "farmdroprate",
     "file": "game:blocktypes/plant/crop/cassava.json"
   }
 ]

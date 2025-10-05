@@ -2,7 +2,10 @@
  {
   "code": "shelteredstone",
   "type": "positive",
-  "attributes": {}
+  "attributes": {
+   "oreDropRate": 0.5,
+   "miningSpeedMul": 1
+  }
  },
  {
   "code": "agoraphobia",
@@ -17,24 +20,26 @@
  {
   "code": "delver",
   "type": "positive",
-  "attributes": { "delverdeepStabilityLoss": -0.4 }
+  "attributes": {
+   "delverdeepStabilityLoss": -0.4,
+   "oreDropRate": 0.2,
+   "miningSpeedMul": 0.2
+  }
  },
  {
-  "code": "addhealth1",
+  "code": "titan",
   "type": "positive",
-  "attributes": { "maxhealthExtraPoints": 5 }
+  "attributes": {
+   "maxhealthExtraPoints": 10,
+   "armorWalkSpeedAffectedness": -0.9
+  }
  },
  {
   "code": "powerfulframe",
   "type": "positive",
-  "attributes": { "armorWalkSpeedAffectedness": -0.8 }
- },
- {
-  "code": "stoneadept",
-  "type": "positive",
   "attributes": {
-   "oreDropRate": 0.5,
-   "miningSpeedMul": 1
+   "maxhealthExtraPoints": 5,
+   "armorWalkSpeedAffectedness": -0.7
   }
  },
  {
@@ -105,7 +110,7 @@
  {
   "code": "gardener",
   "type": "positive",
-  "attributes": { "cropDropRate": 0.3 }
+  "attributes": { "farmDropRate": 0.3 }
  },
  }
 ]

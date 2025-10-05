@@ -2,13 +2,13 @@
   {
     "op": "addmerge",
     "path": "/dropsByType/*-11/1/dropModbyStat",
-    "value": "cropDropRate",
+    "value": "farmdroprate",
     "file": "game:blocktypes/plant/crop/cabbage.json"
   },
   {
     "op": "addmerge",
     "path": "/dropsByType/*-12/1/dropModbyStat",
-    "value": "cropDropRate",
+    "value": "farmdroprate",
     "file": "game:blocktypes/plant/crop/cabbage.json"
   }
 ]
