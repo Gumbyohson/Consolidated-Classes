@@ -1,0 +1,32 @@
+[
+ {
+  "op": "addmerge",
+  "path": "/drops/0/dropModbyStat",
+  "value": "logDropRate",
+  "file": "game:blocktypes/wood/woodtyped/log.json"
+ },
+ {
+  "op": "addmerge",
+  "path": "/drops/0/quantityByType/dropModbyStat",
+  "value": "saplingDropRate",
+  "file": "game:blocktypes/plant/leaves/normal.json"
+ },
+ {
+  "op": "addmerge",
+  "path": "/drops/1/dropModbyStat",
+  "value": "stickDropRate",
+  "file": "game:blocktypes/plant/leaves/normal.json"
+ },
+ {
+  "op": "addmerge",
+  "path": "/drops/0/quantityByType/dropModbyStat",
+  "value": "saplingDropRate",
+  "file": "game:blocktypes/plant/leaves/branchy.json"
+ },
+ {
+  "op": "addmerge",
+  "path": "/drops/1/dropModbyStat",
+  "value": "stickDropRate",
+  "file": "game:blocktypes/plant/leaves/branchy.json"
+ }
+]

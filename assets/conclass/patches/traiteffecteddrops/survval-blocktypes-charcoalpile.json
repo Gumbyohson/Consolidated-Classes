@@ -1,0 +1,14 @@
+[
+ {
+  "op": "addmerge",
+  "path": "/drops/0/quantity",
+  "value": { "avg": 1 },
+  "file": "game:blocktypes/charcoalpile.json"
+ },
+ {
+  "op": "addmerge",
+  "path": "/drops/0/dropModbyStat",
+  "value": "charcoalpiledroprate",
+  "file": "game:blocktypes/charcoalpile.json"
+ }
+]

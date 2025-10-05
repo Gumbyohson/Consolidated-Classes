@@ -75,7 +75,10 @@
  {
   "code": "wildharvester",
   "type": "positive",
-  "attributes": { "wildCropDropRate": 0.25 }
+  "attributes": {
+   "wildCropDropRate": 0.5,
+   "forageDropRate": 0.3
+  }
  },
  {
   "code": "rapidhealing",
@@ -103,8 +106,8 @@
   "type": "positive",
   "attributes": {
    "animalLootDropRate": 0.25,
-   "wildCropDropRate": 0.2,
-   "forageDropRate": 0.3
+   "wildCropDropRate": 0.15,
+   "forageDropRate": 0.15
   }
  },
  {
@@ -117,7 +120,7 @@
   }
  },
  {
-  "code": "short",
+  "code": "light",
   "type": "negative",
   "attributes": { "armorWalkSpeedAffectedness": 0.5 }
  },
@@ -133,5 +136,16 @@
   "attributes": {
    "hungerrate": 0.1
   }
+ },
+ {
+  "code": "treeburner",
+  "type": "positive",
+  "attributes": { "charcoalPileDroprate": 0.4 }
+
+ }, 
+ {
+  "code": "ancientknowledge",
+  "type": "positive",
+  "attributes": { "":  }
  }
 ]

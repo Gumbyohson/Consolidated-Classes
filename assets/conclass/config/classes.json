@@ -22,7 +22,7 @@
  },
   {
    "code": "dwarrow",
-   "traits": [ "agoraphobia", "shelteredstone","powerfulframe", "noisy", "mender","technical" ,"hungry"],
+   "traits": [ "agoraphobia", "shelteredstone","powerfulframe", "noisy", "mender","hungry"],
    "_comment": "sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
    "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
@@ -37,7 +37,7 @@
  },
   {
   "code": "ieldlis",
-  "traits": ["claustrophobia","wildharvester","bowyer","invisible","treekin"],
+  "traits": ["claustrophobia","bowyer","invisible","treekin","light"],
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },
@@ -70,7 +70,7 @@
  },
  {
   "code": "urroka",
-  "traits": [ "delver", "lightweight", "rapidhealing", "scavenger","short" ],
+  "traits": [ "delver", "lightweight", "rapidhealing", "scavenger","light", "improviser" ],
   "_comment": "slower underground sanity loss, less hungry, faster speed, negative armorspeed,healing effectiveness,animal/wildcrop/foraging bonus",
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
