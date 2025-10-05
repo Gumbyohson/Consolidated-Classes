@@ -1,7 +1,7 @@
 {
     "recommendations": [
-        "ms-dotnettools.vscode-dotnet-runtime",
-        "Neurosoft.vscatalog",
-        "nickdemayo.vscode-json-editor"
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscode-dotnet-runtime"
     ]
 }

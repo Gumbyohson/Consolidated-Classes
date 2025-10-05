@@ -5,55 +5,55 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Build",
-            "type": "node",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/scripts/build.sh",
-            "presentation": {
-                "reveal": "silent",
-                "revealProblems": "onProblem",
-                "close": true,
-                "order": 0
-            }
-        },
-        {
             "name": "Launch Client",
+            "type": "coreclr",
             "request": "launch",
-            "type": "node-terminal",
-            "command": "${env:VINTAGE_STORY}/Vintagestory.exe --tracelog --addModPath ${workspaceFolder}/Releases",
+            "program": "${env:VINTAGE_STORY}/Vintagestory.exe",
             "linux": {
-                "command": "${env:VINTAGE_STORY}/Vintagestory --tracelog --addModPath ${workspaceFolder}/Releases"
+                "program": "${env:VINTAGE_STORY}/Vintagestory"
             },
             "osx": {
-                "command": "${env:VINTAGE_STORY}/Vintagestory --tracelog --addModPath ${workspaceFolder}/Releases"
+                "program": "${env:VINTAGE_STORY}/Vintagestory"
             },
             "preLaunchTask": "build",
-            "presentation": {
-                "reveal": "silent",
-                "revealProblems": "onProblem",
-                "close": true,
-                "order": 1
-            }
+            "args": [
+                "--tracelog",
+                "--addModPath",
+                "${workspaceFolder}/test/bin/Debug/Mods"
+            ],
+            "console": "internalConsole",
+            "stopAtEntry": false
         },
         {
             "name": "Launch Server",
+            "type": "coreclr",
             "request": "launch",
-            "type": "node-terminal",
-            "command": "${env:VINTAGE_STORY}/VintagestoryServer.exe --tracelog --addModPath ${workspaceFolder}/Releases",
+            "program": "${env:VINTAGE_STORY}/VintagestoryServer.exe",
             "linux": {
-                "command": "${env:VINTAGE_STORY}/VintagestoryServer --tracelog --addModPath ${workspaceFolder}/Releases"
+                "program": "${env:VINTAGE_STORY}/VintagestoryServer"
             },
             "osx": {
-                "command": "${env:VINTAGE_STORY}/VintagestoryServer --tracelog --addModPath ${workspaceFolder}/Releases"
+                "program": "${env:VINTAGE_STORY}/VintagestoryServer"
             },
             "preLaunchTask": "build",
-            "presentation": {
-                "reveal": "silent",
-                "revealProblems": "onProblem",
-                "close": true,
-                "order": 2
-            }
+            "args": [
+                "--tracelog",
+                "--addModPath",
+                "${workspaceFolder}/test/bin/Debug/Mods"
+            ],
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "CakeBuild",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build (Cake)",
+            "program": "${workspaceFolder}/CakeBuild/bin/Debug/net7.0/CakeBuild.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/CakeBuild",
+            "stopAtEntry": false,
+            "console": "internalConsole"
         }
     ]
 }
