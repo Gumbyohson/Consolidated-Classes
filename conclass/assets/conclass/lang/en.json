@@ -97,7 +97,7 @@
  "game:charattribute-attribute-0.0": "positivedescription",
  "game:charattribute-attribute--0.0": "negativedescription",
  "game:charattribute-surfaceStabilityLoss--0.008": "Gradual temporal stability loss when outside or when not in a room",
- "game:charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves.",
+ "game:charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves",
  "game:charattribute-delverdeepStabilityLoss--0.4": "-40% slower temporal stability loss when deep underground",
  "game:charattribute-maxhealthExtraPoints--6": "-6 max health",
  "game:charattribute-walkspeed-0.3": "+30% walking speed",
