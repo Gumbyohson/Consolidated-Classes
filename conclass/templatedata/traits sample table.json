@@ -1,0 +1,991 @@
+[
+  {
+    "code": "hunger1-abstemious",
+    "type": "positive",
+    "attributes": {"hungerrate": -0.30}
+  },
+  {
+    "code": "hunger2-replete",
+    "type": "positive",
+    "attributes": {"hungerrate": -0.25}
+  },
+  {
+    "code": "hunger3-ascetic",
+    "type": "positive",
+    "attributes": {"hungerrate": -0.20}
+  },
+  {
+    "code": "hunger4-satiable",
+    "type": "positive",
+    "attributes":  {"hungerrate": -0.15}
+  },
+  {
+    "code": "hunger5-frugal",
+    "type": "positive",
+    "attributes":  {"hungerrate": -0.10}
+  },
+  {
+    "code": "hunger6-meager",
+    "type": "positive",
+    "attributes":  {"hungerrate": -0.05}
+  },
+  {
+    "code": "hunger7-hungering",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.05}
+  },
+  {
+    "code": "hunger8-famished",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.10}
+  },
+  {
+    "code": "hunger9-insatiable",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.15}
+  },
+  {
+    "code": "hunger10-gluttonous",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.20}
+  },
+  {
+    "code": "hunger11-voracious",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.25}
+  },
+  {
+    "code": "hunger12-ravenous",
+    "type": "negative",
+    "attributes":  {"hungerrate": 0.30}
+  },
+
+  {
+    "code": "health1-indominitable",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 15}
+  },
+  {
+    "code": "health2-vigorous",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 12.5}
+  },
+  {
+    "code": "health3-tenacious",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 10}
+  },
+  {
+    "code": "health4-resilient",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 7.5}
+  },
+  {
+    "code": "health5-tough",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 5}
+  },
+  {
+    "code": "health6-hearty",
+    "type": "positive",
+    "attributes":  {"maxhealthExtraPoints": 2.5}
+  },
+  {
+    "code": "health7-faint",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -2.5}
+  },
+  {
+    "code": "health8-feeble",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -5}
+  },
+  {
+    "code": "health9-frail",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -7.5}
+  },
+  {
+    "code": "health10-palid",
+    "type": "negative",
+    "attributes":  {"maxhealthExtraPoints": -10}
+  },
+
+  {
+    "code": "healing1-rejuvenating",
+    "type": "positive",
+    "attributes": {"healingeffectivness": 0.30}
+  },
+  {
+    "code": "healing2-lively",
+    "type": "positive",
+    "attributes": {"healingeffectivness": 0.20}
+  },
+  {
+    "code": "healing2-healthy",
+    "type": "positive",
+    "attributes": {"healingeffectivness": 0.10}
+  },
+  {
+    "code": "healing5-ailing",
+    "type": "negative",
+    "attributes": {"healingeffectivness": -0.10}
+  },
+  {
+    "code": "healing5-sickly",
+    "type": "negative",
+    "attributes": {"healingeffectivness": -0.20}
+  },
+  {
+    "code": "healing6-anemic",
+    "type": "negative",
+    "attributes": {"healingeffectivness": -0.30}
+  },
+
+  {
+    "code": "walk1-swift",
+    "type": "positive",
+    "attributes":  {"walkspeed": 0.15}
+  },
+  {
+    "code": "walk2-nimble",
+    "type": "positive",
+    "attributes":  {"walkspeed": 0.10}
+  },
+  {
+    "code": "walk3-brisk",
+    "type": "positive",
+    "attributes":  {"walkspeed": 0.05}
+  },
+  {
+    "code": "walk4-leisurely",
+    "type": "negative",
+    "attributes":  {"walkspeed": -0.05}
+  },
+  {
+    "code": "walk5-slow",
+    "type": "negative",
+    "attributes":  {"walkspeed": -0.10}
+  },
+  {
+    "code": "walk6-languid",
+    "type": "negative",
+    "attributes":  {"walkspeed": -0.15}
+  },
+
+  {
+    "code": "stealth1-silent",
+    "type": "positive",
+    "attributes":  {"animalSeekingRange": -0.60}
+  },
+  {
+    "code": "stealth2-stealthy",
+    "type": "positive",
+    "attributes":  {"animalSeekingRange": -0.30}
+  },
+  {
+    "code": "stealth3-furtive",
+    "type": "positive",
+    "attributes":  {"animalSeekingRange": -0.15}
+  },
+  {
+    "code": "stealth4-noisy",
+    "type": "negative",
+    "attributes":  {"animalSeekingRange": 0.15}
+  },
+  {
+    "code": "stealth5-leadfooted",
+    "type": "negative",
+    "attributes":  {"animalSeekingRange": 0.25}
+  },
+  {
+    "code": "stealth6-clamorous",
+    "type": "negative",
+    "attributes":  {"animalSeekingRange": 0.50}
+  },
+
+  {
+    "code": "armorWalk1-hulking",
+    "type": "positive",
+    "attributes":  {"armorWalkSpeedAffectedness": -0.75}
+  },
+  {
+    "code": "armorWalk2-stout",
+    "type": "positive",
+    "attributes":  {"armorWalkSpeedAffectedness": -0.50}
+  },
+  {
+    "code": "armorWalk3-unhindered",
+    "type": "positive",
+    "attributes":  {"armorWalkSpeedAffectedness": -0.25}
+  },
+  {
+    "code": "armorWalk4-hindered",
+    "type": "negative",
+    "attributes":  {"armorWalkSpeedAffectedness": 0.10}
+  },
+  {
+    "code": "armorWalk5-scrawny",
+    "type": "negative",
+    "attributes":  {"armorWalkSpeedAffectedness": 0.20}
+  },
+  {
+    "code": "armorWalk6-diminutive",
+    "type": "negative",
+    "attributes":  {"armorWalkSpeedAffectedness": 0.30}
+  },
+
+  {
+    "code": "armorDurability1-adamantine",
+    "type": "positive",
+    "attributes":  {"armorDurabilityLoss": -0.50}
+  },
+  {
+    "code": "armorDurability2-ironclad",
+    "type": "positive",
+    "attributes":  {"armorDurabilityLoss": -0.25}
+  },
+  {
+    "code": "armorDurability3-fragile",
+    "type": "negative",
+    "attributes":  {"armorDurabilityLoss": 0.15}
+  },
+  {
+    "code": "armorDurability4-brittle",
+    "type": "negative",
+    "attributes":  {"armorDurabilityLoss": 0.25}
+  },
+
+  {
+    "code": "miningYield1-meticulous",
+    "type": "positive",
+    "attributes":  {"oreDropRate": 0.50}
+  },
+  {
+    "code": "miningYield2-thorough",
+    "type": "positive",
+    "attributes":  {"oreDropRate": 0.25}
+  },
+  {
+    "code": "miningYield3-careful",
+    "type": "positive",
+    "attributes":  {"oreDropRate": 0.10}
+  },
+  {
+    "code": "miningYield4-careless",
+    "type": "negative",
+    "attributes":  {"oreDropRate": -0.10}
+  },
+  {
+    "code": "miningYield5-negligent",
+    "type": "negative",
+    "attributes":  {"oreDropRate":-0.20}
+  },
+  {
+    "code": "miningYield6-haphazard",
+    "type": "negative",
+    "attributes":  {"oreDropRate":-0.30}
+  },
+
+  {
+    "code": "miningSpeed1-excavator",
+    "type": "positive",
+    "attributes":  {"miningSpeedMul": 1.00}
+  },
+  {
+    "code": "miningSpeed2-burrower",
+    "type": "positive",
+    "attributes":  {"miningSpeedMul": 0.50}
+  },
+  {
+    "code": "miningSpeed3-delver",
+    "type": "positive",
+    "attributes":  {"miningSpeedMul": 0.25}
+  },
+  {
+    "code": "miningSpeed4-lax",
+    "type": "negative",
+    "attributes":  {"miningSpeedMul": -0.15}
+  },
+  {
+    "code": "miningSpeed5-sluggish",
+    "type": "negative",
+    "attributes":  {"miningSpeedMul": -0.30}
+  },
+  {
+    "code": "miningSpeed6-lethargic",
+    "type": "negative",
+    "attributes":  {"miningSpeedMul": -0.50}
+  },
+
+  {
+    "code": "wood1-forester",
+    "type": "positive",
+    "attributes":  {
+        "logDropRate": 0.25,
+        "stickDropRate": 0.50,
+        "treeSeedDropRate": 2,
+        "treeCuttingDropRate": 2
+    }
+  },
+  {
+    "code": "wood2-logger",
+    "type": "positive",
+    "attributes":  {"loggingSpeedMul": 0.50}
+  },
+  {
+    "code": "wood2-woodsman",
+    "type": "positive",
+    "attributes":  {"loggingSpeedMul": 0.25}
+  },
+  {
+    "code": "wood3-scrawny2",
+    "type": "negative",
+    "attributes":  {"loggingSpeedMul": -0.30}
+  },
+
+  {
+    "code": "animalLoot1-slaughterman",
+    "type": "positive",
+    "attributes":  {"animalLootDropRate": 0.50}
+  },
+  {
+    "code": "animalLoot2-butcher",
+    "type": "positive",
+    "attributes":  {"animalLootDropRate": 0.30}
+  },
+  {
+    "code": "animalLoot3-hunter",
+    "type": "positive",
+    "attributes":  {"animalLootDropRate": 0.15}
+  },
+  {
+    "code": "animalLoot4-kind",
+    "type": "negative",
+    "attributes":  {"animalLootDropRate": -0.15}
+  },
+  {
+    "code": "animalLoot5-queasy",
+    "type": "negative",
+    "attributes":  {"animalLootDropRate": -0.25}
+  },
+  {
+    "code": "animalLoot6-squeamish",
+    "type": "negative",
+    "attributes":  {"animalLootDropRate": -0.50}
+  },
+
+  {
+    "code": "animalSpeed1-chopper",
+    "type": "positive",
+    "attributes":  {"animalHarvestingTime": -0.75}
+  },
+  {
+    "code": "animalSpeed2-carver",
+    "type": "positive",
+    "attributes":  {"animalHarvestingTime": -0.50}
+  },
+  {
+    "code": "animalSpeed3-cutter",
+    "type": "positive",
+    "attributes":  {"animalHarvestingTime": -0.25}
+  },
+  {
+    "code": "animalSpeed4-dull",
+    "type": "negative",
+    "attributes":  {"animalHarvestingTime": 0.10}
+  },
+  {
+    "code": "animalSpeed5-blunt",
+    "type": "negative",
+    "attributes":  {"animalHarvestingTime": 0.20}
+  },
+  {
+    "code": "animalSpeed6-edgeless",
+    "type": "negative",
+    "attributes":  {"animalHarvestingTime": 0.30}
+  },
+
+  {
+    "code": "forage1-forager",
+    "type": "positive",
+    "attributes":  {"forageDropRate": 0.75, "wildCropDropRate": 0.60}
+  },
+  {
+    "code": "forage2-gatherer",
+    "type": "positive",
+    "attributes":  {"forageDropRate": 0.50, "wildCropDropRate": 0.30}
+  },
+  {
+    "code": "forage3-collector",
+    "type": "positive",
+    "attributes":  {"forageDropRate": 0.25, "wildCropDropRate": 0.15}
+  },
+  {
+    "code": "forage4-unaware",
+    "type": "negative",
+    "attributes":  {"forageDropRate": -0.10, "wildCropDropRate": -0.10}
+  },
+  {
+    "code": "forage5-inattentive",
+    "type": "negative",
+    "attributes":  {"forageDropRate": -0.25, "wildCropDropRate": -0.20}
+  },
+  {
+    "code": "forage6-oblivious",
+    "type": "negative",
+    "attributes":  {"forageDropRate": -0.50, "wildCropDropRate": -0.30}
+  },
+
+  {
+    "code": "farm1-farmer",
+    "type": "positive",
+    "attributes":  {"domesticCropDropRate": 0.30}
+  },
+  {
+    "code": "farm2-planter",
+    "type": "positive",
+    "attributes":  {"domesticCropDropRate": 0.15}
+  },
+  {
+    "code": "farm3-unfruitful",
+    "type": "negative",
+    "attributes":  {"domesticCropDropRate": -0.15}
+  },
+  {
+    "code": "farm4-unbearing",
+    "type": "negative",
+    "attributes":  {"domesticCropDropRate": -0.30}
+  },
+
+  {
+    "code": "vesselLoot1-plunderer",
+    "type": "positive",
+    "attributes":  {"vesselContentsDropRate": 0.30}
+  },
+  {
+    "code": "vesselLoot2-pilferer",
+    "type": "positive",
+    "attributes":  {"vesselContentsDropRate": 0.20}
+  },
+  {
+    "code": "vesselLoot3-scavenger",
+    "type": "positive",
+    "attributes":  {"vesselContentsDropRate": 0.10}
+  },
+  {
+    "code": "vesselLoot4-civil",
+    "type": "negative",
+    "attributes":  {"vesselContentsDropRate": -0.10}
+  },
+  {
+    "code": "vesselLoot5-respectful",
+    "type": "negative",
+    "attributes":  {"vesselContentsDropRate": -0.20}
+  },
+  {
+    "code": "vesselLoot6-sanctimonious",
+    "type": "negative",
+    "attributes":  {"vesselContentsDropRate": -0.30}
+  },
+  
+  {
+    "code": "gearLoot1-prosperous",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.30}
+  },
+  {
+    "code": "gearLoot2-fortunate",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.20}
+  },
+  {
+    "code": "gearLoot3-lucky",
+    "type": "positive",
+    "attributes":  {"rustyGearDropRate": 0.10}
+  },
+  {
+    "code": "gearLoot4-unlucky",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.10}
+  },
+  {
+    "code": "gearLoot5-unfortunate",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.20}
+  },
+  {
+    "code": "gearLoot6-destitute",
+    "type": "negative",
+    "attributes":  {"rustyGearDropRate": -0.30}
+  },
+
+  {
+    "code": "melee1-warrior",
+    "type": "positive",
+    "attributes":  {"meleeWeaponsDamage": 0.25}
+  },
+  {
+    "code": "melee2-fighter",
+    "type": "positive",
+    "attributes":  {"meleeWeaponsDamage": 0.10}
+  },
+  {
+    "code": "melee3-timid",
+    "type": "negative",
+    "attributes":  {"meleeWeaponsDamage": -0.10}
+  },
+  {
+    "code": "melee4-anxious",
+    "type": "negative",
+    "attributes":  {"meleeWeaponsDamage": -0.20}
+  },
+
+  {
+    "code": "coalmaker",
+    "type": "positive",
+    "attributes":  {"charcoalDropRate": 0.33, "charcoalSpeedMul": 0.25}
+  },
+
+  {
+    "code": "chef",
+    "type": "positive",
+    "attributes":  {"charcoalDropRate": 0.33, "charcoalSpeedMul": 0.25}
+  },
+
+  {
+    "code": "",
+    "type": "positive",
+    "attributes":  {}
+  },
+  {
+    "code": "",
+    "type": "negative",
+    "attributes":  {}
+  },
+{
+"code": "archer",
+"type": "positive",
+"attributes": {
+"rangedWeaponsDamage": 0.75,
+"rangedWeaponsAcc": 0.25,
+"bowDrawingStrength": 0.25,
+"rangedWeaponsSpeed": 0.25
+}
+},
+{
+"code": "inaccurate",
+"type": "negative",
+"attributes": {
+"rangedWeaponsDamage": -0.25,
+"rangedWeaponsAcc": -0.02,
+"bowDrawingStrength": -0.25,
+"rangedWeaponsSpeed": -0.15
+}
+},
+{
+"code": "exhausted",
+"type": "negative",
+"attributes": {
+"rangedWeaponsDamage": -0.35,
+"bowDrawingStrength": -0.35,
+"rangedWeaponsAcc": -0.02,
+"rangedWeaponsSpeed": -0.3
+}
+},
+{
+"code": "sharpshooter",
+"type": "positive",
+"attributes": {
+"rangedWeaponsDamage": 0.5,
+"bowDrawingStrength": 0.5,
+"rangedWeaponsSpeed": 0.15,
+"rangedWeaponsAcc": 1
+}
+},
+{
+"code": "squire",
+"type": "positive",
+"attributes": {
+"meleeWeaponsDamage": 0.15,
+"armorDurabilityLoss": -0.25,
+"armorWalkSpeedAffectedness": -0.2
+}
+},
+{
+"code": "smallframe",
+"type": "negative",
+"attributes": {
+"armorDurabilityLoss": 0.25,
+"armorWalkSpeedAffectedness": 0.1
+}
+},
+{
+"code": "vanguard",
+"type": "positive",
+"attributes": {
+"meleeWeaponsDamage": 0.25,
+"armorDurabilityLoss": -0.5,
+"armorWalkSpeedAffectedness": -0.5
+}
+},
+
+{
+"code": "armorplated",
+"type": "positive",
+"attributes": {
+"armorDurabilityLoss": -0.5
+}
+},
+{
+"code": "armorer",
+"type": "positive",
+"attributes": {
+}
+},
+{
+"code": "brittle",
+"type": "negative",
+"attributes": {
+"maxhealthExtraPoints": -7.5
+}
+},
+{
+"code": "butcher",
+"type": "positive",
+"attributes": {
+"animalLootDropRate": 0.25,
+"animalHarvestingTime": -0.5
+}
+},
+{
+"code": "slaughterman",
+"type": "positive",
+"attributes": {
+"animalLootDropRate": 0.5,
+"animalHarvestingTime": -0.7
+}
+},
+{
+"code": "careless",
+"type": "negative",
+"attributes": {
+"oreDropRate": -0.2
+}
+},
+{
+"code": "carpenter",
+"type": "positive",
+"attributes": {
+}
+},
+{
+"code": "charcoalmaker",
+"type": "positive",
+"attributes": {
+"charcoalDropRate": 0.35
+}
+},
+{
+"code": "clumsy",
+"type": "negative",
+"attributes": {
+"armorDurabilityLoss": 0.25
+}
+},
+{
+"code": "clumsyhands",
+"type": "negative",
+"attributes": {
+"oreDropRate": -0.1
+}
+},
+{
+"code": "corrupted",
+"type": "negative",
+"attributes": {
+"maxhealthExtraPoints": -3.5
+}
+},
+{
+"code": "crafty",
+"type": "positive",
+"attributes": {
+}
+},
+{
+"code": "cultivator",
+"type": "positive",
+"attributes": {
+"produceDropRate": 0.3
+}
+},
+{
+"code": "farmhand",
+"type": "positive",
+"attributes": {
+"produceDropRate": 0.1
+}
+},
+{
+"code": "evasive",
+"type": "positive",
+"attributes": {
+"walkspeed": 0.15
+}
+},
+{
+"code": "fasting",
+"type": "positive",
+"attributes": {
+"hungerrate": -0.25
+}
+},
+{
+"code": "forlornhope",
+"type": "positive",
+"attributes": {
+}
+},
+{
+"code": "fragile",
+"type": "negative",
+"attributes": {
+"maxhealthExtraPoints": -2.5
+}
+},
+{
+"code": "frugal",
+"type": "positive",
+"attributes": {
+"hungerrate": -0.1
+}
+},
+{
+"code": "gentletouch",
+"type": "positive",
+"attributes": {
+"stickDropRate": 0.5
+}
+},
+{
+"code": "greenthumb",
+"type": "positive",
+"attributes": {
+}
+},
+{
+"code": "harvester",
+"type": "positive",
+"attributes": {
+"wildCropDropRate": 0.25
+}
+},
+{
+"code": "healer",
+"type": "positive",
+"attributes": {
+"healingeffectivness": 0.25
+}
+},
+{
+"code": "noisy",
+"type": "negative",
+"attributes": {
+"animalSeekingRange": 0.2
+}
+},
+{
+"code": "horticulture",
+"type": "positive",
+"attributes": {
+"fruit-treeDropRate": 2
+}
+},
+{
+"code": "hungry",
+"type": "negative",
+"attributes": {
+"hungerrate": 0.1
+}
+},
+{
+"code": "bulky",
+"type": "negative",
+"attributes": {
+"walkspeed": -0.1
+}
+},
+{
+"code": "lumberer",
+"type": "positive",
+"attributes": {
+"woodDropRate": 0.1
+}
+},
+{
+"code": "mason",
+"type": "positive",
+"attributes": {
+}
+},
+{
+"code": "merchant",
+"type": "positive",
+"attributes": {
+"rustyGearDropRate": 2,
+"temporalGearDropRate": 2
+}
+},
+{
+"code": "miner",
+"type": "positive",
+"attributes": {
+"oreDropRate": 0.5,
+"miningSpeedMul": 1
+}
+},
+{
+"code": "digger",
+"type": "positive",
+"attributes": {
+"oreDropRate": 0.25,
+"miningSpeedMul": 0.5
+}
+},
+{
+"code": "overrider",
+"type": "positive",
+"attributes": {
+"mechanicalsDamageMul": 0.5
+}
+},
+{
+"code": "poorvision",
+"type": "negative",
+"attributes": {
+"meleeWeaponsDamage": -0.2,
+"oreDropRate": -0.1
+}
+},
+{
+"code": "prospector",
+"type": "positive",
+"attributes": {
+"oreDropRate": 0.15,
+"miningSpeedMul": 0.5
+}
+},
+{
+"code": "rangedonly",
+"type": "negative",
+"attributes": {
+"meleeWeaponsDamage": -0.5
+}
+},
+{
+"code": "ranger",
+"type": "positive",
+"attributes": {
+"forageDropRate": 0.5,
+"wildCropDropRate": 0.5
+}
+},
+{
+"code": "quickdraw",
+"type": "positive",
+"attributes": {
+"rangedWeaponsSpeed": 0.1
+}
+},
+{
+"code": "novicearcher",
+"type": "positive",
+"attributes": {
+"rangedWeaponsDamage": 0.1
+}
+},
+{
+"code": "scavenger",
+"type": "positive",
+"attributes": {
+"animalLootDropRate": 0.25,
+"wildCropDropRate": 0.2,
+"forageDropRate": 0.3
+}
+},
+{
+"code": "searcher",
+"type": "positive",
+"attributes": {
+"vesselContentsDropRate": 0.15,
+"rustyGearDropRate": 0.1
+}
+},
+{
+"code": "sluggish",
+"type": "negative",
+"attributes": {
+"miningSpeedMul": -0.25
+}
+},
+{
+"code": "squeamish",
+"type": "negative",
+"attributes": {
+"animalLootDropRate": -0.25,
+"animalHarvestingTime": 0.1
+}
+},
+{
+"code": "stalwart",
+"type": "positive",
+"attributes": {
+"maxhealthExtraPoints": 10
+}
+},
+{
+"code": "stealthy",
+"type": "positive",
+"attributes": {
+"animalSeekingRange": -0.6,
+"walkspeed": 0.15
+}
+},
+{
+"code": "thrifty",
+"type": "positive",
+"attributes": {
+}
+},
+{
+"code": "treelore",
+"type": "positive",
+"attributes": {
+"tree-seedDropRate": 2
+}
+},
+{
+"code": "wanderer",
+"type": "positive",
+"attributes": {
+"miningSpeedMul": 0.25,
+"maxhealthExtraPoints": 5,
+"walkspeed": 0.15
+}
+},
+{
+"code": "warrior",
+"type": "positive",
+"attributes": {
+"meleeWeaponsDamage": 0.25
+}
+},
+{
+"code": "wrecker",
+"type": "positive",
+"attributes": {
+"mechanicalsDamageMul": 0.15
+}
+}
+]

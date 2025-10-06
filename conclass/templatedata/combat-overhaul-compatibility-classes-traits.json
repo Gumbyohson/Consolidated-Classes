@@ -1,0 +1,8 @@
+[
+ {
+  "op": "remove",
+  "path": "/0/traits/0",
+  "file": "config/characterclasses.json",
+  "dependsOn": [{"modid": "combatoverhaul"}]
+ }
+]

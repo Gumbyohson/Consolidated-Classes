@@ -1,0 +1,85 @@
+Notes Section (delete later)
+
+
+    WordList
+
+        passive
+        docile
+        timid
+        anxious
+        nervous
+
+        reckless
+        honed
+        dexterous
+        savvy
+        agile
+        sharp
+        keen
+        accurate
+
+
+TO DO
+    need to do patches
+        woodcutting patches
+        weapon combat >vanilla and CO patches?
+        classTraits
+        cooking?
+    
+
+
+"healingeffectivness"
+"maxhealthExtraPoints"
+"walkspeed"
+"hungerrate"
+
+"armorWalkSpeedAffectedness"
+"armorDurabilityLoss"
+
+"rangedWeaponsDamage"
+"rangedWeaponsSpeed"
+"rangedWeaponsAcc"
+"bowDrawingStrength"
+
+"meleeWeaponsDamage"
+"mechanicalsDamage"
+
+"oreDropRate"
+"miningSpeedMul"
+
+"forageDropRate"
+"wildCropDropRate"
+
+"animalSeekingRange"
+"animalHarvestingTime"
+"animalLootDropRate"
+
+"vesselContentsDropRate"
+"rustyGearDropRate"
+"("wholeVesselLootChance", EnumStatBlendType.FlatSum)"
+"("TemporalGearTLRepairCost", EnumStatBlendType.FlatSum)"
+
+"gliderLiftMax"
+"gliderSpeedMax"
+"jumpHeightMul"
+
+Patches
+"logDropRate"
+"loggingSpeedMul"
+"stickDropRate"
+"treeSeedDropRate"
+"treeCuttingDropRate"
+"domesticCropDropRate"
+"charcoalDropRate"
+"temporalGearDropRate"
+
+"DryGrassDropRate"
+"TuleDropRate"
+"CattailDropRate"
+"FlaxDropRate"
+"clayFormingPoints"
+
+"flaxDropRate"
+"flaxFiberChance"
+"caveStabilityLoss"
+"surfaceStabilityLoss" 

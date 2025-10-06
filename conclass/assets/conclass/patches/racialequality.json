@@ -1,10 +1,10 @@
 [
   {
-    "op": "replace",
-    "path": "/human/AvailableClasses",
-    "file": "racialequality:config/customplayermodels/human-char.json",
-    "value": ["adamani"],
-    "dependsOn": [{"modid": "racialequality"}]
+   "op": "replace",
+   "path": "/human/AvailableClasses",
+   "file": "racialequality:config/customplayermodels/human-char.json",
+   "value": ["adamani"],
+   "dependsOn": [{"modid": "racialequality"}]
   },
   {
    "op": "replace",

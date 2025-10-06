@@ -22,7 +22,7 @@
  "trait-shelteredstone": "<font color=\"#84ff84\">• Sheltered By Stone </font>",
  "traitname-shelteredstone": "Sheltered By Stone",
  "traitdesc-shelteredstone": "No temporal stability loss whilst underground, no matter how deep.",
- 
+
  "trait-stonekin": "<font color=\"#84ff84\">• Stonekin </font>",
  "traitname-stonekin": "Stonekin",
  "traitdesc-stonekin": "+50% ore Mining drops and +100% mining speed.",
@@ -38,7 +38,11 @@
  "trait-claustrophobia": "<font color=\"#ff8484\">• Claustrophobia </font>",
  "traitname-claustrophobia": "Claustrophobia",
  "traitdesc-claustrophobia": "Being underground causes stability loss.",
- 
+
+ "trait-mushroomfarmer": "<font color=\"#84ff84\">• Mushroom farmer</font>",
+ "traitname-mushroomfarmer": "Mushroom farmer",
+ "traitdesc-mushroomfarmer": "Allows underground mushroom farming.",
+
  "characterclass-adamani": "Adamani",
  "characterdesc-adamani": "<font color=\"#99c9f9\"><br>",
  "characterclass-dwarrow": "Dwarrow",

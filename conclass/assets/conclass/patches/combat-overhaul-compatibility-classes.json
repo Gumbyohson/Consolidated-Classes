@@ -9,7 +9,7 @@
   {
    "op": "addmerge",
    "path": "/1/traits",
-   "value": [],
+   "value": [ "axesProficiency" ],
    "file": "config/characterclasses.json",
    "dependsOn": [{"modid": "combatoverhaul"}]
   },
@@ -33,11 +33,5 @@
    "value": [],
    "file": "config/characterclasses.json",
    "dependsOn": [{"modid": "combatoverhaul"}]
-  },
-  {
-    "op": "remove",
-    "path": "/0/traits/0",
-    "file": "config/characterclasses.json",
-    "dependsOn": [{"modid": "combatoverhaul"}]
   }
 ]
