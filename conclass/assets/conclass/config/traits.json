@@ -2,10 +2,12 @@
   {
     "code": "shelteredstone",
     "type": "positive",
-    "attributes": {
-      "oreDropRate": 0.5,
-      "miningSpeedMul": 1
-    }
+    "attributes": {}
+  },
+  {
+    "code": "stonekin",
+    "type": "positive",
+    "attributes": {"oreDropRate": 0.5,"miningSpeedMul": 1}
   },
   {
     "code": "agoraphobia",

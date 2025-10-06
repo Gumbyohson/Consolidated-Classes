@@ -28,9 +28,9 @@
     "dependsOn": [{"modid": "substrate"}]
   },
   {
-  "op": "remove",
-  "path": "/1/traits/0",
+  "op": "addmerge",
+  "path": "/1/traits",
   "file": "config/characterclasses.json",
-  "dependsOn": [{"modid": "substrate", "invert": true}]
+  "dependsOn": [{"modid": "substrate"}]
   }
 ]

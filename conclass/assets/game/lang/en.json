@@ -7,10 +7,26 @@
  "traitname-negative": "trait",
  "traitdesc-negative": "summary",
 
+ "trait-noisy": "<font color=\"#ff8484\">• Noisy </font>",
+ "traitname-noisy": "Noisy",
+ "traitdesc-noisy": "+20% animal detection range.",
+
+ "trait-hungry": "<font color=\"#ff8484\">• Hungry </font>",
+ "traitname-hungry": "Hungry",
+ "traitdesc-hungry": "+10% hunger rate.",
+
+ "trait-powerfulframe": "<font color=\"#84ff84\">• Powerful frame </font>",
+ "traitname-powerfulframe": "Powerful frame",
+ "traitdesc-powerfulframe": "+5 max health and -70% armour walk speed effectedness.",
+
  "trait-shelteredstone": "<font color=\"#84ff84\">• Sheltered By Stone </font>",
  "traitname-shelteredstone": "Sheltered By Stone",
  "traitdesc-shelteredstone": "No temporal stability loss whilst underground, no matter how deep.",
  
+ "trait-stonekin": "<font color=\"#84ff84\">• Stonekin </font>",
+ "traitname-stonekin": "Stonekin",
+ "traitdesc-stonekin": "+50% ore Mining drops and +100% mining speed.",
+
  "trait-delver": "<font color=\"#84ff84\">• Delver </font>",
  "traitname-delver": "Delver",
  "traitdesc-delver": "Slower stability loss while deep underground.",
@@ -36,7 +52,12 @@
 
  "charattribute-attribute-0.0": "positivedescription",
  "charattribute-attribute--0.0": "negativedescription",
- "charattribute-surfaceStabilityLoss--0.008": "Gradual temporal stability loss when outside or when not in a room",
- "charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves",
- "charattribute-delverdeepStabilityLoss--0.4": "-40% slower temporal stability loss when deep underground"
+ "charattribute-surfaceStabilityLoss--0.008": "Gradual temporal stability loss when outside or when not in a room.",
+ "charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves.",
+ "charattribute-delverdeepStabilityLoss--0.4": "-40% slower temporal stability loss when deep underground.",
+ "charattribute-oreDropRate-0.5": "+50% ore Mining drops.",
+ "charattribute-miningSpeedMul-1": "+100% mining speed.",
+ "charattribute-armorWalkSpeedAddectedness-1": "-70% armour walk speed effectedness.",
+ "charattribute-animalSeekingRange-0.2": "+20% animal detection range.",
+ "charattribute-hungry-0.1": "+10% hunger rate."
 }

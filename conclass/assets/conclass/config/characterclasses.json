@@ -20,11 +20,11 @@
           { "type": "item", "code": "game:armor-legs-ITEM-EXAMPLE?" }
           ]
  },
-  {
-   "code": "dwarrow",
-   "traits": [ "mushroomfarmer","agoraphobia", "shelteredstone","powerfulframe", "noisy", "mender","hungry"],
-   "_comment": "IMPORTANT; leave mushroomfarmer as the first for the substrate patch. Other traits summary sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
-   "gear": [      
+ {
+  "code": "dwarrow",
+  "traits": [ "agoraphobia", "shelteredstone", "stonekin", "powerfulframe", "noisy", "mender","hungry"],
+  "_comment": "traits: sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
+  "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
           { "type": "item", "code": "game:clothes-nadiya-upperbody-innkeeper", "comment": "NEED_MODDED" },
           { "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
@@ -35,7 +35,7 @@
           { "type": "item", "code": "game:clothes-waist-heavy-leather-belt" }
           ]
  },
-  {
+ {
   "code": "ieldlis",
   "traits": ["claustrophobia","bowyer","invisible","treekin","light"],
   "_comment:": "underground sanity loss, access to crude bow and awwors and quiver, High animal invisibility, wildcrop/foraging bonus, debuff armor walkspeed",

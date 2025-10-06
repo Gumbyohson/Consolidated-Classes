@@ -1,0 +1,79 @@
+[
+    {
+        "op": "remove",
+        "path": "/0/attributes/bowDrawingStrength",
+        "enabled": true,
+        "file": "config/traits",
+        "dependsOn": [
+            {
+                "modid": "combatoverhaul"
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/1/attributes/bowDrawingStrength",
+        "enabled": true,
+        "file": "config/traits",
+        "dependsOn": [
+            {
+                "modid": "combatoverhaul"
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/2/attributes/bowDrawingStrength",
+        "enabled": true,
+        "file": "config/traits",
+        "dependsOn": [
+            {
+                "modid": "combatoverhaul"
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/3/attributes/bowDrawingStrength",
+        "enabled": true,
+        "file": "config/traits",
+        "dependsOn": [
+            {
+                "modid": "combatoverhaul"
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/4/attributes/armorWalkSpeedAffectedness",
+        "enabled": true,
+        "file": "config/traits",
+        "dependsOn": [
+            {
+                "modid": "combatoverhaul"
+            }
+        ]
+    },
+    {
+        "op": "remove",
+        "path": "/5/attributes/armorWalkSpeedAffectedness",
+        "enabled": true,
+        "file": "config/traits",
+        "dependsOn": [
+            {
+                "modid": "combatoverhaul"
+            }
+        ]
+    }
+    //{
+        //"op": "remove",
+       //"path": "/6/attributes/armorWalkSpeedAffectedness",
+       // "enabled": true,
+       // "file": "config/traits",
+       // "dependsOn": [
+        //    {
+      //          "modid": "combatoverhaul"
+      //      }
+     //   ]
+    //}
+]
