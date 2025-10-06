@@ -39,9 +39,25 @@
  "traitname-claustrophobia": "Claustrophobia",
  "traitdesc-claustrophobia": "Being underground causes stability loss.",
 
- "trait-mushroomfarmer": "<font color=\"#84ff84\">• Mushroom farmer</font>",
+ "trait-mushroomfarmer": "<font color=\"#84ff84\">• Mushroom farmer </font>",
  "traitname-mushroomfarmer": "Mushroom farmer",
- "traitdesc-mushroomfarmer": "Allows underground mushroom farming.",
+ "traitdesc-mushroomfarmer": "Dwarrow exclusive mushroom farming.",
+
+ "trait-treekin": "<font color=\"#84ff84\">• Treekin </font>",
+ "traitname-treekin": "Treekin",
+ "traitdesc-treekin": "One with nature. +40% wild crop and foraging drops.",
+
+ "trait-invisible": "<font color=\"#84ff84\">• Invisible </font>",
+ "traitname-invisible": "Invisible",
+ "traitdesc-invisible": "-90% animal detection range.",
+
+ "trait-lightweight": "<font color=\"#84ff84\">• Lightweight </font>",
+ "traitname-lightweight": "Lightweight",
+ "traitdesc-lightweight": "+40% walk speed, -70% animal detection range, -50% hunger rate.",
+
+ "trait-natureattuned": "<font color=\"#84ff84\">• Nature attuned </font>",
+ "traitname-natureattuned": "Nature attuned",
+ "traitdesc-natureattuned": "+20% walk speed, -90% animal detection range, -30% hunger rate.",
 
  "characterclass-adamani": "Adamani",
  "characterdesc-adamani": "<font color=\"#99c9f9\"><br>",
@@ -61,7 +77,11 @@
  "charattribute-delverdeepStabilityLoss--0.4": "-40% slower temporal stability loss when deep underground.",
  "charattribute-oreDropRate-0.5": "+50% ore Mining drops.",
  "charattribute-miningSpeedMul-1": "+100% mining speed.",
- "charattribute-armorWalkSpeedAddectedness-1": "-70% armour walk speed effectedness.",
+ "charattribute-armorWalkSpeedAffectedness--0.7": "-70% armour walk speed effectedness.",
  "charattribute-animalSeekingRange-0.2": "+20% animal detection range.",
- "charattribute-hungry-0.1": "+10% hunger rate."
+ "charattribute-hungerrate-0.1": "+10% hunger rate.",
+ "charattribute-wildCropDropRate-0.4": "+40% wild crop drops",
+ "charattribute-foragingDropRate-0.4": "+40% foraging drops",
+ "charattribute-animalSeekingRange--0.9": "-90% animal detection range.",
+ "charattribute-armorWalkSpeedAffectedness-0.5": "+50% armour walk speed effectedness."
 }

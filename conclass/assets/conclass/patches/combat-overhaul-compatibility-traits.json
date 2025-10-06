@@ -1,64 +1,10 @@
-//[
-    //{
-    //    "op": "remove",
-    //    "path": "/0/attributes/bowDrawingStrength",
-    //    "enabled": true,
-    //    "file": "config/traits",
-    //    "dependsOn": [
-    //        {
-    //            "modid": "combatoverhaul"
-    //        }
-    //    ]
-    //},
-    //{
-    //    "op": "remove",
-    //    "path": "/1/attributes/bowDrawingStrength",
-    //    "enabled": true,
-    //    "file": "config/traits",
-    //    "dependsOn": [
-    //        {
-    //            "modid": "combatoverhaul"
-    //        }
-    //    ]
-    //},
-    //{
-    //    "op": "remove",
-    //    "path": "/2/attributes/bowDrawingStrength",
-    //    "enabled": true,
-    //    "file": "config/traits",
-    //    "dependsOn": [
-    //        {
-    //            "modid": "combatoverhaul"
-    //        }
-    //    ]
-    //},
-    //{
-    //    "op": "remove",
-    //    "path": "/3/attributes/bowDrawingStrength",
-    //    "enabled": true,
-    //    "file": "config/traits",
-    //    "dependsOn": [
-    //        {
-    //            "modid": "combatoverhaul"
-    //        }
-    //    ]
-    //},
-    //{
-    //    "op": "remove",
-    //    "path": "/4/attributes/armorWalkSpeedAffectedness",
-    //    "enabled": true,
-    //    "file": "config/traits",
-    //    "dependsOn": [
-    //        {
-    //            "modid": "combatoverhaul"
-    //        }
-    //    ]
-    //},
-    //{
-    // "op": "remove",
-    // "path": "/5/attributes/armorWalkSpeedAffectedness",
-    // "enabled": true,
-    // "file": "config/traits",
-    // "dependsOn": [{"modid": "combatoverhaul"}]
-    //}
-//]
+[
+ {
+  "_comment": "change the stabby attributes for Urroka class when CO is installed.",
+  "op": "replace",
+  "path": "/0/attributes",
+  "value": [ "oneHandedSwordsProficiency": 0.3 ],
+  "file": "config/traits.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ }
+]

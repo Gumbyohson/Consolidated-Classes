@@ -1,37 +1,37 @@
 [
-  {
-   "op": "addmerge",
-   "path": "/0/traits",
-   "value": [],
-   "file": "config/characterclasses.json",
-   "dependsOn": [{"modid": "combatoverhaul"}]
-  },
-  {
-   "op": "addmerge",
-   "path": "/1/traits",
-   "value": [ "axesProficiency" ],
-   "file": "config/characterclasses.json",
-   "dependsOn": [{"modid": "combatoverhaul"}]
-  },
-  {
-   "op": "addmerge",
-   "path": "/2/traits",
-   "value": [],
-   "file": "config/characterclasses.json",
-   "dependsOn": [{"modid": "combatoverhaul"}]
-  },
-  {
-   "op": "addmerge",
-   "path": "/3/traits",
-   "value": [],
-   "file": "config/characterclasses.json",
-   "dependsOn": [{"modid": "combatoverhaul"}]
-  },
-  {
-   "op": "addmerge",
-   "path": "/4/traits",
-   "value": [],
-   "file": "config/characterclasses.json",
-   "dependsOn": [{"modid": "combatoverhaul"}]
-  }
+ {
+  "op": "addmerge",
+  "path": "/0/traits",
+  "value": [],
+  "file": "config/characterclasses.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ },
+ {
+  "op": "addmerge",
+  "path": "/1/traits",
+  "value": [ "axesProficiency" ],
+  "file": "config/characterclasses.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ },
+ {
+  "op": "addmerge",
+  "path": "/2/traits",
+  "value": [],
+  "file": "config/characterclasses.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ },
+ {
+  "op": "addmerge",
+  "path": "/3/traits",
+  "value": [],
+  "file": "config/characterclasses.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ },
+ {
+  "op": "addmerge",
+  "path": "/4/traits",
+  "value": [ "oneHandedSwordsProficiency", "slingProficiency", "javelinProficiency" ],
+  "file": "config/characterclasses.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ }
 ]
