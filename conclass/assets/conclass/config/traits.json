@@ -5,6 +5,11 @@
   "attributes": { "meleeWeaponsDamage": 0.1 }
  },
  {
+  "code": "smallhands",
+  "type": "negative",
+  "attributes": { "meleeWeaponsDamage": -0.1 }
+ },
+ {
   "code": "shelteredstone",
   "type": "positive",
   "attributes": {}
@@ -117,7 +122,7 @@
   "code": "rapidhealing",
   "type": "positive",
   "attributes": {
-   "healingeffectivness": 0.35
+   "healingEffectiveness": 0.35
   }
  },
  {

@@ -30,7 +30,14 @@
  {
   "op": "addmerge",
   "path": "/4/traits",
-  "value": [ "oneHandedSwordsProficiency", "slingProficiency", "javelinProficiency" ],
+  "value": [ "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands" ],
+  "file": "config/characterclasses.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ },
+ {
+  "op": "remove",
+  "path": "/4/traits/0",
+  "value": ["stabby"],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  }

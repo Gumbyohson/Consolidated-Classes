@@ -1,0 +1,127 @@
+{
+ "game:trait-stabby": "<font color=\"#84ff84\">• Stabby </font>",
+ "game:traitname-stabby": "Stabby",
+ "game:traitdesc-stabby": "+10% melee damage",
+
+ "game:trait-advancedonehandedswordsproficiency": "<font color=\"#84ff84\">• Advanced one-handed swords proficiency </font><font color=\"#eeee84\">(Combat Overhaul)</font> ",
+ "game:traitname-advancedonehandedswordsproficiency": "Advanced one-handed swords proficiency",
+ "game:traitdesc-advancedonehandedswordsproficiency": "+50 onehanded swords attack speed",
+
+ "game:trait-noisy": "<font color=\"#ff8484\">• Noisy </font>",
+ "game:traitname-noisy": "Noisy",
+ "game:traitdesc-noisy": "+20% animal detection range.",
+
+ "game:trait-smallhands": "<font color=\"#ff8484\">• Small hands </font>",
+ "game:traitname-smallhands": "Small hands",
+ "game:traitdesc-smallhands": "-10% melee damage.",
+
+ "game:trait-scavenger": "<font color=\"#84ff84\">• Scavenger </font>",
+ "game:traitname-scavenger": "Scavenger",
+ "game:traitdesc-scavenger": "+10% animal drops, +10% wild crop drops, +10% foraging drops",
+
+ "game:trait-looter": "<font color=\"#84ff84\">• Looter </font>",
+ "game:traitname-looter": "Looter",
+ "game:traitdesc-looter": "+30% ruin vessel content drops, +15% rusty gear drops, +15% chance of whole vessel loot.",
+
+ "game:trait-hungry": "<font color=\"#ff8484\">• Hungry </font>",
+ "game:traitname-hungry": "Hungry",
+ "game:traitdesc-hungry": "+10% hunger rate.",
+
+ "game:trait-weedwhisperer": "<font color=\"#ff8484\">• Weed whisperer </font>",
+ "game:traitname-weedwhisperer": "Weed whisperer",
+ "game:traitdesc-weedwhisperer": "-30% farm crop drops.",
+
+ "game:trait-powerfulframe": "<font color=\"#84ff84\">• Powerful frame </font>",
+ "game:traitname-powerfulframe": "Powerful frame",
+ "game:traitdesc-powerfulframe": "+5 max health and -70% armour walk speed effectedness.",
+
+ "game:trait-shelteredstone": "<font color=\"#84ff84\">• Sheltered By Stone </font>",
+ "game:traitname-shelteredstone": "Sheltered By Stone",
+ "game:traitdesc-shelteredstone": "No temporal stability loss whilst underground, no matter how deep.",
+
+ "game:trait-stonekin": "<font color=\"#84ff84\">• Stonekin </font>",
+ "game:traitname-stonekin": "Stonekin",
+ "game:traitdesc-stonekin": "+50% ore Mining drops and +100% mining speed.",
+
+ "game:trait-delver": "<font color=\"#84ff84\">• Delver </font>",
+ "game:traitname-delver": "Delver",
+ "game:traitdesc-delver": "Slower stability loss while deep underground.",
+
+ "game:trait-agoraphobia": "<font color=\"#ff8484\">• Agoraphobia </font>",
+ "game:traitname-agoraphobia": "Agoraphobia",
+ "game:traitdesc-agoraphobia": "Being outdoors or above ground slowly decreases your temporal stability.",
+
+ "game:trait-claustrophobia": "<font color=\"#ff8484\">• Claustrophobia </font>",
+ "game:traitname-claustrophobia": "Claustrophobia",
+ "game:traitdesc-claustrophobia": "Being underground causes stability loss.",
+
+ "game:trait-mushroomfarmer": "<font color=\"#84ff84\">• Mushroom farmer </font>",
+ "game:traitname-mushroomfarmer": "Mushroom farmer",
+ "game:traitdesc-mushroomfarmer": "Dwarrow exclusive mushroom farming.",
+
+ "game:trait-treekin": "<font color=\"#84ff84\">• Treekin </font>",
+ "game:traitname-treekin": "Treekin",
+ "game:traitdesc-treekin": "One with nature. +40% wild crop and foraging drops.",
+
+ "game:trait-small": "<font color=\"#ff8484\">• Small </font>",
+ "game:traitname-small": "Small",
+ "game:traitdesc-small": "-6 Max health, +20% armor walk speed effectedness.",
+
+ "game:trait-invisible": "<font color=\"#84ff84\">• Invisible </font>",
+ "game:traitname-invisible": "Invisible",
+ "game:traitdesc-invisible": "-90% animal detection range.",
+
+ "game:trait-rapidhealing": "<font color=\"#84ff84\">• Rapid healing </font>",
+ "game:traitname-rapidhealing": "Rapid healing",
+ "game:traitdesc-rapidhealing": "+35% effect from healing.",
+
+ "game:trait-lightweight": "<font color=\"#84ff84\">• Lightweight </font>",
+ "game:traitname-lightweight": "Lightweight",
+ "game:traitdesc-lightweight": "+40% walk speed, -70% animal detection range, -50% hunger rate.",
+
+ "game:trait-natureattuned": "<font color=\"#84ff84\">• Nature attuned </font>",
+ "game:traitname-natureattuned": "Nature attuned",
+ "game:traitdesc-natureattuned": "+20% walk speed, -90% animal detection range, -30% hunger rate.",
+
+ "game:characterclass-adamani": "Adamani",
+ "game:characterdesc-adamani": "<font color=\"#99c9f9\"><br>",
+ "game:characterclass-dwarrow": "Dwarrow",
+ "game:characterdesc-dwarrow": "<font color=\"#99c9f9\">Dwarrow is the backbone of the team for smithing and ore. If the other classes are for food or clothes, the Dwarrow is for metal. The Dwarrow has an affinity for stone and metal. They are shorter and slower than most other races, but built of corded muscle and can take and give a beating.<br>",
+ "game:characterclass-ieldlis": "Ieldlis",
+ "game:characterdesc-ieldlis": "<font color=\"#99c9f9\"><br>",
+ "game:characterclass-krohak": "Krohak",
+ "game:characterdesc-krohak": "<font color=\"#99c9f9\"><br>",
+ "game:characterclass-urroka": "Urroka",
+ "game:characterdesc-urroka": "<font color=\"#99c9f9\"><br>",
+
+ "game:charattribute-attribute-0.0": "positivedescription",
+ "game:charattribute-attribute--0.0": "negativedescription",
+ "game:charattribute-surfaceStabilityLoss--0.008": "Gradual temporal stability loss when outside or when not in a room",
+ "game:charattribute-caveStabilityLoss-0.1": "+10% faster temporal stability loss in caves.",
+ "game:charattribute-delverdeepStabilityLoss--0.4": "-40% slower temporal stability loss when deep underground",
+ "game:charattribute-maxhealthExtraPoints--6": "-6 max health",
+ "game:charattribute-walkspeed-0.3": "+30% walking speed",
+ "game:charattribute-oreDropRate-0.5": "+50% ore mining drops",
+ "game:charattribute-miningSpeedMul-1": "+100% mining speed",
+ "game:charattribute-oreDropRate-0.2": "+20% ore mining drops",
+ "game:charattribute-miningSpeedMul-0.2": "+20% mining speed",
+ "game:charattribute-armorWalkSpeedAffectedness--0.7": "-70% armour walk speed effectedness",
+ "game:charattribute-armorWalkSpeedAffectedness-0.2": "+20% armour walk speed effectedness",
+ "game:charattribute-animalSeekingRange-0.2": "+20% animal detection range",
+ "game:charattribute-animalSeekingRange--0.5": "-50% animal detection range",
+ "game:charattribute-hungerrate-0.1": "+10% hunger rate",
+ "game:charattribute-hungerrate--0.3": "-30% hunger rate",
+ "game:charattribute-farmDropRate--0.3": "-30% farm crop drops",
+ "game:charattribute-wildCropDropRate-0.4": "+40% wild crop drops",
+ "game:charattribute-wildCropDropRate-0.1": "+10% wild crop drops",
+ "game:charattribute-foragingDropRate-0.4": "+40% foraging drops",
+ "game:charattribute-vesselContentsDropRate-0.3": "+30% ruin vessel content drops",
+ "game:charattribute-rustyGearDropRate-0.15": "+15% rusty gear drops",
+ "game:charattribute-wholeVesselLootChance-0.15": "+15% chance of whole vessel loot",
+ "game:charattribute-animalSeekingRange--0.9": "-90% animal detection range",
+ "game:charattribute-armorWalkSpeedAffectedness-0.5": "+50% armour walk speed effectedness",
+ "game:charattribute-meleeWeaponsDamage--0.1": "-10% melee weapons damage",
+ "game:charattribute-meleeWeaponsDamage-0.1": "+10% melee weapons damage",
+ "game:charattribute-oneHandedSwordsProficiency-0.5": "+50% one handed swords attack speed",
+ "game:charattribute-healingEffectiveness-0.35": "+35% effect from healing"
+}
