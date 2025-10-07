@@ -1,0 +1,20 @@
+[
+ {
+  "op": "replace",
+  "path": "/0/requiresTrait",
+  "file": "game:/recipes/grid/tool/sling.json",
+  "value": { "requiresTrait": "wildernesswits" }
+ },
+ {
+  "op": "replace",
+  "path": "/1/requiresTrait",
+  "file": "game:/recipes/grid/tool/sling.json",
+  "value": { "requiresTrait": "wildernesswits" }
+ },
+ {
+  "op": "replace",
+  "path": "/2/requiresTrait",
+  "file": "game:/recipes/grid/tool/sling.json",
+  "value": { "requiresTrait": "wildernesswits" }
+ },
+]

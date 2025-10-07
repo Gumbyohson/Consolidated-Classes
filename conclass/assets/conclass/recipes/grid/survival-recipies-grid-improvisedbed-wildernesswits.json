@@ -1,0 +1,19 @@
+[
+ {
+  "ingredientPattern": "___\tHHH",
+  "requiresTrait": "wildernesswits",
+  "ingredients": {
+   "H": {
+    "type": "block",
+    "code": "game:hay-normal-ud"
+   }
+  },
+  "width": 3,
+  "height": 2,
+  "recipeGroup": 1,
+  "output": {
+   "type": "block",
+   "code": "game:bed-wood-head-north"
+  }
+ }
+]

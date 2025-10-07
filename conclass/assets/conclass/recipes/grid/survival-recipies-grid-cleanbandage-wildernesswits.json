@@ -1,0 +1,33 @@
+[
+ {
+  "ingredientPattern": "H,C,K",
+  "requiresTrait": "wildernesswits",
+  "enabled": true,
+  "shapeless": false,
+  "ingredients": {
+   "H": {
+    "type": "item",
+    "code": "game:flower-horsetail-free",
+    "quantity": 4
+   },
+   "C": {
+    "type": "item",
+    "code": "game:cattailtops",
+    "quantity": 2
+   },
+   "K": {
+    "type": "item",
+    "code": "game:knife-*",
+    "isTool": true
+   }
+  },
+  "width": 1,
+  "height": 3,
+  "recipeGroup": 3,
+  "output": {
+   "type": "item",
+   "code": "game:poultice-linen-horsetail",
+   "quantity": 2
+  }
+ }
+]
