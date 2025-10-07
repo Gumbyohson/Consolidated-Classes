@@ -10,5 +10,29 @@
   },
   "file": "config/traits.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
+ },
+ {
+  "_comment": "replaces Archer with twohandedswordsdeficency when CO is installed",
+  "op": "replace",
+  "path": "/1",
+  "value": {
+   "code": "twohandedswordsdeficiency",
+   "type": "negative",
+   "attributes": { "twoHandedSwordsProficiency": -0.5 }
+  },
+  "file": "config/traits.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ },
+ {
+  "_comment": "adds advancedbowsProficiency when CO is installed",
+  "op": "replace",
+  "path": "/2",
+  "value": {
+   "code": "advancedbowsproficiency",
+   "type": "positive",
+   "attributes": { "bowsProficiency": 1.0 }
+  },
+  "file": "config/traits.json",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
  }
 ]

@@ -14,9 +14,10 @@
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
  {
-  "op": "addmerge",
+  "_comment": "replaces all Ieldlis traits when CO is installed instead of adding and also removing",
+  "op": "replace",
   "path": "/2/traits",
-  "value": [],
+  "value": [ "bowyer", "elusive", "natureattuned", "treekin", "ieldlisforester", "plantsinger", "thin", "pious", "claustrophobia", "clothier", "advancedbowsproficiency", "halberdsProficiency", "canParryProjectiles", "twohandedswordsdeficiency" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
@@ -28,16 +29,9 @@
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
  {
-  "op": "addmerge",
+  "op": "replace",
   "path": "/4/traits",
-  "value": [ "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands" ],
-  "file": "config/characterclasses.json",
-  "dependsOn": [ { "modid": "combatoverhaul" } ]
- },
- {
-  "op": "remove",
-  "path": "/4/traits/0",
-  "value": ["stabby"],
+  "value": [ "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits", "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  }

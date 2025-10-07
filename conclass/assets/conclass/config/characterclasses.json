@@ -37,8 +37,8 @@
  },
  {
   "code": "ieldlis",
-  "traits": ["claustrophobia","bowyer","treekin","natureattuned"],
-  "_comment:": "underground sanity loss, access to crude bow and arrows and quiver, High animal invisibility, wildcrop/foraging bonus, debuff armor walkspeed",
+  "traits": [ "archer", "bowyer", "elusive", "natureattuned", "treekin", "ieldlisforester", "plantsinger", "thin", "pious", "claustrophobia", "clothier" ],
+  "_comment:": "Archer must remain first in the list for CO patch. Traits: better ranged, underground sanity loss, access to crude bow and arrows and quiver, High animal invisibility, wildcrop/foraging bonus, tree buffs, farming buffs, debuff armor walkspeed",
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
           { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },

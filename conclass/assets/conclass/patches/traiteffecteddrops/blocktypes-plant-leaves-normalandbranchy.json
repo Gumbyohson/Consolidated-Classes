@@ -1,12 +1,6 @@
 [
  {
   "op": "addmerge",
-  "path": "/drops/0/dropModbyStat",
-  "value": "logDropRate",
-  "file": "game:blocktypes/wood/woodtyped/log.json"
- },
- {
-  "op": "addmerge",
   "path": "/drops/0/quantityByType/dropModbyStat",
   "value": "saplingDropRate",
   "file": "game:blocktypes/plant/leaves/normal.json"
