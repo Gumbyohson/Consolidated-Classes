@@ -2,19 +2,33 @@
  {
   "op": "replace",
   "path": "/0/requiresTrait",
-  "file": "game:/recipes/grid/tool/sling.json",
-  "value": { "requiresTrait": "wildernesswits" }
+  "file": "game:recipes/grid/tool/sling.json",
+  "value": "wildernesswits"
  },
  {
   "op": "replace",
   "path": "/1/requiresTrait",
-  "file": "game:/recipes/grid/tool/sling.json",
-  "value": { "requiresTrait": "wildernesswits" }
+  "file": "game:recipes/grid/tool/sling.json",
+  "value": "wildernesswits"
  },
  {
   "op": "replace",
   "path": "/2/requiresTrait",
-  "file": "game:/recipes/grid/tool/sling.json",
-  "value": { "requiresTrait": "wildernesswits" }
+  "file": "game:recipesgrid/tool/sling.json",
+  "value": "wildernesswits"
  },
+ {
+  "op": "replace",
+  "path": "/0/requiresTrait",
+  "file": "combatoverhaul:recipes/grid/sling.json",
+  "value": "wildernesswits",
+  "dependsOn": [{"modid": "combatoverhaul"}]
+ },
+ {
+  "op": "replace",
+  "path": "/1/requiresTrait",
+  "file": "combatoverhaul:recipes/grid/sling.json",
+  "value": "wildernesswits",
+  "dependsOn": [ { "modid": "combatoverhaul" } ]
+ }
 ]

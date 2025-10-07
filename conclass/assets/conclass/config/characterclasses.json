@@ -71,7 +71,7 @@
  },
  {
   "code": "urroka",
-  "traits": [ "stabby", "delver", "lightweight", "rapidhealing", "scavenger", "improviser", "looter", "small", "weedwhisperer", "wildernesswits" ],
+  "traits": [ "stabby", "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits" ],
   "_comment": "slower underground sanity loss, less hungry, faster speed, negative armorspeed,healing effectiveness,animal/wildcrop/foraging bonus",
   "gear": [
           { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },

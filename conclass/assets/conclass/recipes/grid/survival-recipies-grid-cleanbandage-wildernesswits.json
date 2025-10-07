@@ -6,7 +6,7 @@
   "shapeless": false,
   "ingredients": {
    "H": {
-    "type": "item",
+    "type": "block",
     "code": "game:flower-horsetail-free",
     "quantity": 4
    },

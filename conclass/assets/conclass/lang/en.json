@@ -11,7 +11,7 @@
  "game:traitname-noisy": "Noisy",
  "game:traitdesc-noisy": "+20% animal detection range.",
 
- "game:trait-wildernesswits": "<font color=\"#ff8484\">• Wilderness wits </font>",
+ "game:trait-wildernesswits": "<font color=\"#84ff84\">• Wilderness wits </font>",
  "game:traitname-wildernesswits": "Wilderness wits",
  "game:traitdesc-wildernesswits": "Access to craft slings, improvised bed, bandage, and knife",
 
