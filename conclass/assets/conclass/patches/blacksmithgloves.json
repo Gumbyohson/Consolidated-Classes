@@ -1,0 +1,9 @@
+[
+ {
+  "op": "replace",
+  "path": "/1/gear/6/code",
+  "file": "config/characterclasses.json",
+  "value": "blacksmithgloves:blacksmithgloves",
+  "dependsOn": [ { "modid": "blacksmithgloves" } ]
+ }
+]
