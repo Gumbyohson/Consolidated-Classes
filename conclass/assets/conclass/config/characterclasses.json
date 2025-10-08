@@ -18,9 +18,9 @@
   "_comment": "traits: sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
-          { "type": "item", "code": "game:clothes-upperbody-blacksmith-shirt", "comment": "modded nadiyan innkeeper shirt" },
+          { "type": "item", "code": "clothes-upperbody-blacksmith-shirt", "comment": "modded nadiyan innkeeper shirt" },
           { "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
-          { "type": "item", "code": "game:clothes-foot-blacksmith-boots", "comment": "modded metalcap boots" },
+          { "type": "item", "code": "clothes-foot-blacksmith-boots", "comment": "modded metalcap boots" },
           { "type": "item", "code": "game:clothes-face-glasses-clockmaker" },
           { "type": "item", "code": "clothes-arm-blacksmith-bracers", "comment": "modded nadiyan guard bracers" },
           { "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },

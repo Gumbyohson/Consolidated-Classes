@@ -19,7 +19,7 @@
   "attributes": {
     "clothescategory": "arm",
     "wearableAttachment": true,
-    "warmth": 0
+    "warmth": 0.5
   },
  "shapeByType": {
   "*-blacksmith-bracers": {
