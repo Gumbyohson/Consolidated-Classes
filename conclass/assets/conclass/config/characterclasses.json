@@ -23,7 +23,7 @@
           { "type": "item", "code": "clothes-foot-blacksmith-boots", "comment": "modded metalcap boots" },
           { "type": "item", "code": "game:clothes-face-glasses-clockmaker" },
           { "type": "item", "code": "clothes-arm-blacksmith-bracers", "comment": "modded nadiyan guard bracers" },
-          { "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+          { "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" , "comment": "need modded" },
           { "type": "item", "code": "game:clothes-waist-heavy-leather-belt" }
           ]
  },
