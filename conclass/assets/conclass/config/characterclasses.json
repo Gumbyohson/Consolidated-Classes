@@ -58,7 +58,7 @@
           { "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
           { "type": "item", "code": "game:clothes-foot-hunter-boots" },
           { "type": "item", "code": "game:clothes-arm-prisoner-binds" },
-          { "type": "item", "code": "game:clothes-waist-heavy-belt" },
+          { "type": "item", "code": "game:clothes-waist-heavy-belt" }
           ]
  },
  {
