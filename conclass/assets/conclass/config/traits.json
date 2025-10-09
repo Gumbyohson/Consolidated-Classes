@@ -70,10 +70,11 @@
  },
  {
   "code": "titan",
+  "_comment":  "changed from 90 % down to the 50 from the doc",
   "type": "positive",
   "attributes": {
    "maxhealthExtraPoints": 10,
-   "armorWalkSpeedAffectedness": -0.9
+    "armorWalkSpeedAffectedness": -0.5 
   }
  },
  {
@@ -122,7 +123,7 @@
   "code": "lightweight",
   "type": "positive",
   "attributes": {
-   "walkspeed": 0.3,
+   "walkspeed": 0.5,
    "animalSeekingRange": -0.5,
    "hungerrate": -0.3
   }
@@ -252,5 +253,13 @@
    "rustyGearDropRate": -0.15,
    "wholeVesselLootChance": -0.15
   }
+ },
+ {
+  "code": "gardener",
+  "type": "positive",
+  "attributes": {
+  "farmdroprate": 0.2 
+  }
  }
+
 ]

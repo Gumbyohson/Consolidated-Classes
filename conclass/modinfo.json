@@ -3,7 +3,7 @@
   "modid": "conclass",
   "name": "Consolidated Classes",
   "side": "universal",
-  "authors": [ "Gumbyohson", "Exonis" ],
+  "authors": [ "Gumbyohson", "Exonis", "FilthyGoblin" ],
   "description": "",
   "version": "0.0.1",
   "dependencies": { "game": "" },
