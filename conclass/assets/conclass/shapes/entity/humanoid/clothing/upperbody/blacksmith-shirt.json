@@ -13,7 +13,7 @@
   ]
  },
  "textures": {
-  "shirt": "entity/humanoid/dwarrow/upperbody/shortsleeve/blacksmith-shirt"
+  "shirt": "entity/humanoid/clothing/upperbody/blacksmith-shirt"
  },
  "elements": [
   {

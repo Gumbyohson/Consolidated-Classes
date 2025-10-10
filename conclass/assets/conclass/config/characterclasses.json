@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": ["gardener", "clothier", "civil", "kind"],
+  "traits": [ "gardener", "clothier", "civil", "kind", "builtforlabour", "jackofalltrades", "Tinkerer" ],
   "gear": [
           { "type": "item", "code": "game:clothes-head-straw-hat" },
           { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
@@ -24,7 +24,7 @@
           { "type": "item", "code": "game:clothes-face-glasses-clockmaker" },
           { "type": "item", "code": "clothes-arm-blacksmith-bracers", "comment": "modded nadiyan guard bracers" },
           { "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" , "comment": "need modded" },
-          { "type": "item", "code": "game:clothes-waist-heavy-leather-belt" }
+          { "type": "item", "code": "game:clothes-waist-heavy-tool-belt" }
           ]
  },
  {
@@ -32,26 +32,14 @@
   "traits": [ "archer", "bowyer", "elusive", "natureattuned", "treekin", "ieldlisforester", "plantsinger", "thin", "pious", "claustrophobia", "clothier" ],
   "_comment:": "Archer must remain first in the list for CO patch. Traits: better ranged, underground sanity loss, access to crude bow and arrows and quiver, High animal invisibility, wildcrop/foraging bonus, tree buffs, farming buffs, debuff armor walkspeed",
   "gear": [
-          { "type": "item", "code": "game:clothes-head-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-shoulder-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-upperbody-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-upperbodyover-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-lowerbody-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-foot-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-neck-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-emblem-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-face-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-arm-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-hand-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:clothes-waist-ITEM-EXAMPLE" },
-          { "type": "item", "code": "game:armor-head-ITEM-EXAMPLE?" },
-          { "type": "item", "code": "game:armor-body-ITEM-EXAMPLE?" },
-          { "type": "item", "code": "game:armor-legs-ITEM-EXAMPLE?" }
+          { "type": "item", "code": "clothes-shoulder-ieldlis-cloak" },
+          { "type": "item", "code": "clothes-upperbody-ieldlis-tunic" },
+          { "type": "item", "code": "clothes-foot-ieldlis-boots" }
           ]
  },
  {
   "code": "krohak",
-  "traits": ["butcher","rockcrusher","titan","ravenous"],
+  "traits": ["butcher","rockcrusher","titan","ravenous", "loudbelly", "heavyhanded"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
@@ -71,7 +59,7 @@
           { "type": "item", "code": "game:clothes-foot-peasent-slippers" },
           { "type": "item", "code": "game:clothes-face-miner" },
           { "type": "item", "code": "game:clothes-hand-malefactor-gloves" },
-          { "type": "item", "code": "game:clothes-waist-waist-rottenking" }
+          { "type": "item", "code": "game:clothes-waist-rottenking" }
           ]
  }
 ]

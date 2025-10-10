@@ -14,7 +14,7 @@
   ]
  },
  "textures": {
-  "shoes": "entity/humanoid/dwarrow/foot/blacksmith-boots"
+  "shoes": "entity/humanoid/clothing/foot/blacksmith-boots"
  },
  "elements": [
   {

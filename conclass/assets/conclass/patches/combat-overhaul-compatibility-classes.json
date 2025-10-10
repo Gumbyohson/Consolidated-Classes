@@ -9,7 +9,7 @@
  {
   "op": "addmerge",
   "path": "/1/traits",
-  "value": [ "axesProficiency" ],
+  "value": [ "axesProficiency", "macesProficiency", "clubsProficiency" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
@@ -24,7 +24,7 @@
  {
   "op": "addmerge",
   "path": "/3/traits",
-  "value": [],
+  "value": [ "twohandedSwordsProficiency", "axesProficiency","macesProficiency","clubsProficiency"],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },

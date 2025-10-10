@@ -59,7 +59,6 @@
     "type": "negative",
     "attributes":  {"hungerrate": 0.30}
   },
-
   {
     "code": "health1-indominitable",
     "type": "positive",
