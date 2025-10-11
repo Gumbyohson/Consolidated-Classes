@@ -34,6 +34,7 @@
   "gear": [
           { "type": "item", "code": "clothes-shoulder-ieldlis-cloak" },
           { "type": "item", "code": "clothes-upperbody-ieldlis-tunic" },
+          { "type": "item", "code": "game:clothes-lowerbody-fine-trousers" },
           { "type": "item", "code": "clothes-foot-ieldlis-boots" }
           ]
  },
