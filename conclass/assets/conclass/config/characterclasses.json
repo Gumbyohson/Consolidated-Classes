@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": [ "gardener", "clothier", "civil", "kind", "builtforlabour", "jackofalltrades", "Tinkerer" ],
+  "traits": [ "gardener", "clothier", "civil", "kind", "builtforlabour", "jackofalltrades", "tinkerer" ],
   "gear": [
           { "type": "item", "code": "game:clothes-head-straw-hat" },
           { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
@@ -40,7 +40,7 @@
  },
  {
   "code": "krohak",
-  "traits": ["butcher","rockcrusher","titan","ravenous", "loudbelly", "heavyhanded"],
+  "traits": ["butcher","rockcrusher","titan","patchup","skillfuldefence", "loudbelly", "heavyhanded","inattentive"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
