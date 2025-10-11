@@ -149,7 +149,7 @@
     "code": "elusive",
     "type": "positive",
     "attributes": {
-      "walkspeed": 0.15,
+      "walkspeed": 0.30,
       "animalSeekingRange": -0.9,
       "hungerrate": -0.15
     }
@@ -307,9 +307,9 @@
     "code": "jackofalltrades",
     "type": "positive",
     "attributes": {
-      "walkspeed": 0.05,
-      "animalLootDropRate": 0.05,
-      "miningSpeedMul": 0.05
+      "walkspeed": 0.1,
+      "animalLootDropRate": 0.1,
+      "miningSpeedMul": 0.1
     }
   }
 ]
