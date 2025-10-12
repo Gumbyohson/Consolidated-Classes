@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": [ "gardener", "clothier", "civil", "kind", "militia", "jackofalltrades", "tinkerer" ],
+  "traits": [ "gardener", "clothier", "civil", "kind", "builtforlabour", "jackofalltrades", "tinkerer" ],
   "gear": [
           { "type": "item", "code": "game:clothes-head-straw-hat" },
           { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
@@ -18,12 +18,12 @@
   "_comment": "traits: sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
-          { "type": "item", "code": "clothes-upperbody-blacksmith-shirt", "comment": "modded nadiyan innkeeper shirt" },
+          { "type": "item", "code": "clothes-upperbody-blacksmith-shirt" },
           { "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
-          { "type": "item", "code": "clothes-foot-blacksmith-boots", "comment": "modded metalcap boots" },
+          { "type": "item", "code": "clothes-foot-blacksmith-boots" },
           { "type": "item", "code": "game:clothes-face-glasses-clockmaker" },
-          { "type": "item", "code": "clothes-arm-blacksmith-bracers", "comment": "modded nadiyan guard bracers" },
-          { "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" , "comment": "need modded" },
+          { "type": "item", "code": "clothes-arm-blacksmith-bracers" },
+          { "type": "item", "code": "clothes-hand-blacksmith-gloves" },
           { "type": "item", "code": "game:clothes-waist-heavy-tool-belt" }
           ]
  },
@@ -35,12 +35,15 @@
           { "type": "item", "code": "clothes-shoulder-ieldlis-cloak" },
           { "type": "item", "code": "clothes-upperbody-ieldlis-tunic" },
           { "type": "item", "code": "game:clothes-lowerbody-fine-trousers" },
-          { "type": "item", "code": "clothes-foot-ieldlis-boots" }
-          ]
+          { "type": "item", "code": "clothes-foot-ieldlis-boots" },
+          { "type": "item", "code": "clothes-hand-ieldlis-wristguards" }, //  doesnt exist yet, I need to create model from clockmaker wristguard
+          { "type": "item", "code": "game:clothes-waist-moss-embroidered-belt" }
+
+  ]
  },
  {
   "code": "krohak",
-  "traits": ["butcher","rockcrusher","titan","ravenous", "loudbelly", "heavyhanded"],
+  "traits": ["butcher","rockcrusher","titan","patchup","skillfuldefence", "loudbelly", "heavyhanded","inattentive"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
