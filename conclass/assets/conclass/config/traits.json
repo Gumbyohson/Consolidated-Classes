@@ -284,7 +284,7 @@
     "code": "gardener",
     "type": "positive",
     "attributes": {
-      "farmdroprate": 0.2
+      "farmdroprate": 0.25
     }
   },
   {
@@ -296,7 +296,7 @@
     }
   },
   {
-    "code": "builtforlabour",
+    "code": "militia",
     "type": "positive",
     "attributes": {
       "maxhealthExtraPoints": 3,

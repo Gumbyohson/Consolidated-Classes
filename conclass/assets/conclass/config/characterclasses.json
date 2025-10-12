@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": [ "gardener", "clothier", "civil", "kind", "builtforlabour", "jackofalltrades", "Tinkerer" ],
+  "traits": [ "gardener", "clothier", "civil", "kind", "militia", "jackofalltrades", "tinkerer" ],
   "gear": [
           { "type": "item", "code": "game:clothes-head-straw-hat" },
           { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
