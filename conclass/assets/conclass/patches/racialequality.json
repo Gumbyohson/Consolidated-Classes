@@ -33,5 +33,15 @@
     "file": "racialequality:config/customplayermodels/goblin-char.json",
     "value": ["urroka"],
     "dependsOn": [{"modid": "racialequality"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/ork/SkinnableParts/0/variants/-",
+    "file": "racialequality:config/customplayermodels/ork-char.json",
+    "value": {
+						"code": "skin13",
+						"texture": "conclass:entity/humanoid/skinparts/ork/skin13"
+					},
+    "dependsOn": [{"modid": "racialequality"}]
   }
 ]

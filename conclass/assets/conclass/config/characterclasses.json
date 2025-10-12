@@ -43,7 +43,7 @@
  },
  {
   "code": "krohak",
-  "traits": ["butcher","rockcrusher","titan","patchup","skillfuldefence", "loudbelly", "heavyhanded","inattentive"],
+  "traits": ["butcher","rockcrusher","titan","patchup","skillfuldefence", "loudbelly", "heavyhanded","inattentive", "clubmaker"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
