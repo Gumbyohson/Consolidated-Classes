@@ -32,6 +32,34 @@
     }
   },
   {
+    "code": "advancedtwoHandedSwordsProficiency",
+    "type": "positive",
+    "attributes": {
+      "twoHandedSwordsProficiency": 0.5
+    }
+  },
+  {
+    "code": "advancedaxesProficiency",
+    "type": "positive",
+    "attributes": {
+      "axesProficiency": 0.5
+    }
+  },
+  {
+    "code": "advancedmacesProficiency",
+    "type": "positive",
+    "attributes": {
+      "macesProficiency": 0.5
+    }
+  },
+  {
+    "code": "advancedclubsProficiency",
+    "type": "positive",
+    "attributes": {
+      "clubsProficiency": 0.5
+    }
+  },
+  {
     "code": "shelteredstone",
     "type": "positive",
     "attributes": {}
@@ -77,8 +105,10 @@
     "_comment": "changed from 90 % down to the 50 from the doc",
     "type": "positive",
     "attributes": {
+      "meleeWeaponsDamage": 0.3,
       "maxhealthExtraPoints": 10,
-      "armorWalkSpeedAffectedness": -0.5
+      "armorWalkSpeedAffectedness": -0.5,
+      "walkspeed": 0.15
     }
   },
   {
@@ -86,6 +116,7 @@
     "type": "positive",
     "attributes": {
       "maxhealthExtraPoints": 5,
+      "meleeWeaponsDamage": 0.2,
       "armorWalkSpeedAffectedness": -0.7
     }
   },
@@ -115,6 +146,13 @@
     }
   },
   {
+    "code": "armoursmith",
+    "type": "positive",
+    "attributes": {
+      "armorDurabilityLoss": -0.30
+    }
+  },
+  {
     "code": "rockcrusher",
     "type": "positive",
     "attributes": {
@@ -132,7 +170,7 @@
     "code": "butcher",
     "type": "positive",
     "attributes": {
-      "animalLootDropRate": 0.25,
+      "animalLootDropRate": 0.5,
       "animalHarvestingTime": -0.5
     }
   },
@@ -149,7 +187,7 @@
     "code": "elusive",
     "type": "positive",
     "attributes": {
-      "walkspeed": 0.30,
+      "walkspeed": 0.3,
       "animalSeekingRange": -0.9,
       "hungerrate": -0.15
     }
@@ -295,21 +333,14 @@
       "hungerrate": 0.3
     }
   },
-    {
-    "code": "heavyhanded",
-    "type": "negative",
-    "attributes": {
-      "wholeVesselLootChance": -0.1,
-      "forageDropRate": -0.15,
-      "wildCropDropRate": -0.2
-    }
-  },
   {
-    "code": "militia",
+    "code": "adamanisoul",
     "type": "positive",
     "attributes": {
       "maxhealthExtraPoints": 3,
-      "armorWalkSpeedAffectedness": -0.5
+      "armorWalkSpeedAffectedness": -0.1,
+      "meleeWeaponsDamage": 0.1,
+      "armorDurabilityLoss": 0.1
     }
   },
   {
@@ -318,7 +349,32 @@
     "attributes": {
       "walkspeed": 0.1,
       "animalLootDropRate": 0.1,
-      "miningSpeedMul": 0.1
+      "miningSpeedMul": 0.1,
+      "stickDropRate": 0.1,
+      "saplingDropRate": 0.1,
+      "fruittreeDropRate": 0.1
+    }
+  },
+  {
+    "code": "greed",
+    "type": "positive",
+    "attributes": {
+      "rustyGearDropRate": 0.3
+    }
+  },
+  {
+    "code": "homebody",
+    "type": "negative",
+    "attributes": {
+      "forageDropRate": -0.2,
+      "hungerrate": 0.1
+    }
+  },
+  {
+    "code": "careful",
+    "type": "negative",
+    "attributes": {
+      "animalHarvestingTime": 0.25
     }
   }
 ]

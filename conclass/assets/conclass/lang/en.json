@@ -7,15 +7,15 @@
  "game:traitname-archer": "Archer",
  "game:traitdesc-archer": "+50% ranged weapons damage, +25% accuracy, +50% range, and +50% drawspeed",
 
- "game:trait-advancedonehandedswordsproficiency": "<font color=\"#84ff84\">• Advanced one-handed swords proficiency </font><font color=\"#eeee84\">(Combat Overhaul)</font> ",
+ "game:trait-advancedonehandedswordsproficiency": "<font color=\"#84ff84\">• Advanced one-handed swords proficiency </font> ",
  "game:traitname-advancedonehandedswordsproficiency": "Advanced one-handed swords proficiency",
  "game:traitdesc-advancedonehandedswordsproficiency": "+50 onehanded swords attack speed",
 
- "game:trait-advancedbowsproficiency": "<font color=\"#84ff84\">• Advanced bows proficiency </font><font color=\"#eeee84\">(Combat Overhaul)</font> ",
+ "game:trait-advancedbowsproficiency": "<font color=\"#84ff84\">• Advanced bows proficiency </font> ",
  "game:traitname-advancedbowsproficiency": "Advanced bows proficiency",
  "game:traitdesc-advancedbowsproficiency": "+50 bow draw speed",
 
- "game:trait-twohandedswordsdeficiency": "<font color=\"#ff8484\">• Two-handed swords deficiency </font><font color=\"#eeee84\">(Combat Overhaul)</font> ",
+ "game:trait-twohandedswordsdeficiency": "<font color=\"#ff8484\">• Two-handed swords deficiency </font> ",
  "game:traitname-twohandedswordsdeficiency": "Two-handed swords deficiency",
  "game:traitdesc-twohandedswordsdeficiency": "-50% Two-handed swords attack speed",
 
@@ -25,7 +25,7 @@
 
  "game:trait-wildernesswits": "<font color=\"#84ff84\">• Wilderness wits </font>",
  "game:traitname-wildernesswits": "Wilderness wits",
- "game:traitdesc-wildernesswits": "Access to craft slings, improvised bed, bandage, and knife",
+ "game:traitdesc-wildernesswits": "Access to craft slings, improvised bed, and bandage",
 
  "game:trait-smallhands": "<font color=\"#ff8484\">• Small hands </font>",
  "game:traitname-smallhands": "Small hands",
@@ -93,7 +93,7 @@
 
  "game:trait-mushroomfarmer": "<font color=\"#84ff84\">• Mushroom farmer </font>",
  "game:traitname-mushroomfarmer": "Mushroom farmer",
- "game:traitdesc-mushroomfarmer": "Dwarrow exclusive mushroom farming.",
+ "game:traitdesc-mushroomfarmer": "Dwarrow exclusive mushroom farming",
 
  "game:trait-treekin": "<font color=\"#84ff84\">• Treekin </font>",
  "game:traitname-treekin": "Treekin",
@@ -127,9 +127,9 @@
  "game:traitname-jackofalltrades": "Jack of all trades",
  "game:traitdesc-jackofalltrades": "+10% walk speed, +10% animal loot, +10% animal loot, +10% mining speed",
 
- "game:trait-builtforlabour": "<font color=\"#84ff84\">• Built for labour </font>",
- "game:traitname-builtforlabour": "Built for labour",
- "game:traitdesc-builtforlabour": "+3 to maximum health, +50% armor walk speed effectedness",
+ "game:trait-militia": "<font color=\"#84ff84\">• Militia </font>",
+ "game:traitname-militia": "Militia",
+ "game:traitdesc-militia": "+3 to maximum health, -50% armor walk speed effectedness",
 
  "game:trait-treeburner": "<font color=\"#84ff84\">• Tree burner </font>",
  "game:traitname-treeburner": "Tree burner",
@@ -158,10 +158,6 @@
  "game:trait-loudbelly": "<font color=\"#ff8484\">• Loud Belly </font>",
  "game:traitname-loudbelly": "Loud belly",
  "game:traitdesc-loudbelly": "+30% animal detection rage, +30% hunger rate",
-
- "game:trait-heavyhanded": "<font color=\"#ff8484\">• Heavy handed </font>",
- "game:traitname-": "Heavy handed",
- "game:traitdesc-": "-10& loot from cracked vessels, -15% drops from wild plants, -20% drops from wild crops",
   
  "game:trait-inattentive": "<font color=\"#ff8484\">• Inattentive </font>",
  "game:traitname-inattentive": "Inattentive",
@@ -169,15 +165,15 @@
 
 
  "game:characterclass-adamani": "Adamani",
- "game:characterdesc-adamani": "<font color=\"#99c9f9\">Adamani are a 'jack of all trades' race, very useful around the farm, house, field or mine. Not specialised for a team, but specialised in our hearts.<br>",
+ "game:characterdesc-adamani": "<font color=\"#99c9f9\">Adamani are a 'jack of all trades'. Able to help around the farm, house, field, or mine. Not specialised for a any one role, except farming and gear collection, but very specialised in our home.<br>",
  "game:characterclass-dwarrow": "Dwarrow",
- "game:characterdesc-dwarrow": "<font color=\"#99c9f9\">Dwarrow is the backbone of the team for smithing and ore. If the other classes are for food or clothes, the Dwarrow is for metal. The Dwarrow has an affinity for stone and metal. They are shorter and slower than most other races, but built of corded muscle and can take and give a beating.<br>",
+ "game:characterdesc-dwarrow": "<font color=\"#99c9f9\">Dwarrow is the backbone of the team for smithing and ore. If the other classes are for food or clothes, the Dwarrow is for stone and metal. They are shorter and slower than most other races, but built of corded muscle and can take and give a beating.<br>",
  "game:characterclass-ieldlis": "Ieldlis",
- "game:characterdesc-ieldlis": "<font color=\"#99c9f9\">Often dwelling in forests and in tune with nature, with a knack for ranged combat. Fantastic for a nomadic explorer playstyle. They provide value to the homestead via scouting and looting far off places.<br>",
+ "game:characterdesc-ieldlis": "<font color=\"#99c9f9\">Often dwelling in forests and in tune with nature, they have a knack for ranged combat. They provide value to the homestead via scouting and foraging far off places and are excellent tailors and decent farmers.<br>",
  "game:characterclass-krohak": "Krohak",
- "game:characterdesc-krohak": "<font color=\"#99c9f9\">If you need something killed, speak to the nearest Krohak, useful for the hard labour of mining but not for any other delicate tasks, Though ask yourself, how successful would your homestead be if enemies burned it to the ground?<br>",
+ "game:characterdesc-krohak": "<font color=\"#99c9f9\">If you need something killed, speak to the nearest Krohak, useful for the hard labour of mining but not for many other delicate tasks due to their large hands though they are expert butchers. Ask yourself, how successful would your homestead be if enemies overrun it? <br>",
  "game:characterclass-urroka": "Urroka",
- "game:characterdesc-urroka": "<font color=\"#99c9f9\">while elves range high in the trees the Urokka favour the dank, quiet places of the world, many a wild creature die to them before they are even heard. A sneaky, devious race,  not useful in a straight fight, but an Urokka will rarely let you have one of those.<br>",
+ "game:characterdesc-urroka": "<font color=\"#99c9f9\">The Urokka favour the dank, quiet places of the world. Many wild creatures are silently slain before they even know they are being hunted. A sneaky, devious race, not capable in a straight fight, but an Urokka will rarely let you have one of those.<br>",
 
  "game:charattribute-attribute-0.0": "positivedescription",
  "game:charattribute-attribute--0.0": "negativedescription",
@@ -189,16 +185,17 @@
  "game:charattribute-maxhealthExtraPoints--5": "-5 max health",
  "game:charattribute-maxhealthExtraPoints-3": "+3 max health",
  "game:charattribute-walkspeed-0.5": "+50% walking speed",
+ "game:charattribute-walkspeed-0.3": "+30% walking speed",
  "game:charattribute-walkspeed-0.15": "+15% walking speed",
  "game:charattribute-oreDropRate-0.5": "+50% ore mining drops",
  "game:charattribute-miningSpeedMul-1": "+100% mining speed",
  "game:charattribute-oreDropRate-0.2": "+20% ore mining drops",
-  "game:charattribute-oreDropRate--0.2": "-20% ore mining drops",
+ "game:charattribute-oreDropRate--0.2": "-20% ore mining drops",
  "game:charattribute-miningSpeedMul-0.2": "+20% mining speed",
- "game:charattribute-armorWalkSpeedAffectedness--0.7": "-70% armour walk speed effectedness",
- "game:charattribute-armorWalkSpeedAffectedness-0.9": "+90% armour walk speed effectedness",
- "game:charattribute-armorWalkSpeedAffectedness-0.25": "+25% armour walk speed effectedness",
- "game:charattribute-armorWalkSpeedAffectedness--0.5": "-50% armour walk speed effectedness",
+ "game:charattribute-armorWalkSpeedAffectedness--0.7": "+70% armour walk speed buff",
+ "game:charattribute-armorWalkSpeedAffectedness-0.9": "-90% armour walk speed penalty",
+ "game:charattribute-armorWalkSpeedAffectedness-0.25": "-25% armour walk speed penalty",
+ "game:charattribute-armorWalkSpeedAffectedness--0.45": "+50% armour walk speed buff",
  "game:charattribute-armorDurabilityLoss-0.25": "-25% armour durability",
  "game:charattribute-animalSeekingRange-0.2": "+20% animal detection range",
  "game:charattribute-animalSeekingRange--0.5": "-50% animal detection range",
@@ -206,6 +203,7 @@
  "game:charattribute-hungerrate--0.3": "-30% hunger rate",
  "game:charattribute-hungerrate--0.15": "-15% hunger rate",
  "game:charattribute-farmDropRate-0.15": "+15% farm crop drops",
+ "game:charattribute-farmDropRate-0.5": "+50% farm crop drops",
  "game:charattribute-farmDropRate--0.3": "-30% farm crop drops",
  "game:charattribute-farmDropRate--0.2": "-20% farm crop drops",
  "game:charattribute-farmdroprate-0.2": "+20% farm crop drops",

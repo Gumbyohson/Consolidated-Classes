@@ -1,166 +1,150 @@
 {
-	"code": "clothes",
-	"class": "ItemWearable",
-	"variantgroups": [
-		{
-			"code": "category",
-			"states": [
-				"hand"
-			]
-		},
-		{
-			"code": "hand",
-			"combine": "SelectiveMultiply",
-			"onVariant": "category",
-			"states": [
-				"blacksmith-gloves",
-				"ieldlis-wristguards"
-			]
-		}
-	],
-	"storageFlags": 128,
-	"attributes": {
-		"clothescategory": "hand",
-		"wearableAttachment": true,
-		"handbook": {
-			"groupBy": [
-				"clothes-{category}-*"
-			]
-		}
-	},
-	"attributesByType": {
-		"*": {
-			"warmth": 0.5
-		}
-	},
-	"shapeByType": {
-		"*-ieldlis-wrist-guards": {
-			"base": "entity/humanoid/clothing/hand/ieldlis-wristguards"
-		},
-		"*-blacksmith-gloves": {
-			"base": "entity/humanoid/clothing/hand/{hand}"}
-	},
-	//not sure what to do here, avoided touching it
-	"texturesByType": {
-		"*": {
-			"seraph": { "base": "block/transparent" },
-			"gloves": { "base": "entity/humanoid/seraphclothes/hand/{hand}" }
-		}
-	},
-	"creativeinventory": {
-		"general": [
-			"*"
-		],
-		"items": [
-			"*"
-		],
-		"clothing": [
-			"*"
-		]
-	},
-	 //	????? pls help, im dumb
-	"renderAlphaTest": 0.25,
-	"fpHandTransform": {
-		"translation": {
-			"x": 0.6,
-			"y": 0,
-			"z": -0.5
-		},
-		"rotation": {
-			"x": 180,
-			"y": 42,
-			"z": -29
-		},
-		"scale": 2.5
-	},
-	"tpHandTransform": {
-		"translation": {
-			"x": -0.9,
-			"y": -1,
-			"z": -1
-		},
-		"rotation": {
-			"x": -13,
-			"y": -64,
-			"z": 49
-		},
-		"scale": 0.55
-	},
-			//"*-clockmaker-wristguard"
-		"*-ieldlis-wristguards": {
-			"rotate": false,
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 19
-			},
-			"rotation": {
-				"x": 174,
-				"y": 122,
-				"z": 27
-			},
-			"origin": {
-				"x": 0.58,
-				"y": 0.86,
-				"z": 0.8
-			},
-			"scale": 4.1
-		},
-			//"*-malefactor-gloves"
-		"*-blacksmith-gloves": {
-			"rotate": false,
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 19
-			},
-			"rotation": {
-				"x": 174,
-				"y": -30,
-				"z": 23
-			},
-			"origin": {
-				"x": 0.52,
-				"y": 0.88,
-				"z": 0.6
-			},
-			"scale": 2.37
-		},
-		"*": {
-			"rotate": false,
-			"translation": {
-				"x": 0,
-				"y": 0,
-				"z": 19
-			},
-			"rotation": {
-				"x": 174,
-				"y": -30,
-				"z": 23
-			},
-			"origin": {
-				"x": 0.52,
-				"y": 0.78,
-				"z": 0.5
-			},
-			"scale": 2.5
-		},
-		"groundTransform": {
-			"translation": {
-				"x": 0,
-				"y": 0.05,
-				"z": 0
-			},
-			"rotation": {
-				"x": 0,
-				"y": 0,
-				"z": 90
-			},
-			"origin": {
-				"x": 0.5,
-				"y": 0.5,
-				"z": 0.5299
-			},
-			"scale": 5
-		}
+  "code": "clothes",
+  "class": "ItemWearable",
+  "variantgroups": [
+    {
+      "code": "category",
+      "states": [
+        "hand"
+      ]
+    },
+    {
+      "code": "hand",
+      "combine": "SelectiveMultiply",
+      "onVariant": "category",
+      "states": [
+        "blacksmith-gloves",
+        "ieldlis-wristguards"
+      ]
+    }
+  ],
+  "storageFlags": 128,
+  "attributes": {
+    "clothescategory": "hand",
+    "wearableAttachment": true,
+    "handbook": {
+      "groupBy": [
+        "clothes-{category}-*"
+      ]
+    }
+  },
+  "attributesByType": {
+    "*": {
+      "warmth": 0.5
+    }
+  },
+  "shapeByType": {
+    "*-ieldlis-wristguards": {
+      "base": "entity/humanoid/clothing/hand/ieldlis-wristguards"
+    },
+    "*-blacksmith-gloves": {
+      "base": "entity/humanoid/clothing/hand/blacksmith-gloves"
+    }
+  },
+  "texturesByType": {
+    "*-blacksmith-gloves": {
+      "seraph": {
+        "base": "game:block/transparent"
+      }
+    },
+    "*-ieldlis-wristguards": {
+      "seraph": {
+        "base": "game:block/transparent"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "clothing": [
+      "*"
+    ]
+  },
+  "renderAlphaTest": 0.25,
+  "fpHandTransform": {
+    "translation": {
+      "x": 0.6,
+      "y": 0,
+      "z": -0.5
+    },
+    "rotation": {
+      "x": 180,
+      "y": 42,
+      "z": -29
+    },
+    "scale": 2.5
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.9,
+      "y": -1,
+      "z": -1
+    },
+    "rotation": {
+      "x": -13,
+      "y": -64,
+      "z": 49
+    },
+    "scale": 0.55
+  },
+  "guiTransformByType": {
+    "*-ieldlis-wristguards": {
+      "rotate": false,
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 19
+      },
+      "rotation": {
+        "x": 174,
+        "y": 122,
+        "z": 27
+      },
+      "origin": {
+        "x": 0.58,
+        "y": 0.86,
+        "z": 0.8
+      },
+      "*-blacksmith-gloves": {
+        "translation": {
+          "x": 0,
+          "y": 0,
+          "z": 19
+        },
+        "rotation": {
+          "x": 174,
+          "y": -30,
+          "z": 23
+        },
+        "origin": {
+          "x": 0.52,
+          "y": 0.85,
+          "z": 0.5
+        },
+        "scale": 2.5
+      }
+    }
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.05,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 90
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5299
+    },
+    "scale": 5
+  }
 }

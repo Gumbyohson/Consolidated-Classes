@@ -2,14 +2,14 @@
  {
   "op": "addmerge",
   "path": "/0/traits",
-  "value": [],
+  "value": [ "oneHandedSwordsProficiency", "twoHandedSwordsProficiency","spearsProficiency", "firearmsProficiency"],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
  {
   "op": "addmerge",
   "path": "/1/traits",
-  "value": [ "axesProficiency", "macesProficiency", "clubsProficiency" ],
+  "value": [ "axesProficiency", "macesProficiency", "clubsProficiency", "firearmsProficiency", "crossbowsProficiency"],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
@@ -17,21 +17,21 @@
   "_comment": "replaces all Ieldlis traits when CO is installed instead of adding and also removing",
   "op": "replace",
   "path": "/2/traits",
-  "value": [ "bowyer", "elusive", "natureattuned", "treekin", "ieldlisforester", "plantsinger", "thin", "pious", "claustrophobia", "clothier", "advancedbowsproficiency", "halberdsProficiency", "canParryProjectiles", "twohandedswordsdeficiency" ],
+  "value": [ "bowyer", "elusive", "natureattuned", "treekin", "ieldlisforester", "thin", "pious", "claustrophobia", "clothier", "oneHandedSwordsProficiency", "advancedbowsproficiency", "halberdsProficiency", "canParryProjectiles", "twohandedswordsdeficiency", "quarterstaffProficiency", "legDay", "steadyAim" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
  {
   "op": "addmerge",
   "path": "/3/traits",
-  "value": [ "twohandedSwordsProficiency", "axesProficiency","macesProficiency","clubsProficiency"],
+  "value": [ "advancedtwohandedSwordsProficiency", "advancedaxesProficiency", "advancedmacesProficiency", "advancedclubsProficiency", "clumsyhands", "thickSkull" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },
  {
   "op": "replace",
   "path": "/4/traits",
-  "value": [ "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits", "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands" ],
+  "value": [ "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits", "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands", "legDay", "crossbowsProficiency" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  }

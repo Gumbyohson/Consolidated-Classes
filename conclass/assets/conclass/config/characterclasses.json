@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": [ "gardener", "clothier", "civil", "kind", "builtforlabour", "jackofalltrades", "tinkerer" ],
+  "traits": [ "gardener", "clothier", "militia", "jackofalltrades", "tinkerer", "technical", "greed", "homebody", "careful" ],
   "gear": [
           { "type": "item", "code": "game:clothes-head-straw-hat" },
           { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
@@ -14,7 +14,7 @@
  },
  {
   "code": "dwarrow",
-  "traits": [ "agoraphobia", "shelteredstone", "stonekin", "powerfulframe", "treeburner", "noisy", "mender","hungry", "mushroomfarmer"],
+  "traits": [ "agoraphobia", "shelteredstone", "stonekin", "powerfulframe", "treeburner", "noisy", "armorsmith", "hungry", "merciless"],
   "_comment": "traits: sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
@@ -29,7 +29,7 @@
  },
  {
   "code": "ieldlis",
-  "traits": [ "archer", "bowyer", "elusive", "natureattuned", "treekin", "ieldlisforester", "plantsinger", "thin", "pious", "claustrophobia", "clothier" ],
+  "traits": [ "archer", "bowyer", "elusive", "natureattuned", "treekin", "ieldlisforester", "thin", "pious", "claustrophobia", "clothier" ],
   "_comment:": "Archer must remain first in the list for CO patch. Traits: better ranged, underground sanity loss, access to crude bow and arrows and quiver, High animal invisibility, wildcrop/foraging bonus, tree buffs, farming buffs, debuff armor walkspeed",
   "gear": [
           { "type": "item", "code": "clothes-shoulder-ieldlis-cloak" },
