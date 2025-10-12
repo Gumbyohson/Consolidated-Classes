@@ -32,7 +32,7 @@
     }
   },
   {
-    "code": "advancedtwoHandedSwordsProficiency",
+    "code": "advancedtwohandedSwordsProficiency",
     "type": "positive",
     "attributes": {
       "twoHandedSwordsProficiency": 0.5
@@ -107,7 +107,7 @@
     "attributes": {
       "meleeWeaponsDamage": 0.3,
       "maxhealthExtraPoints": 10,
-      "armorWalkSpeedAffectedness": -0.5,
+      "armorWalkSpeedAffectedness": -0.55,
       "walkspeed": 0.15
     }
   },
@@ -340,7 +340,7 @@
       "maxhealthExtraPoints": 3,
       "armorWalkSpeedAffectedness": -0.1,
       "meleeWeaponsDamage": 0.1,
-      "armorDurabilityLoss": 0.1
+      "armorDurabilityLoss": -0.1
     }
   },
   {
@@ -354,6 +354,11 @@
       "saplingDropRate": 0.1,
       "fruittreeDropRate": 0.1
     }
+  },
+  {
+    "code": "clubmaker",
+    "type": "positive",
+    "attributes": {}
   },
   {
     "code": "greed",

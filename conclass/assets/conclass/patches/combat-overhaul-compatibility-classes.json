@@ -24,7 +24,7 @@
  {
   "op": "addmerge",
   "path": "/3/traits",
-  "value": [ "advancedtwohandedSwordsProficiency", "advancedaxesProficiency", "advancedmacesProficiency", "advancedclubsProficiency", "clumsyhands", "thickSkull" ],
+  "value": [ "advancedtwohandedSwordsProficiency", "advancedaxesProficiency", "advancedmacesProficiency", "advancedclubsProficiency", "clumsyHands", "thickSkull" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  },

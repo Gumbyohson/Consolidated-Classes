@@ -24,7 +24,7 @@
     "wearableAttachment": true,
     "handbook": {
       "groupBy": [
-        "clothes-{category}-*"
+        "game:clothes-{category}-*"
       ]
     }
   },

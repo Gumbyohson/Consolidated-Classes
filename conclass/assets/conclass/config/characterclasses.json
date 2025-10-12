@@ -1,7 +1,7 @@
 [  
  {
   "code": "adamani",
-  "traits": [ "gardener", "clothier", "militia", "jackofalltrades", "tinkerer", "technical", "greed", "homebody", "careful" ],
+  "traits": [ "gardener", "clothier", "adamanisoul", "jackofalltrades", "tinkerer", "technical", "greed", "homebody", "careful" ],
   "gear": [
           { "type": "item", "code": "game:clothes-head-straw-hat" },
           { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
@@ -14,7 +14,7 @@
  },
  {
   "code": "dwarrow",
-  "traits": [ "agoraphobia", "shelteredstone", "stonekin", "powerfulframe", "treeburner", "noisy", "armorsmith", "hungry", "merciless"],
+  "traits": [ "agoraphobia", "shelteredstone", "stonekin", "powerfulframe", "treeburner", "noisy", "armoursmith", "hungry", "merciless"],
   "_comment": "traits: sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },

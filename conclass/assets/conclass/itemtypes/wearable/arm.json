@@ -22,7 +22,7 @@
   "warmth": 0.5,
   "handbook": {
    "groupBy": [
-    "clothes-{category}-*"
+    "game:clothes-{category}-*"
    ]
   }
  },
