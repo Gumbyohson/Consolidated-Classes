@@ -30,6 +30,7 @@ x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
+!arm/
 bld/
 [Bb]in/
 [Oo]bj/

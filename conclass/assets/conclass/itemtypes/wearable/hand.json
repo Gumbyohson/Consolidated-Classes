@@ -35,23 +35,13 @@
 	},
 	"shapeByType": {
 		"*-ieldlis-wrist-guards": {
-			"base": "entity/humanoid/seraph/clothing/hand/ieldlis-wristguards"
+			"base": "entity/humanoid/clothing/hand/ieldlis-wristguards"
 		},
 		"*-blacksmith-gloves": {
-			"base": "entity/humanoid/seraph/clothing/hand/blacksmith-gloves",
-			"overlays": [
-				{
-					//	do i need to reference the bracers since they go on top of the gloves? idk where they are or how to do that
-					"base": "game:entity/humanoid/seraph/clothing/arm/blacksmith-bracers"
-				}
-			]
-		}
+			"base": "entity/humanoid/clothing/hand/{hand}"}
 	},
 	//not sure what to do here, avoided touching it
 	"texturesByType": {
-		"*-clockmaker-wristguard": { "seraph": { "base": "block/transparent" } },
-		"*-commoner-gloves": { "seraph": { "base": "block/transparent" } },
-		"*-scribe": { "seraph": { "base": "block/transparent" } },
 		"*": {
 			"seraph": { "base": "block/transparent" },
 			"gloves": { "base": "entity/humanoid/seraphclothes/hand/{hand}" }
