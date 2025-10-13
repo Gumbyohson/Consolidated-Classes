@@ -3,9 +3,9 @@
   "modid": "conclass",
   "name": "Consolidated Classes",
   "side": "universal",
-  "authors": [ "Gumbyohson", "Exonis", "FilthyGoblin" ],
-  "description": "",
-  "version": "0.0.1",
+  "authors": [ "Gumbyohson", "Exonis", "FilthylilGoblin" ],
+  "description": "A classes mod with fantasy leanings. No one class is self-reliant.",
+  "version": "0.0.3",
   "dependencies": { "game": "" },
   "website": "https://github.com/Gumbyohson/Consolidated-Classes"
 }
