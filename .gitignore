@@ -675,3 +675,4 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,visualstudio,visualstudiocode,rider
 /conclass/conclass-0.0.1.zip
+*.zip
