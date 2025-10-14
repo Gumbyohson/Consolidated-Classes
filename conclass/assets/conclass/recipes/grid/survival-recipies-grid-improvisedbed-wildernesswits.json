@@ -1,12 +1,16 @@
 [
  {
-  "ingredientPattern": "___\tHHH",
+  "ingredientPattern": "S__\tHHH",
   "requiresTrait": "wildernesswits",
   "ingredients": {
    "H": {
     "type": "block",
     "code": "game:hay-normal-ud"
-   }
+   },
+    "S": {
+      "type": "item",
+      "code": "game:drygrass"
+    }
   },
   "width": 3,
   "height": 2,
