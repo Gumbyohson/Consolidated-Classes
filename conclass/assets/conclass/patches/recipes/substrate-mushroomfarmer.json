@@ -1,37 +1,37 @@
 [
- {
-  "op": "addmerge",
-  "path": "/0",
-  "file": "substrate:recipies/grid/fruitingbag.json",
-  "value": [{ "requirestrait": "mushroomfarmer" }],
-  "dependsOn": [{"modid": "substrate"}]
- },
- {
-  "op": "addmerge",
-  "path": "/0",
-  "file": "substrate:recipies/grid/growbed.json",
-  "value": [{ "requirestrait": "mushroomfarmer" }],
-  "dependsOn": [{"modid": "substrate"}]
- },
- {
-  "op": "addmerge",
-  "path": "/0",
-  "file": "substrate:recipies/grid/sporeprint.json",
-  "value": [{ "requirestrait": "mushroomfarmer" }],
-  "dependsOn": [{"modid": "substrate"}]
- },
- {
-  "op": "addmerge",
-  "path": "/0",
-  "file": "substrate:recipies/grid/woodchip.json",
-  "value": [{ "requirestrait": "mushroomfarmer" }],
-  "dependsOn": [{"modid": "substrate"}]
- },
- {
-  "op": "addmerge",
-  "path": "/1/traits",
-  "file": "config/characterclasses.json",
-  "value": ["mushroomfarmer"],
-  "dependsOn": [{"modid": "substrate"}]
- }
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "file": "substrate:recipes/grid/fruitingbag.json",
+    "value": "mushroomfarmer",
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/requiresTrait",
+    "file": "substrate:recipes/grid/growbed.json",
+    "value": "mushroomfarmer",
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "file": "substrate:recipes/grid/sporeprint.json",
+    "value": "mushroomfarmer",
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/requiresTrait",
+    "file": "substrate:recipes/grid/woodchip.json",
+    "value": "mushroomfarmer",
+    "dependsOn": [{"modid": "substrate"}]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/traits",
+    "file": "config/characterclasses.json",
+    "value": ["mushroomfarmer"],
+    "dependsOn": [{"modid": "substrate"}]
+  }
 ]
