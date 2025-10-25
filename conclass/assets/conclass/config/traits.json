@@ -135,7 +135,7 @@
       "maxhealthExtraPoints": -5,
       "armorWalkSpeedAffectedness": 0.25,
       "armorDurabilityLoss": 0.25,
-      "healingeffectivness": -0.2
+      "healingEffectiveness": -0.2
     }
   },
   {

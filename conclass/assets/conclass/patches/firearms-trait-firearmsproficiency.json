@@ -1,0 +1,30 @@
+[
+ {
+  "op": "replace",
+  "path": "/0/requiresTrait",
+  "file": "maltiezfirearms:recipes/grid/firearms/locks.json",
+  "value": "firearmsProficiency",
+  "dependsOn": [ { "modid": "maltiezfirearms" }, { "modid": "combatoverhaul" } ]
+ },
+ {
+  "op": "replace",
+  "path": "/1/requiresTrait",
+  "file": "maltiezfirearms:recipes/grid/firearms/locks.json",
+  "value": "firearmsProficiency",
+  "dependsOn": [ { "modid": "maltiezfirearms" }, { "modid": "combatoverhaul" } ] 
+ },
+ {
+  "op": "replace",
+  "path": "/2/requiresTrait",
+  "file": "maltiezfirearms:recipes/grid/firearms/locks.json",
+  "value": "firearmsProficiency",
+  "dependsOn": [ { "modid": "maltiezfirearms" }, { "modid": "combatoverhaul" } ]
+ },
+ {
+  "op": "replace",
+  "path": "/6/requiresTrait",
+  "file": "maltiezfirearms:recipes/grid/firearms/locks.json",
+  "value": "firearmsProficiency",
+  "dependsOn": [ { "modid": "maltiezfirearms" }, { "modid": "combatoverhaul" } ]
+ }
+]

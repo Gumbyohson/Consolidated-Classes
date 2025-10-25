@@ -41,7 +41,7 @@
 
  "game:trait-wildernesswits": "<font color=\"#84ff84\">• Wilderness wits </font>",
  "game:traitname-wildernesswits": "Wilderness wits",
- "game:traitdesc-wildernesswits": "Access to craft slings, improvised bed, and bandage",
+ "game:traitdesc-wildernesswits": "Access to craft <a href=\"handbooksearch://slings \">slings</a>, <a href=\"handbooksearch://wooden bed \">improvised bed</a>, and <a href=\"handbooksearch://Horsetail poultice (from linen) \">improvided bandage</a>",
 
  "game:trait-smallhands": "<font color=\"#ff8484\">• Small hands </font>",
  "game:traitname-smallhands": "Small hands",
@@ -109,7 +109,7 @@
 
  "game:trait-mushroomfarmer": "<font color=\"#84ff84\">• Mushroom farmer </font>",
  "game:traitname-mushroomfarmer": "Mushroom farmer",
- "game:traitdesc-mushroomfarmer": "Dwarrow exclusive mushroom farming",
+ "game:traitdesc-mushroomfarmer": "Dwarrow exclusive <a href=\"handbooksearch://substrate \">mushroom farming</a>",
 
  "game:trait-treekin": "<font color=\"#84ff84\">• Treekin </font>",
  "game:traitname-treekin": "Treekin",
@@ -165,7 +165,7 @@
 
  "game:trait-clubmaker": "<font color=\"#84ff84\">• Club maker </font>",
  "game:traitname-clubmaker": "Club maker",
- "game:traitdesc-clubmaker": "Access to an early Scrap club alternate recipe.",
+ "game:traitdesc-clubmaker": "Access to an early <a href=\"handbooksearch://Scrap club \">Scrap club</a> alternate recipe.",
 
  "game:trait-titan": "<font color=\"#84ff84\">• Titan </font>",
  "game:traitname-titan": "Titan",
@@ -198,6 +198,9 @@
  "game:trait-careful": "<font color=\"#ff8484\">• Careful </font>",
  "game:traitname-careful": "Careful",
  "game:traitdesc-careful": "-25% animal harvest speed",
+
+ "game:trait-firearmsProficiency": "<font color=\"#84ff84\">• Firearms proficiency</font> ",
+ "game:traitname-firearmsProficiency": "Firearms proficiency",
 
 
  "game:characterclass-adamani": "Adamani",
@@ -303,6 +306,8 @@
  "game:charattribute-animalHarvestingTime--0.5": "+50% animal butchering speed",
  "game:charattribute-miningSpeedMul-0.75": "+75% mining speed",
  "game:charattribute-healingEffectiveness-0.2": "+20% healing from items",
- "game:charattribute-armorDurabilityLoss--0.25": "-20% armor durability loss"
+ "game:charattribute-armorDurabilityLoss--0.25": "-20% armor durability loss",
+ "game:charattribute-firearmsProficiency-0.5": "+50% reload speed",
+ "game:charattribute-firearmsProficiency--0.3": "-30% firearms reload speed"
 }
 
