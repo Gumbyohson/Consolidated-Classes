@@ -31,7 +31,7 @@
  {
   "op": "replace",
   "path": "/4/traits",
-  "value": [ "delver", "lightweight", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits", "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands", "legDay", "crossbowsProficiency" ],
+  "value": [ "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits", "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands", "legDay", "crossbowsProficiency" ],
   "file": "config/characterclasses.json",
   "dependsOn": [ { "modid": "combatoverhaul" } ]
  }

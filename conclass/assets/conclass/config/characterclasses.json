@@ -43,7 +43,7 @@
  },
  {
   "code": "krohak",
-  "traits": ["butcher","rockcrusher","titan", "skillfuldefence", "loudbelly", "heavyhanded","inattentive", "clubmaker"],
+  "traits": ["butcher","rockcrusher","titan","patchup","skillfuldefence", "loudbelly", "heavyhanded","inattentive", "clubmaker"],
   "gear": [
           { "type": "item", "code": "game:clothes-upperbody-hunters-green" },
           { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
@@ -55,8 +55,8 @@
  },
  {
   "code": "urroka",
-  "traits": [ "stabby", "delver", "lightweight", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits" ],
-  "_comment": "slower underground sanity loss, less hungry, faster speed, negative armorspeed,animal/wildcrop/foraging bonus",
+  "traits": [ "stabby", "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits" ],
+  "_comment": "slower underground sanity loss, less hungry, faster speed, negative armorspeed,healing effectiveness,animal/wildcrop/foraging bonus",
   "gear": [
           { "type": "item", "code": "game:clothes-shoulder-miner" },
           { "type": "item", "code": "game:clothes-lowerbody-torn-riding-pants" },

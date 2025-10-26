@@ -134,7 +134,8 @@
     "attributes": {
       "maxhealthExtraPoints": -5,
       "armorWalkSpeedAffectedness": 0.25,
-      "armorDurabilityLoss": 0.25
+      "armorDurabilityLoss": 0.25,
+      "healingeffectivness": -0.2
     }
   },
   {
@@ -196,6 +197,20 @@
     "type": "positive",
     "attributes": {
       "hungerrate": -0.5
+    }
+  },
+  {
+    "code": "rapidhealing",
+    "type": "positive",
+    "attributes": {
+      "healingeffectivness": 0.35
+    }
+  },
+  {
+    "code": "patchup",
+    "type": "positive",
+    "attributes": {
+      "healingeffectivness": 0.2
     }
   },
   {
