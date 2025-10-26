@@ -5,7 +5,7 @@
   "side": "universal",
   "authors": [ "Gumbyohson", "Exonis", "FilthylilGoblin" ],
   "description": "A classes mod with fantasy leanings. No one class is self-reliant.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "dependencies": { "game": "" },
   "website": "https://github.com/Gumbyohson/Consolidated-Classes"
 }

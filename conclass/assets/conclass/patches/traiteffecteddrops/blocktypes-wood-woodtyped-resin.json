@@ -1,0 +1,14 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/harvestedStack/quantity",
+    "value": { "avg": 1.2 },
+    "file": "game:blocktypes/wood/woodtyped/log-withresin.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/behaviorsByType/*/1/properties/harvestedStack/dropModbyStat",
+    "value": "forageDropRate",
+    "file": "game:blocktypes/wood/woodtyped/log-withresin.json"
+  }
+]
