@@ -97,7 +97,7 @@
 
  "game:trait-thin": "<font color=\"#ff8484\">• Thin </font>",
  "game:traitname-thin": "Thin",
- "game:traitdesc-thin": "-5 max health, +25% armor walkspeed effectedness, -25% armor durability, -20% healing effectiveness.",
+ "game:traitdesc-thin": "-5 max health, +25% armor walkspeed effectedness, -25% armor durability.",
 
  "game:trait-pious": "<font color=\"#ff8484\">• Pious </font>",
  "game:traitname-pious": "Pious",
@@ -122,10 +122,6 @@
  "game:trait-invisible": "<font color=\"#84ff84\">• Invisible </font>",
  "game:traitname-invisible": "Invisible",
  "game:traitdesc-invisible": "-90% animal detection range.",
-
- "game:trait-rapidhealing": "<font color=\"#84ff84\">• Rapid healing </font>",
- "game:traitname-rapidhealing": "Rapid healing",
- "game:traitdesc-rapidhealing": "+35% effect from healing.",
 
  "game:trait-lightweight": "<font color=\"#84ff84\">• Lightweight </font>",
  "game:traitname-lightweight": "Lightweight",
@@ -170,10 +166,6 @@
  "game:trait-titan": "<font color=\"#84ff84\">• Titan </font>",
  "game:traitname-titan": "Titan",
  "game:traitdesc-titan": "+10 max hp,+50% armor walk speed effectedness",
-
- "game:trait-patchup": "<font color=\"#84ff84\">• Patch-up </font>",
- "game:traitname-patchup": "Patch-up",
- "game:traitdesc-patchup": "+20% healing item effectiveness",
  
  "game:trait-greed": "<font color=\"#84ff84\">• Greed </font>",
  "game:traitname-greed": "Greed",
@@ -298,14 +290,11 @@
  "game:charattribute-axesProficiency-0.5": "+50% twohanded swords attack speed",
  "game:charattribute-clubsProficiency-0.5": "+50% twohanded swords attack speed",
  "game:charattribute-bowsProficiency-1": "+100% bows draw speed",
- "game:charattribute-healingEffectiveness-0.35": "+35% effect from healing",
- "game:charattribute-healingEffectiveness--0.2": "-20% effect from healing",
  "game:charattribute-charcoalPileDroprate-0.4": "+40% charcoal pile drop rate",
  "game:charattribute-animalLootDropRate-0.25": "+25% more loot from animals",
  "game:charattribute-animalLootDropRate-0.5": "+50% more loot from animals",
  "game:charattribute-animalHarvestingTime--0.5": "+50% animal butchering speed",
  "game:charattribute-miningSpeedMul-0.75": "+75% mining speed",
- "game:charattribute-healingEffectiveness-0.2": "+20% healing from items",
  "game:charattribute-armorDurabilityLoss--0.25": "-20% armor durability loss",
  "game:charattribute-firearmsProficiency-0.5": "+50% reload speed",
  "game:charattribute-firearmsProficiency--0.3": "-30% firearms reload speed"
