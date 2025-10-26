@@ -1,0 +1,20 @@
+{
+  "ingredientPattern": "FFS\tFFF\tFFF",
+  "ingredients": {
+    "F": {
+      "type": "item",
+      "code": "game:flaxtwine"
+    },
+    "S": {
+      "type": "item",
+      "code": "game:stick"
+    }
+  },
+  "width": 3,
+  "height": 3,
+  "recipeGroup": 2,
+  "output": {
+    "type": "item",
+    "code": "game:sewingkit"
+  }
+}
