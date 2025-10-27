@@ -202,6 +202,9 @@
  "game:trait-firearmsProficiency": "<font color=\"#84ff84\">• Firearms proficiency</font> ",
  "game:traitname-firearmsProficiency": "Firearms proficiency",
 
+ "game:trait-crossbowsProficiency": "<font color=\"#84ff84\">• Crossbows Proficiency</font> ",
+ "game:traitname-crossbowsProficiency": "Crossbows Proficiency",
+
 
  "game:characterclass-adamani": "Adamani",
  "game:characterdesc-adamani": "<font color=\"#99c9f9\">Adamani are a 'jack of all trades'. Able to help around the farm, house, field, or mine. Not specialised for a any one role, except farming and gear collection, but very specialised for making it our home.<br>",
