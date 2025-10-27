@@ -149,7 +149,7 @@
 
  "game:trait-treeburner": "<font color=\"#84ff84\">• Tree burner </font>",
  "game:traitname-treeburner": "Tree burner",
- "game:traitdesc-treeburner": "+40% charcoal drop rate from charcoal piles",
+ "game:traitdesc-treeburner": "+40% charcoal drop rate from charcoal piles, +10% more tree log drops",
  
  "game:trait-butcher": "<font color=\"#84ff84\">• Butcher </font>",
  "game:traitname-butcher": "Butcher",
@@ -278,6 +278,7 @@
  "game:charattribute-fruittreeDropRate-1": "+100% fruit tree drops",
  "game:charattribute-fruittreeDropRate-0.1": "+10% fruit tree drops",
  "game:charattribute-logDropRate-0.25": "+25% log drops",
+ "game:charattribute-logDropRate-0.1": "+10% log drops",
  "game:charattribute-vesselContentsDropRate-0.3": "+30% ruin vessel content drops",
  "game:charattribute-vesselContentsDropRate--0.3": "-30% ruin vessel content drops",
  "game:charattribute-rustyGearDropRate-0.15": "+15% rusty gear drops",
