@@ -2,7 +2,7 @@
  {
   "op": "addmerge",
   "path": "/drops/0/quantity",
-  "value": { "avg": 1 },
+  "value": { "avg": 1.2 },
   "file": "game:blocktypes/charcoalpile.json"
  },
  {
