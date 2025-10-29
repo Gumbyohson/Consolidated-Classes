@@ -12,7 +12,7 @@ using Vintagestory.API.Server;
 using Vintagestory.API.Util;
 using Vintagestory.GameContent;
 
-namespace GloomeClasses.src.EntityBehaviors
+namespace conclass.src.EntityBehaviors
 {
     public class TemporalStabilityTraitBehavior : EntityBehavior
     {
