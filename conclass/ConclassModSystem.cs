@@ -39,13 +39,11 @@ namespace conclass
             LoadConfig(api);
             
             // Set the world config values for patch conditions
-            // This must be done in StartPre before patches are applied
             api.World.Config.SetBool("EnableClassStaticAssignment", Config?.EnableClassStaticAssignment ?? true);
+            api.World.Config.SetBool("EnableTemporalStability", Config?.EnableTemporalStability ?? true);
+
             Logger.Notification($"Set world config 'EnableClassStaticAssignment' to: {Config?.EnableClassStaticAssignment ?? true}");
-            
-            // Enable temporal stability system by default
-            api.World.Config.SetBool("temporalStability", true);
-            Logger.Notification("Set world config 'temporalStability' to: true");
+            Logger.Notification($"Set world config 'EnableTemporalStability' to: {Config?.EnableTemporalStability ?? true}");
         }
 
         private void LoadConfig(ICoreAPI api)
@@ -54,7 +52,7 @@ namespace conclass
             {
                 // Try to load existing config
                 Config = api.LoadModConfig<ConclassClientConfigs>("conclassConfig.json");
-                
+
                 // If no config exists, create a new one
                 if (Config == null)
                 {
@@ -64,11 +62,31 @@ namespace conclass
                 }
                 else
                 {
-                    // Config exists, save it to ensure any new properties are added
-                    api.StoreModConfig(Config, "conclassConfig.json");
+                    // Validate and reset missing or invalid values
+                    var defaultConfig = new ConclassClientConfigs();
+                    bool updated = false;
+
+                    if (Config.EnableClassStaticAssignment != true && Config.EnableClassStaticAssignment != false)
+                    {
+                        Config.EnableClassStaticAssignment = defaultConfig.EnableClassStaticAssignment;
+                        updated = true;
+                    }
+
+                    if (Config.EnableTemporalStability != true && Config.EnableTemporalStability != false)
+                    {
+                        Config.EnableTemporalStability = defaultConfig.EnableTemporalStability;
+                        updated = true;
+                    }
+
+                    // Save the updated config if changes were made
+                    if (updated)
+                    {
+                        api.StoreModConfig(Config, "conclassConfig.json");
+                        Logger.Notification("Configuration file updated with default values for missing or invalid settings.");
+                    }
                 }
 
-                Logger.Notification("Configuration loaded successfully");
+                Logger.Notification($"Configuration loaded successfully. EnableClassStaticAssignment: {Config.EnableClassStaticAssignment}, EnableTemporalStability: {Config.EnableTemporalStability}");
             }
             catch (Exception ex)
             {

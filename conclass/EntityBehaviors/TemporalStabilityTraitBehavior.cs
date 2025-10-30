@@ -75,8 +75,8 @@ namespace conclass.EntityBehaviors
 
    timeSinceLastUpdate += deltaTime;
 
-   if (timeSinceLastUpdate > 1.0f)
-   { //Only tick once a second or so, this doesn't need to run EVERY tick, that would be incredibly excessive.
+   if (timeSinceLastUpdate > 1.5f) // Adjusted to tick every 1.5 seconds
+   {
     timeSinceLastUpdate = 0.0f;
 
     if (!hasLocatedClass)
@@ -104,7 +104,7 @@ namespace conclass.EntityBehaviors
 
       if (hasClaustrophobia || hasAgoraphobia || hasDelver || hasShelteredStone)
       {
-       hasNone = false; //This just might make the check a TINY bit quicker if it's only comparing a single bool for every 1s tick after this.
+       hasNone = false; // This just might make the check a TINY bit quicker if it's only comparing a single bool for every 1.5s tick after this.
       }
       hasLocatedClass = true;
      }
@@ -139,12 +139,11 @@ namespace conclass.EntityBehaviors
 
     if (room == null || !(room.ExitCount == 0 || room.SkylightCount < room.NonSkylightCount))
     {
-     var surfaceLoss = (double)entity.Stats.GetBlended("surfaceStabilityLoss") - 1; //The -1 should return the raw value.
+     var surfaceLoss = (double)entity.Stats.GetBlended("surfaceStabilityLoss") - 1; // The -1 should return the raw value.
      if (tempStabVelocity < surfaceLoss)
      {
       surfaceLoss = tempStabVelocity;
      }
-
      TemporalAffected.TempStabChangeVelocity = surfaceLoss;
      return;
     }
