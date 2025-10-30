@@ -1,38 +1,58 @@
 [
   {
-   "op": "replace",
-   "path": "/human/AvailableClasses",
-   "file": "racialequality:config/customplayermodels/human-char.json",
-   "value": ["adamani"],
-   "dependsOn": [{"modid": "racialequality"}]
+    "op": "replace",
+    "path": "/human/AvailableClasses",
+    "file": "racialequality:config/customplayermodels/human-char.json",
+    "value": [ "adamani" ],
+    "dependsOn": [ { "modid": "racialequality" } ],
+    "condition": {
+      "when": "EnableClassStaticAssignment",
+      "isValue": "true"
+    }
   },
   {
-   "op": "replace",
-   "path": "/dwarf/AvailableClasses",
-   "file": "racialequality:config/customplayermodels/dwarf-char.json",
-   "value": ["dwarrow"],
-    "dependsOn": [{"modid": "racialequality"}]
+    "op": "replace",
+    "path": "/dwarf/AvailableClasses",
+    "file": "racialequality:config/customplayermodels/dwarf-char.json",
+    "value": [ "dwarrow" ],
+    "dependsOn": [ { "modid": "racialequality" } ],
+    "condition": {
+      "when": "EnableClassStaticAssignment",
+      "isValue": "true"
+    }
   },
   {
     "op": "replace",
     "path": "/elf/AvailableClasses",
     "file": "racialequality:config/customplayermodels/elf-char.json",
-    "value": ["ieldlis"],
-    "dependsOn": [{"modid": "racialequality"}]
+    "value": [ "ieldlis" ],
+    "dependsOn": [ { "modid": "racialequality" } ],
+    "condition": {
+      "when": "EnableClassStaticAssignment",
+      "isValue": "true"
+    }
   },
   {
     "op": "replace",
     "path": "/ork/AvailableClasses",
     "file": "racialequality:config/customplayermodels/ork-char.json",
-    "value": ["krohak"],
-    "dependsOn": [{"modid": "racialequality"}]
+    "value": [ "krohak" ],
+    "dependsOn": [ { "modid": "racialequality" } ],
+    "condition": {
+      "when": "EnableClassStaticAssignment",
+      "isValue": "true"
+    }
   },
   {
     "op": "replace",
     "path": "/goblin/AvailableClasses",
     "file": "racialequality:config/customplayermodels/goblin-char.json",
-    "value": ["urroka"],
-    "dependsOn": [{"modid": "racialequality"}]
+    "value": [ "urroka" ],
+    "dependsOn": [ { "modid": "racialequality" } ],
+    "condition": {
+      "when": "EnableClassStaticAssignment",
+      "isValue": "true"
+    }
   },
   {
     "op": "addmerge",
