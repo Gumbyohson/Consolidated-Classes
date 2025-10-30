@@ -19,6 +19,10 @@ using Vintagestory.ServerMods;
 
 namespace conclass.src
 {
+        public class ConclassConfig
+    {
+        public bool DisableClassStaticAssignment { get; set; } = false;
+    }
     public class conclassModSystem : ModSystem {
 
         public static Harmony harmony;
@@ -27,16 +31,33 @@ namespace conclass.src
         public static ICoreServerAPI SApi;
         public static ILogger Logger;
         public static string ModID;
+        public const string DisableStaticClassAssignments = "ConClass_Patching";
+
+        public static ConclassConfig Config;
 
         public override void StartPre(ICoreAPI api)
         {
             Api = api;
             Logger = Mod.Logger;
             ModID = Mod.Info.ModID;
+            LoadConfig(api);
+        }
+
+        private void LoadConfig(ICoreAPI api)
+        {
+            Config = api.LoadModConfig<ConclassConfig>("conclassConfig.json");
+            if (Config == null)
+            {
+                Config = new ConclassConfig();
+                api.StoreModConfig(Config, "conclassConfig.json");
+            }
+
+            Logger.Notification($"conclass mod config loaded: DisableClassStaticAssignment = {Config.DisableClassStaticAssignment}");
         }
 
         public override void Start(ICoreAPI api)
         {
+            Mod.Logger.Notification("Consolidated classes mod loaded: " + api.Side);
             api.RegisterEntityBehaviorClass("EntityBehaviorTemporalTraits", typeof(TemporalStabilityTraitBehavior));
 
             ApplyPatches();
@@ -75,11 +96,6 @@ namespace conclass.src
 
         // Called on server and client
         // Useful for registering block/entity classes on both sides
-        public override void Start(ICoreAPI api)
-        {
-            Mod.Logger.Notification("Consolidated classes mod loaded: " + api.Side);
-        }
-
         public override void StartServerSide(ICoreServerAPI api)
         {
             Mod.Logger.Notification("Consolidated classes mod loaded server side: " + Lang.Get("conclass:hello"));
