@@ -49,10 +49,16 @@ namespace conclass.EntityBehaviors
   {
    base.Initialize(properties, attributes);
 
-   // Check both world temporal stability AND our mod's setting
+   // Get the world's temporal stability setting (controlled by server)
    bool worldTemporalEnabled = entity.Api.World.Config.GetBool("temporalStability", true);
-   bool modEnabled = ConclassModSystem.Config?.EnableTemporalStability ?? true;
-   enabled = worldTemporalEnabled && modEnabled;
+    
+    // Get the server's mod config setting
+    bool serverModEnabled = entity.Api.World.Config.GetBool("EnableTemporalStability", true);
+    
+    // Only enable if BOTH the world config AND the server's mod config allow it
+    enabled = worldTemporalEnabled && serverModEnabled;
+    
+    entity.Api.Logger.VerboseDebug($"Temporal Stability System - World: {worldTemporalEnabled}, Server Mod: {serverModEnabled}, Final: {enabled}");
   }
 
   public override void OnGameTick(float deltaTime)
