@@ -11,6 +11,7 @@ using Vintagestory.API.MathTools;
 using Vintagestory.API.Server;
 using Vintagestory.API.Util;
 using Vintagestory.GameContent;
+using conclass.Config;
 
 namespace conclass.EntityBehaviors
 {
@@ -48,7 +49,10 @@ namespace conclass.EntityBehaviors
   {
    base.Initialize(properties, attributes);
 
-   enabled = entity.Api.World.Config.GetBool("temporalStability", true);
+   // Check both world temporal stability AND our mod's setting
+   bool worldTemporalEnabled = entity.Api.World.Config.GetBool("temporalStability", true);
+   bool modEnabled = ConclassModSystem.Config?.EnableTemporalStability ?? true;
+   enabled = worldTemporalEnabled && modEnabled;
   }
 
   public override void OnGameTick(float deltaTime)
