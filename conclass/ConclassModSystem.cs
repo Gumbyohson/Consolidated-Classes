@@ -37,13 +37,6 @@ namespace conclass
             Logger = Mod.Logger;
             ModID = Mod.Info.ModID;
             LoadConfig(api);
-            
-            // Set the world config values for patch conditions
-            api.World.Config.SetBool("EnableClassStaticAssignment", Config?.EnableClassStaticAssignment ?? true);
-            api.World.Config.SetBool("EnableTemporalStability", Config?.EnableTemporalStability ?? true);
-
-            Logger.Notification($"Set world config 'EnableClassStaticAssignment' to: {Config?.EnableClassStaticAssignment ?? true}");
-            Logger.Notification($"Set world config 'EnableTemporalStability' to: {Config?.EnableTemporalStability ?? true}");
         }
 
         private void LoadConfig(ICoreAPI api)
@@ -175,12 +168,32 @@ namespace conclass
         // Useful for registering block/entity classes on both sides
         public override void StartServerSide(ICoreServerAPI api)
         {
-            Mod.Logger.Notification("Consolidated classes mod loaded server side: " + Lang.Get("conclass:hello"));
+            SApi = api;
+            
+            // Server sets these values in the World Config
+            api.World.Config.SetBool("EnableClassStaticAssignment", Config?.EnableClassStaticAssignment ?? true);
+            api.World.Config.SetBool("EnableTemporalStability", Config?.EnableTemporalStability ?? true);
+            
+            Logger.Notification($"Server config initialized: ClassStaticAssignment={Config?.EnableClassStaticAssignment ?? true}, TemporalStability={Config?.EnableTemporalStability ?? true}");
+            Logger.Notification($"Server temporal stability settings - Mod Config: {Config?.EnableTemporalStability ?? true}, World Config: {api.World.Config.GetBool("temporalStability", true)}");
         }
 
         public override void StartClientSide(ICoreClientAPI api)
         {
-            Mod.Logger.Notification("Consolidated classes mod loaded client side: " + Lang.Get("conclass:hello"));
+            CApi = api;
+            
+            // Client reads the values from World Config
+            bool classStaticAssignment = api.World.Config.GetBool("EnableClassStaticAssignment", true);
+            bool temporalStability = api.World.Config.GetBool("EnableTemporalStability", true);
+            
+            // Update client config to match server values
+            if (Config != null)
+            {
+                Config.EnableClassStaticAssignment = classStaticAssignment;
+                Config.EnableTemporalStability = temporalStability;
+            }
+
+            Logger.Notification($"Client config synchronized: ClassStaticAssignment={classStaticAssignment}, TemporalStability={temporalStability}");
         }
 
     }
