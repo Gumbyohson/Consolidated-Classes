@@ -1,14 +1,56 @@
 [
   {
     "op": "addmerge",
+    "path": "/dropsByType/*-9/0/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {"modid": "ageofflax"}
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-8/0/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {"modid": "ageofflax"}
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-1/0/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {"modid": "ageofflax"}
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*/*/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {"modid": "ageofflax"}
+    ]
+  },
+  {
+    "op": "addmerge",
     "path": "/dropsByType/*-9/1/dropModbyStat",
     "value": "farmdroprate",
-    "file": "game:blocktypes/plant/crop/flax.json"
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {"modid": "ageofflax", "invert": true}
+    ]
   },
   {
     "op": "addmerge",
     "path": "/dropsByType/*-9/2/dropModbyStat",
     "value": "farmdroprate",
-    "file": "game:blocktypes/plant/crop/flax.json"
+    "file": "game:blocktypes/plant/crop/flax.json",
+    "dependsOn": [
+      {"modid": "ageofflax", "invert": true}
+    ]
   }
 ]
