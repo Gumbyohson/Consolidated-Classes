@@ -29,6 +29,10 @@
     }
   },
   "attributesByType": {
+   "*-blacksmith-gloves": {
+    "warmth": 1.0,
+    "heatResistant": true
+   },
     "*": {
       "warmth": 0.5
     }
