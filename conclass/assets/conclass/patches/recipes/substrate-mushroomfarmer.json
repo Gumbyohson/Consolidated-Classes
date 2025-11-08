@@ -39,6 +39,6 @@
     "path": "/4/traits",
     "file": "config/characterclasses.json",
     "value": ["mushroomfarmer"],
-    "dependsOn": [{"modid": "substrate"}]
+    "dependsOn": [{ "modid": "combatoverhaul", "invert": true }, { "modid": "substrate" }]
   }
 ]

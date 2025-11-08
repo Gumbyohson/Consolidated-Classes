@@ -109,7 +109,7 @@
 
  "game:trait-mushroomfarmer": "<font color=\"#84ff84\">• Mushroom farmer </font>",
  "game:traitname-mushroomfarmer": "Mushroom farmer",
- "game:traitdesc-mushroomfarmer": "Dwarrow exclusive <a href=\"handbooksearch://substrate \">mushroom farming</a>",
+ "game:traitdesc-mushroomfarmer": "Subterranean races exclusive <a href=\"handbooksearch://substrate \">mushroom farming</a>",
 
  "game:trait-treekin": "<font color=\"#84ff84\">• Treekin </font>",
  "game:traitname-treekin": "Treekin",

@@ -33,6 +33,13 @@
   "path": "/4/traits",
   "value": [ "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits", "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands", "legDay", "crossbowsProficiency" ],
   "file": "config/characterclasses.json",
-  "dependsOn": [ { "modid": "combatoverhaul" } ]
+  "dependsOn": [ { "modid": "combatoverhaul" }, { "modid": "substrate", "invert": true }]
+ },
+ {
+  "op": "replace",
+  "path": "/4/traits",
+  "value": [ "delver", "lightweight", "rapidhealing", "scavenger", "looter", "small", "weedwhisperer", "wildernesswits", "advancedonehandedswordsproficiency", "slingsProficiency", "javelinsProficiency", "smallhands", "legDay", "crossbowsProficiency", "mushroomfarmer" ],
+  "file": "config/characterclasses.json",
+  "dependsOn": [ { "modid": "combatoverhaul" }, { "modid": "substrate" }]
  }
 ]
