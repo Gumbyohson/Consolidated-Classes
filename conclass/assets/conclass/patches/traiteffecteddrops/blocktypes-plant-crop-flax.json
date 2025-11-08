@@ -1,5 +1,5 @@
 [
- {
+  {
     "op": "addmerge",
     "path": "/dropsByType/*-9/0/dropModbyStat",
     "value": "farmdroprate",
@@ -26,5 +26,33 @@
     "value": "farmdroprate",
     "file": "game:blocktypes/plant/crop/flax.json",
     "dependsOn": [{ "modid": "ageofflax", "invert": true }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/value/*-9/0/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "ageofflax:patches/crop-flax.json",
+    "dependsOn": [{ "modid": "ageofflax" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/value/*-8/0/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "ageofflax:patches/crop-flax.json",
+    "dependsOn": [{ "modid": "ageofflax" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/value/*-1/0/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "ageofflax:patches/crop-flax.json",
+    "dependsOn": [{ "modid": "ageofflax" }]
+  },
+  {
+    "op": "addmerge",
+    "path": "/1/value/*/0/dropModbyStat",
+    "value": "farmdroprate",
+    "file": "ageofflax:patches/crop-flax.json",
+    "dependsOn": [{ "modid": "ageofflax" }]
   }
 ]
