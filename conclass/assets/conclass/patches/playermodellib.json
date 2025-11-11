@@ -4,7 +4,7 @@
     "path": "/seraph/AvailableClasses",
     "file": "playermodellib:config/default-model-config.json",
     "value": [ "commoner", "hunter", "malefactor", "clockmaker", "blackguard", "tailor" ],
-    "dependsOn": [ { "modid": "playermodellib" } ],
+    "dependsOn": [ { "modid": "playermodellib" }, { "modid": "racialequality", "invert": true } ],
     "condition": {
       "when": "EnableClassStaticAssignment",
       "isValue": "true"
