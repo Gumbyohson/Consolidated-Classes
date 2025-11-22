@@ -1,0 +1,83 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/0/recipeGroup",
+    "file": "temporalamulets:recipes/grid/clothing/neck/amulet-temporal-sealed.json",
+    "value": 1,
+    "dependsOn": [
+      { "modid": "temporalamulets" },
+      { "modid": "butchering" }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/0/ingredients/B",
+    "file": "temporalamulets:recipes/grid/clothing/neck/amulet-temporal-sealed.json",
+    "value": {
+      "type": "block",
+      "code": "game:bowl-*-fired"
+    },
+    "dependsOn": [
+      { "modid": "temporalamulets" },
+      { "modid": "butchering" }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "file": "temporalamulets:recipes/grid/clothing/neck/amulet-temporal-sealed.json",
+    "value": {
+      "ingredientPattern": "FHF,FBF,PTP",
+      "ingredients": {
+        "F": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+        "H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+        "B": { "type": "block", "code": "game:bowl-*-fired" },
+        "P": { "type": "item", "code": "game:metalplate-*", "name": "metal", "allowedVariants": ["tinbronze", "electrum"] },
+        "T": { "type": "item", "code": "game:gear-temporal" }
+      },
+      "attributes": {
+        "liquidContainerProps": {
+          "requiresContent": { "type": "item", "code": "butchering:glueportion-sinew-cold" },
+          "requiresLitres": 0.5
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "recipeGroup": 1,
+      "output": { "type": "item", "code": "temporalamulets:clothes-neck-amulet-temporal-sealed-{metal}" }
+    },
+    "dependsOn": [
+      { "modid": "temporalamulets" },
+      { "modid": "butchering" }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/-",
+    "file": "temporalamulets:recipes/grid/clothing/neck/amulet-temporal-sealed.json",
+    "value": {
+      "ingredientPattern": "FHF,FBF,PTP",
+      "ingredients": {
+        "F": { "type": "item", "code": "game:flaxtwine", "quantity": 2 },
+        "H": { "type": "item", "code": "game:hammer-*", "isTool": true },
+        "B": { "type": "block", "code": "game:bowl-*-fired" },
+        "P": { "type": "item", "code": "game:metalplate-*", "name": "metal", "allowedVariants": ["tinbronze", "electrum"] },
+        "T": { "type": "item", "code": "game:gear-temporal" }
+      },
+      "attributes": {
+        "liquidContainerProps": {
+          "requiresContent": { "type": "item", "code": "butchering:glueportion-hide-hot" },
+          "requiresLitres": 0.5
+        }
+      },
+      "width": 3,
+      "height": 3,
+      "recipeGroup": 1,
+      "output": { "type": "item", "code": "temporalamulets:clothes-neck-amulet-temporal-sealed-{metal}" }
+    },
+    "dependsOn": [
+      { "modid": "temporalamulets" },
+      { "modid": "butchering" }
+    ]
+  }
+]

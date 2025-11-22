@@ -14,7 +14,7 @@
  },
  {
   "code": "dwarrow",
-  "traits": [ "agoraphobia", "shelteredstone", "stonekin", "powerfulframe", "treeburner", "noisy", "armoursmith", "hungry", "merciless", "tinkerer"],
+  "traits": [ "agoraphobia", "shelteredstone", "stonekin", "powerfulframe", "treeburner", "noisy", "armoursmith", "hungry", "merciless"],
   "_comment": "traits: sanity loss above ground, no loss undergound,buffed miningspeed and drops,less armour speed effect,animal detectionrange",
   "gear": [      
           { "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
