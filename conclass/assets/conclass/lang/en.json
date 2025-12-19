@@ -41,7 +41,7 @@
 
  "game:trait-wildernesswits": "<font color=\"#84ff84\">• Wilderness wits </font>",
  "game:traitname-wildernesswits": "Wilderness wits",
- "game:traitdesc-wildernesswits": "Access to craft <a href=\"handbooksearch://slings \">slings</a>, <a href=\"handbooksearch://wooden bed \">improvised bed</a>, and <a href=\"handbooksearch://Horsetail poultice (from linen) \">improvided bandage</a>",
+ "game:traitdesc-wildernesswits": "Access to craft <a href=\"handbooksearch://sling \">slings</a>, <a href=\"handbooksearch://wooden bed \">improvised bed</a>, and <a href=\"handbooksearch://Horsetail poultice (from linen) \">improvided bandage</a>",
 
  "game:trait-smallhands": "<font color=\"#ff8484\">• Small hands </font>",
  "game:traitname-smallhands": "Small hands",

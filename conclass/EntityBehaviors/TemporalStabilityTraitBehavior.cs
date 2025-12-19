@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Vintagestory;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
 using Vintagestory.API.Datastructures;
@@ -36,7 +35,7 @@ namespace conclass.EntityBehaviors
   public const string ShelteredByStoneCode = "shelteredstone";
   public const string DelverCode = "delver";
 
-  protected EntityBehaviorTemporalStabilityAffected TemporalAffected => entity.GetBehavior<EntityBehaviorTemporalStabilityAffected>();
+  protected EntityBehaviorTemporalStabilityAffected? TemporalAffected => entity.GetBehavior<EntityBehaviorTemporalStabilityAffected>();
 
   public override string PropertyName() => "gcTemporalStabilityTraitBehavior";
 
@@ -91,8 +90,8 @@ namespace conclass.EntityBehaviors
 
     if (!hasLocatedClass)
     {
-     string classcode = entity.WatchedAttributes.GetString("characterClass");
-     CharacterClass charclass = entity.Api.ModLoader.GetModSystem<CharacterSystem>().characterClasses.FirstOrDefault(c => c.Code == classcode);
+     string? classcode = entity.WatchedAttributes.GetString("characterClass");
+     CharacterClass? charclass = entity.Api.ModLoader.GetModSystem<CharacterSystem>().characterClasses.FirstOrDefault(c => c.Code == classcode);
      if (charclass != null)
      {
       if (charclass.Traits.Contains(ClaustrophobiaCode))

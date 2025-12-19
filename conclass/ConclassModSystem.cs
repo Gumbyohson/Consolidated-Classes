@@ -4,7 +4,6 @@ using System.Linq;
 using System.Numerics;
 using System.Reflection;
 using HarmonyLib;
-using Vintagestory;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
@@ -23,13 +22,13 @@ namespace conclass
 {
     public class ConclassModSystem : ModSystem {
 
-        public static Harmony harmony;
-        public static ICoreAPI Api;
-        public static ICoreClientAPI CApi;
-        public static ICoreServerAPI SApi;
-        public static ILogger Logger;
-        public static string ModID;
-        public static ConclassClientConfigs Config;
+        public static Harmony? harmony;
+        public static ICoreAPI? Api;
+        public static ICoreClientAPI? CApi;
+        public static ICoreServerAPI? SApi;
+        public static ILogger? Logger;
+        public static string? ModID;
+        public static ConclassClientConfigs? Config;
 
         public override void StartPre(ICoreAPI api)
         {
@@ -51,7 +50,7 @@ namespace conclass
                 {
                     Config = new ConclassClientConfigs();
                     api.StoreModConfig(Config, "conclassConfig.json");
-                    Logger.Notification("Created new configuration file with default values.");
+                    Logger?.Notification("Created new configuration file with default values.");
                 }
                 else
                 {
@@ -75,18 +74,18 @@ namespace conclass
                     if (updated)
                     {
                         api.StoreModConfig(Config, "conclassConfig.json");
-                        Logger.Notification("Configuration file updated with default values for missing or invalid settings.");
+                        Logger?.Notification("Configuration file updated with default values for missing or invalid settings.");
                     }
                 }
 
-                Logger.Notification($"Configuration loaded successfully. EnableClassStaticAssignment: {Config.EnableClassStaticAssignment}, EnableTemporalStability: {Config.EnableTemporalStability}");
+                Logger?.Notification($"Configuration loaded successfully. EnableClassStaticAssignment: {Config?.EnableClassStaticAssignment}, EnableTemporalStability: {Config?.EnableTemporalStability}");
             }
             catch (Exception ex)
             {
                 // If there's an error, create a default config
                 Config = new ConclassClientConfigs();
                 api.StoreModConfig(Config, "conclassConfig.json");
-                Logger.Error("Error loading config, using defaults. Error: " + ex);
+                Logger?.Error("Error loading config, using defaults. Error: " + ex);
             }
         }
 
@@ -128,8 +127,8 @@ namespace conclass
                 return;
             }
 
-            harmony = new Harmony(ModID);
-            Logger.VerboseDebug("Initializing Harmony patches...");
+            harmony = new Harmony(ModID ?? "conclass");
+            Logger?.VerboseDebug("Initializing Harmony patches...");
             
             // The actual patching is done through JSON patches with conditions
             // The condition "EnableClassStaticAssignment" is evaluated by the game
@@ -144,22 +143,22 @@ namespace conclass
             //     harmony.Patch(original, new HarmonyMethod(prefix));
             // }
             
-            Logger.Notification("Harmony patches initialized");
+            Logger?.Notification("Harmony patches initialized");
         }
 
         private static void HarmonyUnpatch()
         {
             Logger?.VerboseDebug("Unpatching Harmony Patches.");
-            harmony?.UnpatchAll(ModID);
+            harmony?.UnpatchAll(ModID ?? "");
             harmony = null;
         }
 
         public override void Dispose()
         {
             HarmonyUnpatch();
-            Logger = null;
-            ModID = null;
-            Api = null;
+            Logger = null!;
+            ModID = null!;
+            Api = null!;
             base.Dispose();
         }
 
@@ -173,8 +172,8 @@ namespace conclass
             api.World.Config.SetBool("EnableClassStaticAssignment", Config?.EnableClassStaticAssignment ?? true);
             api.World.Config.SetBool("EnableTemporalStability", Config?.EnableTemporalStability ?? true);
             
-            Logger.Notification($"Server config initialized: ClassStaticAssignment={Config?.EnableClassStaticAssignment ?? true}, TemporalStability={Config?.EnableTemporalStability ?? true}");
-            Logger.Notification($"Server temporal stability settings - Mod Config: {Config?.EnableTemporalStability ?? true}, World Config: {api.World.Config.GetBool("temporalStability", true)}");
+            Logger?.Notification($"Server config initialized: ClassStaticAssignment={Config?.EnableClassStaticAssignment ?? true}, TemporalStability={Config?.EnableTemporalStability ?? true}");
+            Logger?.Notification($"Server temporal stability settings - Mod Config: {Config?.EnableTemporalStability ?? true}, World Config: {api.World.Config.GetBool("temporalStability", true)}");
         }
 
         public override void StartClientSide(ICoreClientAPI api)
@@ -192,7 +191,7 @@ namespace conclass
                 Config.EnableTemporalStability = temporalStability;
             }
 
-            Logger.Notification($"Client config synchronized: ClassStaticAssignment={classStaticAssignment}, TemporalStability={temporalStability}");
+            Logger?.Notification($"Client config synchronized: ClassStaticAssignment={classStaticAssignment}, TemporalStability={temporalStability}");
         }
 
     }

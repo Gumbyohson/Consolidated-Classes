@@ -10,7 +10,7 @@ namespace conclass
     public class CharacterSystem : ModSystem
     {
         public List<CharacterClass> characterClasses = new List<CharacterClass>();
-        private ICoreAPI api;
+        private ICoreAPI? api;
 
         public override void Start(ICoreAPI api)
         {
@@ -72,7 +72,7 @@ namespace conclass
             }
         }
 
-        public CharacterClass GetCharacterClass(string code)
+        public CharacterClass? GetCharacterClass(string code)
         {
             return characterClasses.FirstOrDefault(c => c.Code == code);
         }
@@ -81,22 +81,22 @@ namespace conclass
     // Helper class for deserializing the JSON
     public class CharacterClassData
     {
-        public string code { get; set; }
-        public List<string> traits { get; set; }
-        public List<object> gear { get; set; }
+        public string? code { get; set; }
+        public List<string>? traits { get; set; }
+        public List<object>? gear { get; set; }
     }
 
     public class CharacterClass
     {
-        public string Code { get; set; }
-        public string Name { get; set; }
+        public string? Code { get; set; }
+        public string? Name { get; set; }
         public List<string> Traits { get; set; } = new List<string>();
         
         public CharacterClass()
         {
         }
 
-        public CharacterClass(string code, string name, List<string> traits = null)
+        public CharacterClass(string? code, string? name, List<string>? traits = null)
         {
             Code = code;
             Name = name;
